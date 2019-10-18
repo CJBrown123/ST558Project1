@@ -17,7 +17,119 @@ output:
   
   
 ```{r setup, include=FALSE}
+install.packages("XML")
+install.packages("flatxml")
 
+library(XML)
+library(flatxml)
+library(methods)
+library(tidyr)
+
+
+
+xmlParse <- xmlParse("C:/Users/Valued User/Documents/CJ Class/ST558Project1/HateCrimesNY.xml")
+
+n01 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/county")), "county")
+
+n02 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/year")), "year")
+
+n03 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/crime_type")), "crime_type")
+
+n04 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/crime_type")), "crime_type")
+
+n05 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_female")), "anti_female")
+
+n06 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_transgender")), "anti_transgender")
+
+n07 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_gender_identity_expression")), "anti_gender_identity_expression")
+
+n08 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_age")), "anti_age")
+
+n09 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_white")), "anti_white")
+
+n10 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_black")), "anti_black")
+
+n11 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_american_indian_alaskan_native")), "anti_american_indian_alaskan_native")
+
+n12 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_asian")), "anti_asian")
+
+n13 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_native_hawaiian_pacific_islander")), "anti_native_hawaiian_pacific_islander")
+
+n14 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_multi_racial_groups")), "anti_multi_racial_groups")
+
+n15 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_other_race")), "anti_other_race")
+
+n16 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_jewish")), "anti_jewish")
+
+n17 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_catholic")), "anti_catholic")
+
+n18 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_protestant")), "anti_protestant")
+
+n19 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_islamic_muslim")), "anti_islamic_muslim")
+
+n20 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_multi_religious_groups")), "anti_multi_religious_groups")
+
+n21 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_atheism_agnosticism")), "anti_atheism_agnosticism")
+
+n22 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_religious_practice_generally")), "anti_religious_practice_generally")
+
+n23 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_other_religion")), "anti_other_religion")
+
+n24 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_buddhist")), "anti_buddhist")
+
+n25 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_eastern_orthodox_greek_russian_etc")), "anti_eastern_orthodox_greek_russian_etc")
+
+n26 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_hindu")), "anti_hindu")
+
+n27 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_jehovahs_witness")), "anti_jehovahs_witness")
+
+n28 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_mormon")), "anti_mormon")
+
+n29 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_other_christian")), "anti_other_christian")
+
+n30 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_sikh")), "anti_sikh")
+
+n31 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_hispanic")), "anti_hispanic")
+
+n32 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_arab")), "anti_arab")
+
+n33 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_other_ethnicity_national_origin")), "anti_other_ethnicity_national_origin")
+
+n34 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_non_hispanic")), "anti_non_hispanic")
+
+n35 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_gay_male")), "anti_gay_male")
+
+n36 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_gay_female")), "anti_gay_female")
+
+n37 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_gay_male_and_female")), "anti_gay_male_and_female")
+
+n38 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_heterosexual")), "anti_heterosexual")
+
+n39 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_bisexual")), "anti_bisexual")
+
+n40 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_physical_disability")), "anti_physical_disability")
+
+n41 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_mental_disability")), "anti_mental_disability")
+
+n42 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/total_incidents")), "total_incidents")
+
+n43 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/total_victims")), "total_victims")
+
+n44 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/total_offenders")), "total_offenders") 
+
+HateCrime <- cbind(01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 43)
+
+#xmlTree <- xmlTreeParse("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
+#class(xmlTree)
+#xmltop <- xmlRoot(xmlTree)
+#xmlExtract <- xmlSApply(xmltop, function(x) xmlSApply(x, xmlValue))
+#xmlextractDF <- data.frame(t(xmlExtract), row.names = NULL)
+
+#xml2Data <- read_xml("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
+
+#xmlData <- xmlToDataFrame("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
+
+#flatData <- fxml_importXMLFlat("C:/Users/Valued User/Documents/CJ Class/ST558Project1/HateCrimesNY.xml")
 ```
   
   
