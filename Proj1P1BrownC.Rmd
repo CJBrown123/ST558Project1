@@ -1,0 +1,33 @@
+---
+title: "CJ Brown - Project 1 Part 1"
+author: "Chinyere Brown"
+date: "10/18/2019"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+  
+  
+```{r setup, include=FALSE}
+
+```
+  
+  
+  
+```{r setup, include=FALSE}
+
+```
+  
+  
+```{r dataset, echo=TRUE, eval=TRUE}
+
+```
+  
+  
+```{r dataset, echo=TRUE, eval=TRUE}
+
+```
+
+  
