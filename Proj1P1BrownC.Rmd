@@ -1,5 +1,5 @@
 ---
-title: "CJ Brown - Project 1 Part 1"
+title: "CJ Brown - Project 1 Part 1 - XML Data"
 author: "Chinyere Brown"
 date: "10/18/2019"
 output:
@@ -10,22 +10,59 @@ output:
 ---
   
   
-```{r setup, include=FALSE}
+```{r setup1, include=FALSE}
+#install.packages("XML")
+#install.packages("flatxml")
+
+library(tidyverse)
+#includes ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr, and forcats
+library(XML)
+library(methods)
+library(knitr)
+library(DT)
+library(forcats)
+library(pastecs)
+library(ggplot2)
 
 ```
   
+# XML Data: An Overview  
+  
+The Extensible Markup Language (XML) is a simple text-based format for representing structured information and is a formal recommendation from the World Wide Web Consortium (W3C) [^1^](https://www.w3.org/standards/xml/core). Because XML are stored as text, these files can be opened with a number of different programs. 
+Although XML is based on GML Standard Generalized Markup Language (the mother of all markup languagesb) is was specifically designed to be more suitable for Web use [^2^](https://www.makeuseof.com/tag/xml-file-case-wondering/). XML is *extensible* because users can add and define new building blocks (tags) and by doing so can readily adapt XML to their needs [^1^](https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language).   
+  
+
+## What is XML?  
+  
+XML is a meta markup language that was specifically developed for the internet; it's purpose is to describe and structure data on the internet,  mobile apps, and other web-connected interfaces [^2^](https://www.makeuseof.com/tag/xml-file-case-wondering/). 
+XML is  similar to HTML in that they are both markup languages that use tags to annotate text or add additional information in ways that are read and processed by your machine (i.e., web browser) but are invisible to the end-user. However, when compared to HTML, XML is more flexible because it allows users to add their own self-describing tags; rather than define how data looks (like HTML does), XML merely defines what data *is* [^2^](https://www.makeuseof.com/tag/xml-file-case-wondering/). HTML rarely (if ever) provides information about how the document is structured or what it means. In layman’s terms, Where HTML is a presentation language,  XML is a data-description language [^3^](https://www.sitepoint.com/really-good-introduction-xml/). XML data is known as self-describing or self-defining, meaning that the structure of the data is embedded with the data--so when you are using an XML file you don't have to pre-build file structures for storing the data because it is going to be understood from within the XML file itself [^1^](https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language)  
+  
+## Where/How can XML data be used?  
+  
+The XML format can be used for representing structured information: documents, data, configuration, books, transactions, invoices, and much more; it is one of the most widely-used formats for sharing structured information today: between programs, between people, between computers and people, both locally and across networks. [^4^](https://www.w3.org/standards/xml/core) XML is most commonly used for the interchange of data over the Internet and has found a wide variety of applications. Many different types of programs and devices use XML to handle, structure, store, transmit, and display data. XML is used in business-to-business data interfaces and is the standard for Office file formats, including Microsoft Office and Google Docs files. [^2^](https://www.makeuseof.com/tag/xml-file-case-wondering/) [^1^](https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language). 
+
+
+## Why is it good to store data as XML? 
+  
+XML is good to use We need it because it allows anyone to quickly create Web documents that can be shared with other people (as opposed to HTML, which is specifically designed to describe documents for display in a Web browser, becomes cumbersome if you want to display documents on mobile device or do more complex tasks). XML is not only suited for the web--it can be used in many more contexts, such as sending web services requests and responses back and forth [^3^](https://www.sitepoint.com/really-good-introduction-xml/).  
+  
+Other benefits of XML include:  
+* **Redundancy** - the requirement to use paired tags (tags with a `start` and `stop` annotation) allows the computer catch common errors like incorrect nesting [^4^](https://www.w3.org/standards/xml/core).  
+  
+* **Self-describing** - the text-based format and presence of element and attribute names helps in understanding the format and finding mistakes) [^4^](https://www.w3.org/standards/xml/core).  
+  
+* **Portability**  - Any XML document can be read and processed by any XML tool; the XML format can be read by any XML parser (no specific tool required!) [^4^](https://www.w3.org/standards/xml/core).  
+  
+* **Wide Adoption** - XML is very widely used today and  is the basis of  many standards such as the Universal Business Language (UBL); of Universal Plug and Play (UPnP) used for home electronics; word processing formats such as ODF; graphics formats such as SVG; and for communication with XMLRPC and Web Services. XML is supported directly by computer programming languages and databases, from giant servers to mobile devices [^4^](https://www.w3.org/standards/xml/core).  
+  
+# Packages for reading XML data  
+  
+When I started looking into R packages that could be used to read in XML data, I found 3 options: `XML`, `xml2`, and `flatxml`. `XML` appeared to be the oldest package of the three and was designed to do basic functions of reading and creating XML type data [^5^](https://cran.r-project.org/web/packages/XML/index.html) . The `xml2` package is similar to `XML`, but is a binding to `libxml2` which makes it easier to work with HTML and XML files in R [^6^](https://mran.microsoft.com/snapshot/2018-02-25/web/packages/xml2/index.html) . The `flatxml` diffes from both `XML` and `xml2` in that it converts the XML file to a dataframe (reflective of the heirarchical structure) upon import [^7^](https://cran.r-project.org/web/packages/flatxml/index.html).  
+  
+For my analysis I actually tried all three packages to test out which one would be most efficient in importing my XML data. I assumed that one of the newer packages would work more effectively, but I ws unable to get the results I wanted in a clear, concise way. I ended up using `XML` because, although there was redundancy
   
   
-```{r setup, include=FALSE}
-install.packages("XML")
-install.packages("flatxml")
-
-library(XML)
-library(flatxml)
-library(methods)
-library(tidyr)
-
-
+```{r setup2, include=FALSE}
 
 xmlParse <- xmlParse("C:/Users/Valued User/Documents/CJ Class/ST558Project1/HateCrimesNY.xml")
 
@@ -35,7 +72,7 @@ n02 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/y
 
 n03 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/crime_type")), "crime_type")
 
-n04 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/crime_type")), "crime_type")
+n04 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_male")), "anti_male")
 
 n05 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/anti_female")), "anti_female")
 
@@ -117,29 +154,92 @@ n43 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/t
 
 n44 <- setNames(xmlToDataFrame(node = getNodeSet(xmlParse, "//response/row/row/total_offenders")), "total_offenders") 
 
-HateCrime <- cbind(01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 43)
+HateCrimes <- cbind(n01, n02, n03, n04, n05, n06, n07, n08, n09, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30, n31, n32, n33, n34, n35, n36, n37, n38, n39, n40, n41, n42, n43, n44)
 
-#xmlTree <- xmlTreeParse("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
-#class(xmlTree)
-#xmltop <- xmlRoot(xmlTree)
-#xmlExtract <- xmlSApply(xmltop, function(x) xmlSApply(x, xmlValue))
-#xmlextractDF <- data.frame(t(xmlExtract), row.names = NULL)
-
-#xml2Data <- read_xml("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
-
-#xmlData <- xmlToDataFrame("C:/Users/Valued User/Documents/CJ Class/ST558Project1/SATPrep.xml")
-
-#flatData <- fxml_importXMLFlat("C:/Users/Valued User/Documents/CJ Class/ST558Project1/HateCrimesNY.xml")
+HateCrimes <- mutate(HateCrimes, victim_offender_ratio = total_victims/total_offenders)
 ```
   
+
+# About My Data - New York Hate Crimes
   
-```{r dataset, echo=TRUE, eval=TRUE}
+For my analysis, I obtained searched <data.gov> for XML data files and selected one that I thought was interesting and met the project specifications of having at least 2 categorical variables and two numeric variables. I ending up finding a data set containing hate crime data from the state of New York.  
+
+The file containes 423 observations and 44 variables; Three categorical variables include `county`, `year`, and `crime_type`, and the remaining 41 variables are numeric tallies of the the various categories of victims--ranging from ethnic and religious groups, to categorizations based on gender and sexual identity among other things.  
+  
+This data file was provided by the New York Division of Criminal Justice  (a State agency), was created Secptember, 2, 2016, and was last updated on June 10, 2019. Only crimes that were reported to the police are included  
+  
+# Data Summaries  
+  
+In analyzing my data, I started with some basic frequency tables to help summarize how overall hate crime counts varied by `crime_type` for each `county`.  
+  
+```{r tableFull, echo=FALSE, eval=TRUE}
+
+#I used kable() to help make a nicer-looking 2-variable table.
+kable(table(HateCrimes$county, HateCrimes$crime_type),
+      caption = "NY State Hate Crimes by County and Crime Type")
 
 ```
   
+# Visuals  
   
-```{r dataset, echo=TRUE, eval=TRUE}
+  
+```{r oneVarViz, echo=FALSE, eval=TRUE}
+
+# geom_bar() plot with x-axis labels added. Each graph was saved and printed to appear in the markdown
+c1 <- ggplot(data = HateCrimes, aes(x = Color)) +
+       geom_bar() +
+         labs(x = "crime_type" )
+
+print(c1)
 
 ```
+  
+## Total Victims by Crime Type
+```{r twoVarViz, echo=FALSE, eval=TRUE}
+c2 <- ggplot(data = HateCrimes, aes(x = crime_type)) +
+        geom_bar(aes(fill =  total_victims), position = "dodge") +
+          labs(x = "Crime Type",  fill = NULL )
+
+print(c2)
+```
+
+## Total Victims and Crime Types by County  
+  
+For my next graph, I wanted to examine the data by County and compare the volume of crime types for each. Because there were so many counties involved in the data, I thought that the best way to get a visual comparison would be via the `facet_wrap` functions in ggplot.  
+  
+  
+```{r threeVarViz, echo=FALSE, eval=TRUE}
+c3 <- ggplot(data = HateCrimes, aes(x = crime_type)) +
+        geom_bar(aes(fill = total_victims), position = "dodge") +
+          labs(x = "Crime Type", fill = NULL) +
+          facet_wrap(.~`county`, labeller = label_both)
+
+print(c3)
+
+```
+  
+## ScatterPlot of Total Victims * Total Offenders  
+  
+For this comparison, I expected there to be a positive, linear relationship, but I still wanted to look at the scatterplot to see if I observed any trends that were unexpected.
 
   
+```{r scatterLine, echo=TRUE, eval=TRUE}
+
+s1 <- ggplot(HateCrimes, aes(x = total_victims, y = total_offenders))
+     labs(title = "Total Victims vs. Total Offenders")
+     
+     print(s1)
+```
+  
+Looking at these results, I would be interesed in obtaining more information on the population of each County and and how hatecrime rates compared among counties when total population is considered.  
+  
+  
+  
+# *References*  
+1. <https://www.w3.org/standards/xml/core>  
+2. <https://www.makeuseof.com/tag/xml-file-case-wondering/>
+3. <https://whatis.techtarget.com/definition/XML-Extensible-Markup-Language>  
+4. <https://www.w3.org/standards/xml/core>  
+5. <https://cran.r-project.org/web/packages/XML/index.html>  
+6. <https://mran.microsoft.com/snapshot/2018-02-25/web/packages/xml2/index.html>  
+7. <https://cran.r-project.org/web/packages/flatxml/index.html>  
