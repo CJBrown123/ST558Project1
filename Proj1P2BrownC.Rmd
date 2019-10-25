@@ -1,5 +1,5 @@
 ---
-title: "CJ Brown - Project1 Part 2"
+title: "CJ Brown - Project1 Part 2 - JSON"
 author: "Chinyere Brown"
 date: "10/18/2019"
 output:
@@ -10,25 +10,254 @@ output:
 ---
   
   
-
+# ABOUT JSON DATA  
+  
+JSON, or JavaScript Object Notation,  was first presented to the world at the JSON.org website in 2001 and the format was popularized by Douglas Crockford [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp) It is a minimal, readable format for structuring data. JSON is most widely used data format for data interchange on the web [ ^2^ ](https://www.geeksforgeeks.org/json-data-types/) and is an alternative to XML [ ^3^ ](https://developers.squarespace.com/what-is-json). JSON is easy for both humans to read and write and for machines to parse and generate [ ^4^ ](http://www.json.org. ).  
+  
+JSON is text, written with JavaScript object notation [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp), but is completely language independent but uses conventions that are familiar to programmers of the C-family of languages. JSON defines a small set of structuring rules for the portable representation of structured data ^5^.  JSON is purely a data format; it specifies no behaviors and contains only properties (no methods).
+ [ ^6^ ](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) ^5^.   
+  
+  
+## Comparison of JSON and XML  
+  
+Both JSON and XML are considered "self describing" (human readable) programming languages, use hierarchical (i.e., values within values), and can be parsed and used by lots of programming languages
+ [ ^7^ ](https://www.w3schools.com/js/js_json_xml.asp).  Like XML, JSON and XML can be used to receive data from a web server [ ^7^ ](https://www.w3schools.com/js/js_json_xml.asp). Similar to those used for XML documents, there are two programming models for generating and parsing JSON data  [ ^8^ ](https://javaee.github.io/tutorial/jsonp001.html#uses-of-json).  
+  
+## JSON Structure  
+  
+JSON is built on two structures universal data structures that sre supported in one form or another by virtually all modern programming languages [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp):  
+  
+1. A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp).  
+  
+* EXAMPLE [ ^4^ ](https://developers.squarespace.com/what-is-json): This example is a key/value pair. The key is "foo" and the value is "bar".  
+`"foo" : "bar"`  
+  
+* EXAMPLE: the key/value pair "bar" : "Hello" is nested inside the key/value pair "foo" : { ... }. That's an example of a hierarchy in JSON data.  
+`"foo" : {`  
+  `  "bar" : "Hello"`  
+`}`  
+  
+2. An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp).  
+  
+## JSON Data Types  
+  
+JSON supports mainly 6 data types. String, number, boolean, null are simple data types or primitives data types whereas object and array are referred as complex data types [ ^2^ ](https://www.geeksforgeeks.org/json-data-types/). JSON values cannot be a function, a date, or undefined [ ^9^ ](https://www.w3schools.com/js/js_json_datatypes.asp)  
+  
+###  
+* An **object** is an unordered set of name/value pairs. An object begins with {left brace and ends with }right brace. Each name is followed by a colon `:` and the **name/value** pairs are separated by a comma`,`. Object: It is a set of name or value pairs inserted between {} (curly braces). The keys must be strings and should be unique.  
+  
+###  
+* An **array** is an ordered collection of values. An array begins with [left bracket and ends with ]right bracket. Values are separated by ,comma.  
+  
+###  
+* A **value** can be a string in double quotes, or a number, or true or false or null, or an object or an array. These structures can be nested.  
+  
+###  
+* A **string** must be written in double quotes like C-language there are various special characters(Escape Characters) in JSON that you can use in strings such as \ (backslash), / (forward slash), b (backspace), n (new line), r (carriage return), t (horizontal tab) etc.  
+  
+###  
+* A **number** is very much like a C or Java number in that it is represented in base 10; however, octal and hexadecimal formats are not used.  
+  
+###  
+* **Whitespace** can be inserted between any pair of tokens. Excepting a few encoding details, that completely describes the language [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp) [ ^2^ ](https://www.geeksforgeeks.org/json-data-types/)  [ ^3^ ](https://developers.squarespace.com/what-is-json) [ ^4^ ](http://www.json.org) [ ^9^ ](https://www.w3schools.com/js/js_json_datatypes.asp).  
+  
+One thing to keep in mind with JSON syntax is that JSON requires double quotes to be used around strings and property names. *Single quotes are not valid.* This being the case, even a single misplaced comma or colon can cause a JSON file to go wrong, and not work. You should be careful to validate any data you are attempting to use (although computer-generated JSON is less likely to include errors, as long as the generator program is working correctly) [ ^6^ ](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).  
+  
+  
+## Uses of JSON  
+  
+JSON is often used as a common format to serialize and deserialize data in applications that communicate with each other over the Internet.  Because the format is an open standard and uses conventions that are familiar to programmers of the C-family of languages such as C, C++, JavaScript, and Python, among many others, it often used for scenarios where applications are created using different programming languages and run in very different environments. [ ^8^ ](https://javaee.github.io/tutorial/jsonp001.html#uses-of-json) [ ^4^ ](http://www.json.org).  
+  
+  
+## Why You Should Use JSON  
+JSON is compatible for use with a wide variaety of programming languages. JSON is also a very user-friendly, open standard more compact than other representations  such as XML because it doesn’t have closing tags[ ^?^ ](https://javaee.github.io/tutorial/jsonp001.html#uses-of-json) [ ^8^ ](https://javaee.github.io/tutorial/jsonp001.html#uses-of-json). 
+  
+Although JSON does not have a widely accepted schema for defining and validating the structure of JSON data like XML [ ^8^ ](https://javaee.github.io/tutorial/jsonp001.html#uses-of-json), it is shorter, quicker to read and write, and can use arrays. Best of all, JSON does not need its own parser and can be parsed by a standard JavaScript function [ ^7^ ](https://www.w3schools.com/js/js_json_xml.asp); it can easily be sent to and from a server, and used as a data format by any programming language [ ^1^ ](https://www.w3schools.com/js/js_json_intro.asp). JSON is parsed into a ready-to-use JavaScript object [ ^7^ ](https://www.w3schools.com/js/js_json_xml.asp).  
+  
+Because JSON is so simple, it is not expected that the JSON grammar will ever change. This gives JSON, as a foundational notation, tremendous stability ^?^ Ecma International 2017, The JSON Data Interchange Syntax: Standard ECMA-404, 2nd Edition / December 2017^5^.  
+  
+# Choice of Packages  for Reading JSON Data  
+  
+* *rjson* is a very simple package (consisting of only 3 commands!) for converting R objects to and from data in JSON format [ ^10^ ](https://cran.r-project.org/web/packages/rjson/rjson.pdf).
+  
+* *jsonlite* is a faster package for converting R objects to and from data in JSON format, but is optimized for statistical data and the web. This package is more flexible than rjson and provides various tools for working with JSON in R; in addition to converting JSON data from/to R objects, 'jsonlite' contains functions to stream, validate, and make JSON data look better. The jsolite package makes it easier to write code using pipelines and interact with a web API. [ ^11^ ]( https://cran.r-project.org/web/packages/jsonlite/jsonlite.pdf).  
+  
+* *RJSONIO* This is a package that allows conversion to and from data in JSON format. Although this packages was originally written as a faster, alternative to the rjson package with which it chares the same basic interface, RJSONIO and rjson's performance is now more closely matched. This package has many additional options to allow customizing the generation and processing of JSON content [ ^12^ ]( https://cran.r-project.org/web/packages/RJSONIO/RJSONIO.pdf).  
+  
+For my assignment, I chose to use jsonlite because it offered the ability to flatten the heirarchies in my JSON file. 
+  
+  
 ```{r setup, include=FALSE}
+#install.packages("jsonlite")
+#install.packages("rjson")
+#install.packages("RJSONIO")
+
+library(tidyverse)
+#includes ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr, and forcats
+#devtools::install_github("gluc/data")
+library(jsonlite)
+#library(rjson)
+#library(RJSONIO)
+library(methods)
+library(knitr)
+library(DT)
+library(forcats)
+library(pastecs)
+#library(data.tree)
+library(magrittr)
+
+```
+  
+# About My Data - City Vehicle Maintence  
+  
+My [data](https://data.ct.gov/Government/Vehicle-Repairs/eren-euca) is a JSON file from a local government (the City of Stamford, Conneticut) and is concerning vehicle maintenance activities for January through March of 2015.  There are a total of 617 observation and 10 total variables including information on department receiving the maintenance , labor and parts costs, and justification for and description of the maintenance. I obtained the data from <data.gov>.  
+  
+  
+# Reading the JSON Data  
+  
+To read my data, I used the jsonlite `fromJSON()` function with the `flatten=TRUE` option to ensure that the heirarchies in the JSON file would be flattened to columns so that I would get rectangular data for the second element of the list output produced by the function. I then extracted this element to a tibble, selected for the variables I needed and renamed the variables appropriately.  
+  
+  
+```{r setup2, eval=TRUE, echo=TRUE}
+
+url <- 'https://data.ct.gov/api/views/eren-euca/rows.json?accessType=DOWNLOAD'
+  
+Repairs <- dplyr::glimpse(jsonlite::fromJSON("VehicleRepairs.json", flatten=TRUE))
+
+Repairs <- as.data.frame(Repairs[[2]])
+
+Repairs <- select(Repairs, "V9":"V18")
+
+varNames <- c("Department", "Date", "Job_No", "Vehicle_id", "Unit_No", "Reason", "Notes", "Cost_Labor", "Cost_Parts", "Cost_Total")
+names(Repairs) <- varNames
+
+Repairs <- as_tibble(Repairs)
+```  
+  
+  
+All of the variables were read in as character data-types, so I had to modify some of the columns to reflect the appropriate data type corresponding to the original data (including, date, factor, and numeric data types). I also created `Month` and `Year` variables from the `Date` varianble.  
+  
+```{r modify, eval=TRUE, echo=TRUE}
+
+# Convert variables from character to numeric
+Repairs[, 8:10] <- lapply(Repairs[,8:10], as.numeric)
+
+# Remove time portion of date and convert from character to date
+Repairs <- mutate(separate(Repairs, Date, into = c("Date", "Time"), sep = 10)) %>% select(-"Time")
+Repairs$Date <- as.Date(Repairs$Date)
+
+#Create copy of Date field and separate into Year and Month.
+Repairs$Date2 <- Repairs$Date
+Repairs <- Repairs %>%  separate(Date2, into = c("Year", "Month", "DayNo"), sep = "-") %>% select(-"DayNo")
+Repairs$Year <- as.factor(Repairs$Year)
+Repairs$Month <- as.factor(Repairs$Month)
+
+# Convert from character to factor
+Repairs$Department  <- as.factor(Repairs$Department)
+Repairs$Reason <- as.factor(Repairs$Reason)
+```
+  
+# Data Summaries  
+  
+## Maintenance Data  
+  
+I removed unneeded variables and saved my data to an interactive table for easy review.  
+  
+```{r tableFull, echo=TRUE, eval=TRUE}
+# Interactive Table
+tableRepairs <- Repairs %>% select(-Job_No, -Vehicle_id, -Unit_No, -Notes)
+
+datatable(tableRepairs, rownames = FALSE)
+```
+## Maintenance Activities by Department and Reason  
+  
+I created a frequency table to show maintenance activities by the reason for maintenance and the Department.  
+  
+```{r freq, echo=TRUE, eval=TRUE}
+repairFreq <- table(Repairs$Department, Repairs$Reason)
+kable(repairFreq, captions = "Vehicle Maintenance by Expense Level")
+```
+  
+  
+## Box Plot Comparison of Vehicle Maintenance Costs  
+  
+The below graph shows side-by-side boxplots of total maintenance costs for each of the Department code.  
+  
+```{r box, echo=TRUE, eval=TRUE}
+b1 <- ggplot(Repairs, aes(x = Department, y = Cost_Total)) +
+      geom_boxplot(fill = "yellow") +
+      theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+           labs(y = "Total Costs", title = "Maintenance Costs by Department")
+print(b1)
+```
+  
+This graph shows box plots comparing only maintenances at or over $200 during the three-months for which maintenance occured. I wanted to focus on the higher costs due to the increased materiality and risk associated with them.  
+  
+```{r box2, echo=TRUE, eval=TRUE}
+repairsPos <- Repairs %>% filter(Cost_Total >=200)
+
+b2 <- ggplot(repairsPos, aes(x = Month, y = Cost_Total)) +
+      geom_boxplot(fill = "green") +
+      theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+           labs(y = "Total Costs", title = "Maintenance Costs by Month (Medium to High Cost Maintenance Expenses)")
+print(b2)
+```      
+  
+  
+## Costs by Department and by Maintenance Reason  
+  
+I created some bar charts to visually show which department numbers and which reasons accounted for particularly high dollar amounts of maintenance costs. The goal is not just to examine for the highest dollar amounts, but to also evaluate for reasonableness of a given department's costs, or further research any reason codes that seem to account for an unreasonably high proportion of costs.  
+  
+  
+I created a function to produce the below bar graphs showing maintenance costs by department and by maintenance reason.  
+  
+```{r twoVarViz, echo=TRUE, eval=TRUE}
+# I created a function to generate my 2-variable graphs
+colChart2 <- function(df, a, b, alab, plotTitle) {
+              ggplot(data = df, aes_string(x = a, y = b, fill = a), position = "dodge") +
+                geom_bar(stat = "identity", na.rm=TRUE, aes_string(fill = a)) +
+                  labs(fill = alab,  title = plotTitle) +
+                  xlab(NULL) +
+                  theme(axis.text.x = element_blank()) 
+}
+# I used the function I created to print graphs 
+print(colChart2(Repairs, "Department", "Cost_Total", "Department", "Maintenance Costs by Department" ))
+
+print(colChart2(Repairs, "Reason", "Cost_Total", "Department", "Maintenance Costs by Reason" ))
 
 ```
   
   
+## ScatterPlot of Labor Costs * Total Costs  
   
-```{r setup, include=FALSE}
+For this comparison, I expect to see a perfectly straight line...Why is that you may wonder? Because upon further analysis of my data, it appears that there are no "parts" costs for any of the the observations and 100% of the total costs are accounted for by labor costs. Of course if I'd realized this a bit sooner in my project, I probably would have gotten another data set--but nonetheless, I have graphed the relationship in a scatter lot below. I enhanced the graph by adding coloring based on the reason code and even with the data being all aligned, we can still see how the various reason categories are grouped along the line and observe outliers. (I also attempted to add jitter to my scatter, but I can't tell that there is any difference in my graph's appearance):  
+  
+  
+```{r scatter, echo=TRUE, eval=TRUE}
 
+s1 <- ggplot(Repairs, aes(x = Cost_Total, y = Cost_Labor)) +
+     geom_point(position = "jitter", aes(group = Reason, color = Reason)) +
+     labs(title = "Labor Costs vs. Total Costs")
+     
+     print(s1)
 ```
   
   
-```{r dataset, echo=TRUE, eval=TRUE}
-
-```
+# Conclusions  
   
+The data was pretty interesting and as far as future research goes, I wooul most likely focus my attention on further evaluating  those Department and maintenance reasons associated with the highest costs. as an internal auditor (for a local government agency at that), I can't help but think, that there may be some opportunities to improve processes to help lower some of these costs--either by determining ways to mitigate root causes of some of the maintenance issues, or purchasing additional insurances and warranties to lessen the city's financial burden. Either way, this exploratory analysis is enough to point me in a good direction to start.  
   
-```{r dataset, echo=TRUE, eval=TRUE}
-
-```
-
+# *References*  
   
+1. <https://www.w3schools.com/js/js_json_intro.asp>  
+2. <https://www.geeksforgeeks.org/json-data-types/>  
+3. <https://developers.squarespace.com/what-is-json>  
+4. <http://www.json.org>  
+5. Ecma International 2017, The JSON Data Interchange Syntax: Standard ECMA-404, 2nd Edition / December 2017 <https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf>.  
+6. <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON>  
+7. <https://www.w3schools.com/js/js_json_xml.asp>  
+8. <https://javaee.github.io/tutorial/jsonp001.html#uses-of-json>  
+9. <https://www.w3schools.com/js/js_json_datatypes.asp>  
+10. <https://cran.r-project.org/web/packages/rjson/rjson.pdf>  
+11. <https://cran.r-project.org/web/packages/jsonlite/jsonlite.pdf>  
+12. <https://cran.r-project.org/web/packages/RJSONIO/RJSONIO.pdf>  

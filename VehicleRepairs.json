@@ -1,0 +1,1384 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "eren-euca",
+      "name" : "Vehicle Repairs",
+      "attribution" : "City of Stamford",
+      "averageRating" : 0,
+      "category" : "Government",
+      "createdAt" : 1436897930,
+      "description" : "Vehicle Maintenance Charge Back to departments",
+      "displayType" : "table",
+      "downloadCount" : 4374,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1436923322,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 12269061,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1436909071,
+      "publicationGroup" : 3554564,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1436907440,
+      "rowsUpdatedBy" : "d2jw-b5qp",
+      "tableId" : 3555909,
+      "totalTimesRated" : 0,
+      "viewCount" : 1332,
+      "viewLastModified" : 1437057219,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1436909071,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 818623,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1436909071,
+        "workflowId" : 2184,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "d2jw-b5qp",
+          "displayName" : "City of Stamford"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 212928809,
+        "name" : "Dept",
+        "dataTypeName" : "number",
+        "fieldName" : "dept",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759053,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 617,
+          "average" : "2154.807131280389",
+          "largest" : "3810",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1020",
+            "count" : 20
+          }, {
+            "item" : "2111",
+            "count" : 19
+          }, {
+            "item" : "2116",
+            "count" : 18
+          }, {
+            "item" : "2121",
+            "count" : 17
+          }, {
+            "item" : "2135",
+            "count" : 16
+          }, {
+            "item" : "2137",
+            "count" : 15
+          }, {
+            "item" : "2139",
+            "count" : 14
+          }, {
+            "item" : "2141",
+            "count" : 13
+          }, {
+            "item" : "2142",
+            "count" : 12
+          }, {
+            "item" : "2143",
+            "count" : 11
+          }, {
+            "item" : "2200",
+            "count" : 10
+          }, {
+            "item" : "2210",
+            "count" : 9
+          }, {
+            "item" : "2340",
+            "count" : 8
+          }, {
+            "item" : "2530",
+            "count" : 7
+          }, {
+            "item" : "2600",
+            "count" : 6
+          }, {
+            "item" : "3101",
+            "count" : 5
+          }, {
+            "item" : "3810",
+            "count" : 4
+          } ],
+          "smallest" : "1020",
+          "sum" : "1329516"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 212928836,
+        "name" : "JobDate",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "jobdate",
+        "position" : 2,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29759054,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 617,
+          "largest" : "2015-03-30T00:00:00",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2015-01-06T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2015-01-14T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2015-01-07T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2015-01-09T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2015-01-13T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2015-01-15T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2015-01-20T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2015-01-21T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2015-01-26T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2015-01-28T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2015-01-30T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2015-02-04T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2015-02-06T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2015-02-09T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2015-02-10T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2015-02-13T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2015-02-17T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2015-02-19T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2015-02-23T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2015-02-24T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2015-01-02T00:00:00"
+        },
+        "format" : { }
+      }, {
+        "id" : 212928838,
+        "name" : "jobno",
+        "dataTypeName" : "number",
+        "fieldName" : "jobno",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759055,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 617,
+          "average" : "14451.08265802269",
+          "largest" : "14935",
+          "null" : 0,
+          "top" : [ {
+            "item" : "14667",
+            "count" : 20
+          }, {
+            "item" : "14800",
+            "count" : 19
+          } ],
+          "smallest" : "13680",
+          "sum" : "8916318"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "center",
+          "aggregate" : "count"
+        }
+      }, {
+        "id" : 212928841,
+        "name" : "Vehicleid",
+        "dataTypeName" : "text",
+        "fieldName" : "vehicleid",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29759056,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 617,
+          "largest" : "Y14264      ",
+          "null" : 0,
+          "top" : [ {
+            "item" : "512810",
+            "count" : 20
+          }, {
+            "item" : "D12433      ",
+            "count" : 19
+          }, {
+            "item" : "5694",
+            "count" : 18
+          }, {
+            "item" : "50903",
+            "count" : 17
+          }, {
+            "item" : "48877",
+            "count" : 16
+          }, {
+            "item" : "49328",
+            "count" : 15
+          }, {
+            "item" : "B90933      ",
+            "count" : 14
+          }, {
+            "item" : "50551",
+            "count" : 13
+          }, {
+            "item" : "27143",
+            "count" : 12
+          }, {
+            "item" : "50761",
+            "count" : 11
+          }, {
+            "item" : "4830",
+            "count" : 10
+          }, {
+            "item" : "311542",
+            "count" : 9
+          }, {
+            "item" : "40857",
+            "count" : 8
+          }, {
+            "item" : "176729",
+            "count" : 7
+          }, {
+            "item" : "B00189      ",
+            "count" : 6
+          }, {
+            "item" : "D59888      ",
+            "count" : 5
+          }, {
+            "item" : "334522",
+            "count" : 4
+          }, {
+            "item" : "205443",
+            "count" : 3
+          }, {
+            "item" : "89717",
+            "count" : 2
+          }, {
+            "item" : "19676",
+            "count" : 1
+          } ],
+          "smallest" : "103885"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      }, {
+        "id" : 212928843,
+        "name" : "UnitNo",
+        "dataTypeName" : "number",
+        "fieldName" : "unitno",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759057,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 612,
+          "average" : "261.6437908496732",
+          "largest" : "797",
+          "null" : 5,
+          "top" : [ {
+            "item" : "50",
+            "count" : 20
+          }, {
+            "item" : "444",
+            "count" : 19
+          }, {
+            "item" : "368",
+            "count" : 18
+          }, {
+            "item" : "353",
+            "count" : 17
+          }, {
+            "item" : "373",
+            "count" : 16
+          }, {
+            "item" : "34",
+            "count" : 15
+          }, {
+            "item" : "361",
+            "count" : 14
+          }, {
+            "item" : "369",
+            "count" : 13
+          }, {
+            "item" : "363",
+            "count" : 12
+          }, {
+            "item" : "354",
+            "count" : 11
+          }, {
+            "item" : "11",
+            "count" : 10
+          }, {
+            "item" : "404",
+            "count" : 9
+          }, {
+            "item" : "408",
+            "count" : 8
+          }, {
+            "item" : "1",
+            "count" : 7
+          }, {
+            "item" : "685",
+            "count" : 6
+          }, {
+            "item" : "675",
+            "count" : 5
+          } ],
+          "smallest" : "1",
+          "sum" : "160126"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "center"
+        }
+      }, {
+        "id" : 212928845,
+        "name" : "Reason",
+        "dataTypeName" : "text",
+        "fieldName" : "reason",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29759058,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 617,
+          "largest" : "40    NEGLIGENCE",
+          "null" : 0,
+          "top" : [ {
+            "item" : "04    DRIVER'S REPORT",
+            "count" : 20
+          }, {
+            "item" : "08    PM SERVICE              ***",
+            "count" : 19
+          }, {
+            "item" : "13    SNOW BREAKDOWN",
+            "count" : 18
+          }, {
+            "item" : "40    NEGLIGENCE",
+            "count" : 17
+          }, {
+            "item" : "10    ROADCALL",
+            "count" : 16
+          }, {
+            "item" : "01    BREAKDOWN            ***",
+            "count" : 15
+          }, {
+            "item" : "12    CONTRACT HIRE REPAIR",
+            "count" : 14
+          }, {
+            "item" : "38    WARRANTY",
+            "count" : 13
+          }, {
+            "item" : "29    ACCIDENT",
+            "count" : 12
+          }, {
+            "item" : "22    CONVERSION",
+            "count" : 11
+          }, {
+            "item" : "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)",
+            "count" : 10
+          }, {
+            "item" : "11    OTHER",
+            "count" : 9
+          }, {
+            "item" : "09    REWORK",
+            "count" : 8
+          } ],
+          "smallest" : "01    BREAKDOWN            ***"
+        },
+        "format" : { }
+      }, {
+        "id" : 212928847,
+        "name" : "Notes",
+        "dataTypeName" : "text",
+        "fieldName" : "notes",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29759059,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 617,
+          "largest" : "WORK LIGHTS NOT WORKING..THIS IS RE-DO WORK FROM A PREVIOUS REPAIR.",
+          "null" : 0,
+          "top" : [ {
+            "item" : "BATTERY FOR REMOTE",
+            "count" : 20
+          }, {
+            "item" : "WILL NOT START",
+            "count" : 19
+          } ],
+          "smallest" : ", BACK-UP CAMERA DO  NOT WORK"
+        },
+        "format" : { }
+      }, {
+        "id" : 212928849,
+        "name" : "CostParts",
+        "dataTypeName" : "number",
+        "fieldName" : "costparts",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759060,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 617,
+          "average" : "304.1464991896272",
+          "largest" : "9083.02",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "8.08",
+            "count" : 19
+          }, {
+            "item" : "25",
+            "count" : 18
+          }, {
+            "item" : "21.6",
+            "count" : 17
+          }, {
+            "item" : "8.1",
+            "count" : 16
+          }, {
+            "item" : "76.06",
+            "count" : 15
+          }, {
+            "item" : "29.59",
+            "count" : 14
+          }, {
+            "item" : "50.13",
+            "count" : 13
+          }, {
+            "item" : "10",
+            "count" : 12
+          }, {
+            "item" : "219.94",
+            "count" : 11
+          }, {
+            "item" : "74.709999999999994",
+            "count" : 10
+          }, {
+            "item" : "5.29",
+            "count" : 9
+          }, {
+            "item" : "143.69",
+            "count" : 8
+          }, {
+            "item" : "36.53",
+            "count" : 7
+          }, {
+            "item" : "181.75",
+            "count" : 6
+          } ],
+          "smallest" : "0",
+          "sum" : "187658.3899999999994972"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "currencyStyle" : "USD",
+          "noCommas" : "false",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 212928854,
+        "name" : "CostLabor",
+        "dataTypeName" : "number",
+        "fieldName" : "costlabor",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759061,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 617,
+          "average" : "0",
+          "largest" : "0",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          } ],
+          "smallest" : "0",
+          "sum" : "0"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 212928856,
+        "name" : "CostTotal",
+        "dataTypeName" : "number",
+        "fieldName" : "costtotal",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29759062,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 617,
+          "average" : "304.1464991896272",
+          "largest" : "9083.02",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "8.08",
+            "count" : 19
+          }, {
+            "item" : "25",
+            "count" : 18
+          }, {
+            "item" : "21.6",
+            "count" : 17
+          }, {
+            "item" : "8.1",
+            "count" : 16
+          }, {
+            "item" : "76.06",
+            "count" : 15
+          }, {
+            "item" : "29.59",
+            "count" : 14
+          }, {
+            "item" : "50.13",
+            "count" : 13
+          }, {
+            "item" : "10",
+            "count" : 12
+          }, {
+            "item" : "219.94",
+            "count" : 11
+          }, {
+            "item" : "74.709999999999994",
+            "count" : 10
+          }, {
+            "item" : "5.29",
+            "count" : 9
+          }, {
+            "item" : "143.69",
+            "count" : 8
+          }, {
+            "item" : "36.53",
+            "count" : 7
+          }, {
+            "item" : "181.75",
+            "count" : 6
+          } ],
+          "smallest" : "0",
+          "sum" : "187658.3899999999994972"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "currencyStyle" : "USD",
+          "noCommas" : "false",
+          "align" : "right",
+          "aggregate" : "sum"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "costparts"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "VehicleRepairs.pdf",
+          "assetId" : "xcypotH0L4GlDh_mjNmPcmb-NGn7pu0acPsEed_o0Y0",
+          "name" : "VehicleRepairs.pdf"
+        } ],
+        "custom_fields" : {
+          "Agency" : {
+            "Agency" : "City of Stamford"
+          },
+          "Microsites" : {
+            "Local" : "City of Stamford"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "d2jw-b5qp",
+        "disabledAt" : 1562161882,
+        "displayName" : "City of Stamford",
+        "screenName" : "City of Stamford",
+        "type" : "interactive"
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 212928849,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "d2jw-b5qp",
+        "disabledAt" : 1562161882,
+        "displayName" : "City of Stamford",
+        "screenName" : "City of Stamford",
+        "type" : "interactive"
+      },
+      "tags" : [ "vehicle maintenance" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-tbi9_4vs7_9zi5", "00000000-0000-0000-DE77-32AC61B7692A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14415", "X01917      ", "282", "13    SNOW BREAKDOWN", "HYD LEAKSENT TO CAT TO REPAIR/REPLACE MAIN HYDRAULIC CONTROL VALVE AND ASSYHO PENNINVOICE WOCE0581604$9,083.02", "9083.02", "0", "9083.02" ]
+, [ "row-zp8x_cdye~btw5", "00000000-0000-0000-29C8-DBDD8C16193F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14709", "B24602      ", "797", "22    CONVERSION", "INSTALLATION OF A NEW POLYCAST SANDER -FISHERBOBCAT OF STRATFORDINVOICE 02-58848$4995.95", "4995.95", "0", "4995.95" ]
+, [ "row-tjps~eea3_r7ph", "00000000-0000-0000-6E68-930A1A43A55C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-05T00:00:00", "14773", "1227", "241", "13    SNOW BREAKDOWN", "CHECK REAR-END (BROKEN AXLE)TOW FROM CRANE ROADBILLS TOWINGINVOICE 163457$175.00", "4972.21", "0", "4972.21" ]
+, [ "row-sisr.2nen_8n8r", "00000000-0000-0000-11A4-AF2A8AFC26AF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14735", "B31276      ", "177", "13    SNOW BREAKDOWN", "CHECK NOISE IN REAR- END (DIFF)TOWED FROM VEHICLE MAINTENANCE TO INTERSTATE FORD IN MILFORDBILLS TOWING, INVOICE 165003$250.00GABRIELLI FORDREPLACE REAR , BEARINGS, SEALSU-JOINTSINVOICE 85031MS      $4570.80", "4820.8", "0", "4820.8" ]
+, [ "row-dn4h~hbsj_ffsz", "00000000-0000-0000-10AF-5D72972DB91A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-09T00:00:00", "14107", "1467", "121", "08    PM SERVICE              ***", "REMOVE & REPLACE REAR SPRINGS, CHECK COOLANT TUBESPM SERVIVE", "4697.55", "0", "4697.55" ]
+, [ "row-h6cw-ybvz~hw4p", "00000000-0000-0000-714E-823CC9B3CB87", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-24T00:00:00", "14282", "C36323      ", "448", "04    DRIVER'S REPORT", "DASHPM SERVICECHECK TUNE UP", "3497.83", "0", "3497.83" ]
+, [ "row-mwrb.j865.d2xr", "00000000-0000-0000-46EF-4ECA1535635C", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-18T00:00:00", "14397", "4830", "354", "04    DRIVER'S REPORT", "TIRES ?RED LIGHT ON IN DASH UNIT NOT REJENSENT TO GABRIOELLI INVOICE 84461MS$767.64", "3172.64", "0", "3172.64" ]
+, [ "row-wrfu_yw3j-xvu5", "00000000-0000-0000-77C3-D585BD2C7019", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-26T00:00:00", "14925", "C95216      ", "435", "01    BREAKDOWN            ***", "TRUCK WON'T RUN, TOWED TO GABRIELLI FORD GABRIELLI FORD \\RE-MAN TURBO, EGR VALVE, CARRIER BEARINGINVOICE 85032MS$3,106.46", "3106.46", "0", "3106.46" ]
+, [ "row-976a_adhs-9eqz", "00000000-0000-0000-7A44-BDE2A372E37E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-26T00:00:00", "14618", "48877", "373", "04    DRIVER'S REPORT", "CHECK BRAKESHYD LEAK", "3076.72", "0", "3076.72" ]
+, [ "row-9u6z-ftsz~3sqh", "00000000-0000-0000-C40E-80541BBE8193", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-13T00:00:00", "14822", "B20089      ", "31", "04    DRIVER'S REPORT", "LOW POWER AND ENGINE LITE IS ONSENT TO STAMFORD FORDINVOICE 293481$2981.76", "2981.76", "0", "2981.76" ]
+, [ "row-dgz2_v5kq~z64k", "00000000-0000-0000-EC93-7CA815007EEE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14802", "1244", "240", "04    DRIVER'S REPORT", "CHECK PLOW FRAME,BOLTS MISSING & ADJUST BRAKES", "2776.07", "0", "2776.07" ]
+, [ "row-tz4v_uyc2.6qhr", "00000000-0000-0000-3213-525F06E10BAA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14640", "1402", "228", "13    SNOW BREAKDOWN", "ROAD CALL TO HIGH RIDGE RDTIRES FELL OFFTOWED IN BY BILLS SERVICEBROKEN LEAF SPRINGSINVOICE #161148$175.00", "2502.6999999999998", "0", "2502.6999999999998" ]
+, [ "row-7bf6~ikqu.9en3", "00000000-0000-0000-D81D-351175DA40B5", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-14T00:00:00", "14206", "50550", "357", "04    DRIVER'S REPORT", "NEED REAR TIRESCHECK HYD OIL", "2465.54", "0", "2465.54" ]
+, [ "row-x4z4~i6yt.vee3", "00000000-0000-0000-ABAF-3F3D4D25237C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14450", "1403", "226", "13    SNOW BREAKDOWN", "HYD LEAKRIGHT SIDE WIPERREMOVE PARTS FOR OTHER TRUCKS  AXLE AND WIPER MOTOR", "2431.62", "0", "2431.62" ]
+, [ "row-7a8n-mykb~nuib", "00000000-0000-0000-C065-82078F533119", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14270", "45569", "350", "04    DRIVER'S REPORT", "REAR TIRESCHECK OIL", "2389.7800000000002", "0", "2389.7800000000002" ]
+, [ "row-wij4~r2gh-fzme", "00000000-0000-0000-6250-17865991D0C8", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-05T00:00:00", "14167", "5694", "368", "01    BREAKDOWN            ***", "UNIT SENT TO MDANITARY FOR SCALE SYSTEM ON FRONT FORKSSANITARY EQUIPMENTINVOICE 074644$2,387.46", "2387.46", "0", "2387.46" ]
+, [ "row-y2sf-9r7x-ynpr", "00000000-0000-0000-B8E8-A199DF3E4935", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-05T00:00:00", "14166", "5694", "368", "01    BREAKDOWN            ***", "UNIT SENT TO SANITARY FOR SCALE SYSTEM ON FRONT FORKS REPLACE 2 PROXIMITY SWITCHES AND VULCAN METERSANITARY EQUIPMENTINVOICE 074644$2,387.46", "2387.46", "0", "2387.46" ]
+, [ "row-369v-z5ee.5jxn", "00000000-0000-0000-9320-D6CC8AD71AD9", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-24T00:00:00", "14551", "49618", "356", "04    DRIVER'S REPORT", "REAR TIRES", "2384.4899999999998", "0", "2384.4899999999998" ]
+, [ "row-gbxt~kijs.3352", "00000000-0000-0000-095D-95AA4DD0ECD2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-13T00:00:00", "14781", "B34630      ", "168", "01    BREAKDOWN            ***", "BREAKDOWN, INSTRUMENT CLUSTER AND HARNESS BURNT UPFUEL SYSTEM NOT WORKINGGABRIELLI MACKINVOICE 84832MS$2,375.24", "2375.2399999999998", "0", "2375.2399999999998" ]
+, [ "row-9trp~rv8c-rifs", "00000000-0000-0000-A155-BB701C39F3E4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14039", "1224", "222", "04    DRIVER'S REPORT", "CHECK BRAKE ADJUSTMENT", "2305.19", "0", "2305.19" ]
+, [ "row-2uhh_3j8e.drp9", "00000000-0000-0000-5AEE-934C41C1983F", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-28T00:00:00", "14234", "49328", "358", "08    PM SERVICE              ***", "PM SERVICEAIR LEAK", "2277.02", "0", "2277.02" ]
+, [ "row-chhy~dkf8_xsac", "00000000-0000-0000-BE0E-96AB77BBBFCB", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14647", "1226", "117", "38    WARRANTY", "LOW COOLANT", "2169.1799999999998", "0", "2169.1799999999998" ]
+, [ "row-nqje-i4rd_b7v6", "00000000-0000-0000-1CF5-76D514EF90BC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14839", "1466", "124", "40    NEGLIGENCE", "BENT SPINNER ASSY", "2163.69", "0", "2163.69" ]
+, [ "row-zc2h-c9s2.9wcy", "00000000-0000-0000-17C1-B3020BDD0FC6", 0, 1436899088, null, 1436899088, null, "{ }", "2116", "2015-03-26T00:00:00", "14285", "82039", "261", "10    ROADCALL", "RADIATOR, FAN", "2149.31", "0", "2149.31" ]
+, [ "row-u6yw~vpvd-3f7b", "00000000-0000-0000-CE89-4010A40CBF1A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14142", "110294", "608", "40    NEGLIGENCE", "INSTALL BROOM -MAIN CORE FOR BROOM SECTIONS WAS BENT , OUT OF SHAPE . DAMAGE CAUSING BROOMS SECTION TO NOT LOCK INTO CORE . HAD TO REPLACE EVERYTHING DUE TO DAMAGE .", "2139.35", "0", "2139.35" ]
+, [ "row-5wjn_e4sy.ivww", "00000000-0000-0000-8C40-CE2BD228E2B9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14417", "1225", "119", "13    SNOW BREAKDOWN", "REAR SPRINGS BROKEN", "2102.29", "0", "2102.29" ]
+, [ "row-2fz3-rjkp.isri", "00000000-0000-0000-AA7E-96BB8305B92F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14586", "1223", "220", "13    SNOW BREAKDOWN", "REAR LEAF SPRINGS", "1985.68", "0", "1985.68" ]
+, [ "row-z9ux.p2in~by3z", "00000000-0000-0000-78D2-F740B3FAB892", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-11T00:00:00", "14538", "1243", "116", "04    DRIVER'S REPORT", "COOLANT LEAK", "1933.83", "0", "1933.83" ]
+, [ "row-4rk8.vq9m.vfj7", "00000000-0000-0000-012B-0727EECE5FE0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14394", "1365", "244", "13    SNOW BREAKDOWN", "ANTI FREEZE LEAK CHECK REAR LIGHTS", "1836.75", "0", "1836.75" ]
+, [ "row-ztbj.ckdi-cd9m", "00000000-0000-0000-761D-1D06F8BB1463", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14271", "50760", "362", "04    DRIVER'S REPORT", "CHECK REAR TIRESRIGHT HEAD LIGHT OUT", "1810.38", "0", "1810.38" ]
+, [ "row-x3ir~8riz-7try", "00000000-0000-0000-AC85-1998A4D2D811", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14680", "1759", "131", "13    SNOW BREAKDOWN", "AUGER WILL NOT TURNARMSTRONG WELDING, FABRICATE NEW LOCKING DEVICE AND INSTALL, REWELD PINTHAT WAS ROTTED AND REINFORCEINVOICE 20153$1,000.", "1774.46", "0", "1774.46" ]
+, [ "row-m9ps~aykf-4ddn", "00000000-0000-0000-DB2E-1203AA750B21", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14419", "110301", "607", "40    NEGLIGENCE", "REPAIR BROOM ATTACCHMENT", "1684.14", "0", "1684.14" ]
+, [ "row-iqcj_5fwp_kn25", "00000000-0000-0000-56A3-5C9C83F3FE4E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-06T00:00:00", "14151", "27143", "369", "04    DRIVER'S REPORT", "CHECK AIMS SYSTEM WILL NOT FUEL UP, C HECK AIR SYSTEM & TIRES", "1666.57", "0", "1666.57" ]
+, [ "row-6esr.vqyv~uqtv", "00000000-0000-0000-81AD-15EE6B0044C0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14453", "1366", "242", "13    SNOW BREAKDOWN", "RIGHT SIDE TIRES FEEL OFF", "1648.57", "0", "1648.57" ]
+, [ "row-vytc_vmrk-55ic", "00000000-0000-0000-C4C5-C0A5BB2E34C9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14788", "1469", "122", "10    ROADCALL", "ROAD CALL NO BRAKES", "1620.49", "0", "1620.49" ]
+, [ "row-uuq9_k75p.nejh", "00000000-0000-0000-205A-BEE8B8152854", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-06T00:00:00", "13802", "45569", "350", "04    DRIVER'S REPORT", "DIESEL FUEL LEAK  UNDER CAB, L/REAR PACKER PISTON LEAKS", "1607.45", "0", "1607.45" ]
+, [ "row-94s7_jfun_h5zp", "00000000-0000-0000-6452-CED0A06FCA95", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14655", "1225", "119", "13    SNOW BREAKDOWN", "NO REAR BRAKES", "1585.07", "0", "1585.07" ]
+, [ "row-zu7g~bt42-esze", "00000000-0000-0000-43DB-D7A352AC36C3", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-13T00:00:00", "14500", "5694", "368", "04    DRIVER'S REPORT", "FRONT TIRESCHECK FLUIDS", "1574.93", "0", "1574.93" ]
+, [ "row-w7wx-5v8f-57mr", "00000000-0000-0000-BC30-20AD2081D454", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14860", "1466", "124", "04    DRIVER'S REPORT", "CHECK BRAKES", "1563.96", "0", "1563.96" ]
+, [ "row-3aef-jaks-aqr4", "00000000-0000-0000-6B35-37B8BF66683A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14531", "1466", "124", "13    SNOW BREAKDOWN", "LEFT REAR FLAT TIRECHECK LEAF SPRINGS", "1505.3", "0", "1505.3" ]
+, [ "row-ctbu-m8kx_cqa3", "00000000-0000-0000-F450-22E6A0A07745", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-02T00:00:00", "14143", "49617", "352", "04    DRIVER'S REPORT", "FLAT TIRE LEFT REAR OUTSIDE", "1497.5", "0", "1497.5" ]
+, [ "row-yqb9.4aw3_eqd5", "00000000-0000-0000-4B45-713599633978", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-23T00:00:00", "14120", "68935", "149", "04    DRIVER'S REPORT", "CONVEYOR DOES NOT WORK", "1469.58", "0", "1469.58" ]
+, [ "row-pmvq-tfnx~2wv6", "00000000-0000-0000-E7EF-02AFF8B77E81", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-13T00:00:00", "14653", "A19527      ", "613", "04    DRIVER'S REPORT", "NO POWER REDUCED POWER LIGHT ONSENT TO GABRIELLIINVOICE 84829MS$1468.93CLEAN DPF, REPLACE SENSOR AND CLEARED CODES", "1468.93", "0", "1468.93" ]
+, [ "row-wbh8.q8ir~v476", "00000000-0000-0000-4FC4-160BDF555C3F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14652", "1366", "242", "13    SNOW BREAKDOWN", "CHECK SPINNER", "1303.83", "0", "1303.83" ]
+, [ "row-n48x.kj2y_q4rh", "00000000-0000-0000-FA82-6DCEA9709BAE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-13T00:00:00", "14823", "K01711      ", "180", "04    DRIVER'S REPORT", "CUT OFF OLD EDGE AND WELD NEW ONE ONARMSTRONG WELDINGINVOICE #10$1,260.00", "1260", "0", "1260" ]
+, [ "row-4jz7.dish_e6t8", "00000000-0000-0000-1D88-280996B49353", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-23T00:00:00", "14389", "1629", "235", "13    SNOW BREAKDOWN", "ANTI FREEZE LEAKCONVOYOR STAYS ON", "1228.8800000000001", "0", "1228.8800000000001" ]
+, [ "row-5kj8-hq6z_2s7m", "00000000-0000-0000-645D-C706ACA3D1B8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14703", "1467", "121", "13    SNOW BREAKDOWN", "CHECK BENT SPINNER ASSY", "1218.96", "0", "1218.96" ]
+, [ "row-t6wc_rjs3-fgjr", "00000000-0000-0000-C34B-4D511BE20044", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14530", "1365", "244", "08    PM SERVICE              ***", "OIL LEAK", "1206.6400000000001", "0", "1206.6400000000001" ]
+, [ "row-pshe.zn6c-apnb", "00000000-0000-0000-1B0A-F4387F8FE3DA", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-03-26T00:00:00", "14845", "48878", "346", "04    DRIVER'S REPORT", "CHECK ALL TIRES & FLUIDS", "1199.78", "0", "1199.78" ]
+, [ "row-dx66_j2dy~twtd", "00000000-0000-0000-C621-EB12A26D9F0D", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-09T00:00:00", "14516", "50903", "353", "04    DRIVER'S REPORT", "LEFT REAR FLAT TIRE", "996.84", "0", "996.84" ]
+, [ "row-ztfw~n9ae-22ya", "00000000-0000-0000-F2FA-1BB74A2D49EC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-28T00:00:00", "14385", "1243", "116", "04    DRIVER'S REPORT", "NEEDS A 55 GALLON DRUM OF 15W40/10W40/PICKED UP BY PREZ", "996.05", "0", "996.05" ]
+, [ "row-2y8c.ys9g~i387", "00000000-0000-0000-C2CB-EE5C6CA950BA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14298", "68933", "148", "13    SNOW BREAKDOWN", "DONT BUILD UP AIR PRESSHARD STARTING", "987.57", "0", "987.57" ]
+, [ "row-qge8.3ix7_bumy", "00000000-0000-0000-4104-EDC80CBE6805", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-10T00:00:00", "14414", "337658", "239", "38    WARRANTY", "HYD LEAK UNDER CAB", "973", "0", "973" ]
+, [ "row-fnxu_rh7g-tkiy", "00000000-0000-0000-E399-C62C46AA2FEF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14238", "621924", "210", "38    WARRANTY", "REAR WHEEL SEALS & BRAKES", "949.15", "0", "949.15" ]
+, [ "row-pc53~pj52~fa7s", "00000000-0000-0000-2218-259E9B73DB37", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14466", "68932", "147", "13    SNOW BREAKDOWN", "CHECK STARTER CHECK CHARGING SYSTEMADJUST CONVEYOR", "920.83", "0", "920.83" ]
+, [ "row-d9h8.t2pv_c5vx", "00000000-0000-0000-ADFF-7565886B7669", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14406", "5694", "368", "04    DRIVER'S REPORT", "FLAT TIRE RIGHT REAR", "917.5", "0", "917.5" ]
+, [ "row-2ned~tdz3.9mgn", "00000000-0000-0000-07B9-0332686CA92B", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-14T00:00:00", "14171", "50551", "361", "08    PM SERVICE              ***", "CHECK BRAKES.P.M.  INSPECTION.FOG LIGHTS.AIR HORN PROBLEM.RIGHT DOOR LIGHT.", "900.13", "0", "900.13" ]
+, [ "row-kqjy.zy6u_xp9j", "00000000-0000-0000-F03C-C9C4164AA436", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14392", "1400", "227", "13    SNOW BREAKDOWN", "CONVEYOR BELT NOT WORKING", "895.54", "0", "895.54" ]
+, [ "row-c9bp_6dwi.j4yj", "00000000-0000-0000-6294-D208F43AE660", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-01-20T00:00:00", "14251", "965476", "389", "04    DRIVER'S REPORT", "ANTI FREEZE LEAKCHECK FRONT SPRINGS", "893.12", "0", "893.12" ]
+, [ "row-kggh.dzaz_54vp", "00000000-0000-0000-FEC4-D0C46C60FA09", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14589", "1227", "241", "13    SNOW BREAKDOWN", "NO REAR BRAKESUNIT WAS TOWED INTO SHOP FROM HAIG AVEEAST COAST TOWING", "887.4", "0", "887.4" ]
+, [ "row-8b6y_i4xk~mnv5", "00000000-0000-0000-BC2A-3E15B3D21032", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-13T00:00:00", "14517", "B90933      ", "34", "04    DRIVER'S REPORT", "PM SERVICE FRONT WHEEL BEARING NOISEBRAKESWHEN FUELING FUEL BACKS UP", "848.48", "0", "848.48" ]
+, [ "row-rihh-3y5y-jsdx", "00000000-0000-0000-330E-78862F722196", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-09T00:00:00", "14507", "B20086      ", "30", "04    DRIVER'S REPORT", "REPLACE ALL TIRES", "816.27", "0", "816.27" ]
+, [ "row-s4z5~q3f2-idhz", "00000000-0000-0000-28C0-9FE59D924EB3", 0, 1436899088, null, 1436899088, null, "{ }", "2116", "2015-01-09T00:00:00", "14387", "704097", "262", "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)", "INSTALLATION OF NEW RADIO NORTHEASTERN COMMUNICATIONINVOICE 1025403$767.08", "767.08", "0", "767.08" ]
+, [ "row-7nga.rpwj-824v", "00000000-0000-0000-D628-5C88D67F602E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-12T00:00:00", "14072", "A64221      ", "614", "04    DRIVER'S REPORT", "LIGHT BAR NOT WORKING PROPERLY", "766.25", "0", "766.25" ]
+, [ "row-xrv4.yqtx~vwpn", "00000000-0000-0000-D702-E9ABC13829A1", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-07T00:00:00", "13830", "50552", "359", "04    DRIVER'S REPORT", ", BACK-UP CAMERA DO  NOT WORK", "741.4", "0", "741.4" ]
+, [ "row-2vm8~38kc_tdj9", "00000000-0000-0000-B552-81B3AD09B4F3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14725", "B31276      ", "177", "04    DRIVER'S REPORT", "CHECK FRONT TIRES", "733.92", "0", "733.92" ]
+, [ "row-yvwb.ttw3.me5z", "00000000-0000-0000-A987-075F8C27372E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-28T00:00:00", "14317", "B90933      ", "34", "04    DRIVER'S REPORT", "TIRES ALL 4", "728.4", "0", "728.4" ]
+, [ "row-xbvv-tqci-qz4g", "00000000-0000-0000-D5F8-6B2377B1DF23", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14552", "1366", "242", "04    DRIVER'S REPORT", "ADJUST REAR BRAKES", "701", "0", "701" ]
+, [ "row-6cwx.wzbm_rbyw", "00000000-0000-0000-BB3E-43811FEE8C60", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14573", "1400", "227", "13    SNOW BREAKDOWN", "SIDE DUMP DOESNT MOVEPTO PUMPREPLACE DICKYJOHN SYSTEM", "694.85", "0", "694.85" ]
+, [ "row-b94t-tdhp_naf8", "00000000-0000-0000-1E93-A839BE513679", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14520", "    K01711  ", "180", "13    SNOW BREAKDOWN", "NOT CHARGING", "656.07", "0", "656.07" ]
+, [ "row-wiqm_eut9.pn7w", "00000000-0000-0000-11B5-1B5F66037849", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-14T00:00:00", "14207", "48877", "373", "04    DRIVER'S REPORT", "HOPPER PISTON BROKEN", "654.66999999999996", "0", "654.66999999999996" ]
+, [ "row-acnn_v3kr-yzec", "00000000-0000-0000-6A20-56CD48BEFEF3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14522", "68932", "147", "13    SNOW BREAKDOWN", "CONVEYOR CHAIN BROKE", "650", "0", "650" ]
+, [ "row-4hb7-nnn9~zmwu", "00000000-0000-0000-6F3F-D30C6213FADB", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14253", "49616", "351", "04    DRIVER'S REPORT", "RIGHT FRONT TIRE SLOW LEAKSTARTS HARD IN AMCHECK TRANS FLUID", "638.39", "0", "638.39" ]
+, [ "row-s5m6-qjew.888n", "00000000-0000-0000-7926-EF74139B8B5D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14528", "1758", "123", "13    SNOW BREAKDOWN", "CONVEYOR CHAIN BROKEN", "635", "0", "635" ]
+, [ "row-m25q~3in3~nudk", "00000000-0000-0000-E5E4-4BA35A3BE4E6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14434", "1366", "242", "40    NEGLIGENCE", "BROKEN AXLE ON DOOLITTLE RD", "622.70000000000005", "0", "622.70000000000005" ]
+, [ "row-7m8x_k42j.khkc", "00000000-0000-0000-C08A-F372EF3E1141", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14454", "B31276      ", "177", "13    SNOW BREAKDOWN", "R/R TIRE FLAT", "616.96", "0", "616.96" ]
+, [ "row-mzvh-px7f-6byc", "00000000-0000-0000-D365-C4F70CBF595E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-09T00:00:00", "14521", "621923", "211", "13    SNOW BREAKDOWN", "L/F TIRE LOW", "613.89", "0", "613.89" ]
+, [ "row-rqqq-esmi_j5r4", "00000000-0000-0000-3E5D-A46A42AC89B9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-03T00:00:00", "14459", "1467", "121", "04    DRIVER'S REPORT", "RIGHT FRONT FLAT TIRE", "611.5", "0", "611.5" ]
+, [ "row-7ya3_vuaw_8khx", "00000000-0000-0000-3161-3698FE739A00", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14254", "B31275      ", "110", "04    DRIVER'S REPORT", "SHIFTES HARDWATER IN FUEL LIGHT ONCHECK PLOW FRAME", "605.79", "0", "605.79" ]
+, [ "row-fhuj.77pa_hhpi", "00000000-0000-0000-F482-A752CD727DF2", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-09T00:00:00", "14798", "4830", "354", "29    ACCIDENT", "UNIT INVOLCVED IN ACCIDENTTOWED BY BILLS TOWING TO SUPERIOR SPRINGINVOICE 162767$600.00", "600", "0", "600" ]
+, [ "row-367a~925p~fjc3", "00000000-0000-0000-E614-A73F5A8EC39C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-18T00:00:00", "14594", "D33712      ", "7", "01    BREAKDOWN            ***", "UNIT WAS TOWED FROM WILTO TO VEHICLE MAINTENANCE                  BROKEN WINDSHIELDTOWED BY MY WAY AUTO BODYINVOICE 8189$130.00BINKS AUTO GLASS REPLACE WINDSHIELDINVOICE 0007$440.00", "570", "0", "570" ]
+, [ "row-n3gj~pa9c~whk5", "00000000-0000-0000-7850-675618FB550C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14646", "68936", "145", "13    SNOW BREAKDOWN", "PLOW CHAIN BROKENENGINE HAS NO POWERHINES IHINVOICE #27288$525.1", "565.1", "0", "565.1" ]
+, [ "row-6839.q9qi-gz25", "00000000-0000-0000-3780-997AF7BDFFC4", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-02T00:00:00", "14632", "555359", "596", "13    SNOW BREAKDOWN", "ROAD CALL TO PARKS DEPTHYD LEAK", "554.4", "0", "554.4" ]
+, [ "row-zprf_ni85~t7uz", "00000000-0000-0000-F5CA-9750E73A0196", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-29T00:00:00", "14404", "A19527      ", "613", "01    BREAKDOWN            ***", "NO POWERGABRIELLI MACKINVOICE 84146MS$549.58", "549.58000000000004", "0", "549.58000000000004" ]
+, [ "row-2m5s~f2mj_feag", "00000000-0000-0000-4819-6EA6679C2352", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-20T00:00:00", "14197", "555359", "596", "04    DRIVER'S REPORT", "EXHUST LEAKAIR LEAKCHECK LIGHTS", "546.80999999999995", "0", "546.80999999999995" ]
+, [ "row-9hzw_5k2n_c4e9", "00000000-0000-0000-E47D-C14AC1A46875", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-22T00:00:00", "14642", "Y11540      ", "186", "40    NEGLIGENCE", "BROKEN WINDOW AND MIRROR RIGHT SIDE", "544.74", "0", "544.74" ]
+, [ "row-2gcx-iew4.725s", "00000000-0000-0000-A9BB-53FF89C11D61", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-03T00:00:00", "14463", "B20089      ", "31", "01    BREAKDOWN            ***", "UNIT WON'T RUN, BROUGHT OVER TO STAMFORD FORDREPLACE MASS AIR FLOW SENSORSTAMFORD FORDINVOICE #292308$500.61", "500.61", "0", "500.61" ]
+, [ "row-eiv4~k5eg~kntr", "00000000-0000-0000-6CFD-113A8AEE335C", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-18T00:00:00", "14601", "4830", "354", "01    BREAKDOWN            ***", "UNIT BROKE DOWN AND HAD TO BE TOWED TO GABRIELLI MACK IN MILFORDEAST COAST TOWING iNV.#14509$500.00", "500", "0", "500" ]
+, [ "row-tag6.u9cs-2tzp", "00000000-0000-0000-66CF-70A586C24077", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-25T00:00:00", "14585", "C36322      ", "415", "08    PM SERVICE              ***", "PM SERVICE", "498.94", "0", "498.94" ]
+, [ "row-qqg4_biy4_dec2", "00000000-0000-0000-CA9A-36AD202BAE5A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14639", "1224", "222", "13    SNOW BREAKDOWN", "ROAD CALL TOWN YARDNOISE IN REAR TIRES FALLEN OFFTOWED IN BY BILLS SERVICEINVOICE # 161149$175.00", "496.24", "0", "496.24" ]
+, [ "row-mwk7.vkgd_q4bg", "00000000-0000-0000-B3A8-9B2AD507CCAF", 0, 1436899088, null, 1436899088, null, "{ }", "1020", "2015-01-06T00:00:00", "14073", "118743", "14", "04    DRIVER'S REPORT", "PM SERVICE, CHECK TURN SIGNAL, CLUNKING NOISE WHEN DRIVING", "493.85", "0", "493.85" ]
+, [ "row-xfyy_z9ti-siwc", "00000000-0000-0000-0EAD-8042B652FA69", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14444", "526000", "225", "13    SNOW BREAKDOWN", "HYD LEAK UNDER CAB", "489.69", "0", "489.69" ]
+, [ "row-6stz-iifm~8mbu", "00000000-0000-0000-6478-CDC103C1E208", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-09T00:00:00", "14514", "512810", "50", "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)", "INSTALLATION OF NEW RADIO INVOIC E1025544$485.08", "485.08", "0", "485.08" ]
+, [ "row-t6ge-f3s4-tgqy", "00000000-0000-0000-CECD-D374F3FF18B0", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-09T00:00:00", "14515", "512606", "51", "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)", "NEW RADIO INSTALLNORTHEASTERN COMMUNICATIONINVOICE 1025544$485.08", "485.08", "0", "485.08" ]
+, [ "row-xbvs-t7ym.hq7k", "00000000-0000-0000-BDE6-48146FBC2BBA", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-24T00:00:00", "14657", "B20091      ", "35", "40    NEGLIGENCE", "needs d/s  mirror/lotts", "473.68", "0", "473.68" ]
+, [ "row-bpua_c2gw.hgin", "00000000-0000-0000-B3DE-96190FFEAF72", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14757", "1469", "122", "13    SNOW BREAKDOWN", "LEFT REAR INNER FLAT TIRE", "472.55", "0", "472.55" ]
+, [ "row-dj3b_62da_u9tz", "00000000-0000-0000-B5A1-20C65C0C4CF8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-15T00:00:00", "14225", "1466", "124", "40    NEGLIGENCE", "ROAD CALLTOWED INBROKEN AXLE", "469.29", "0", "469.29" ]
+, [ "row-8pv8.uvpa~8j7u", "00000000-0000-0000-F375-8BA6534D77C7", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-09T00:00:00", "14676", "393533", "205", "13    SNOW BREAKDOWN", "CONTAINER LOCK PINSWELD LOCKING SUPPORT ON ROLL OFFARMSTRONG WELDINGINVOICE 3222015$460.00", "460", "0", "460" ]
+, [ "row-ueth~smc9.wwgf", "00000000-0000-0000-FF8C-B635B707E5CF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14390", "1402", "228", "13    SNOW BREAKDOWN", "RIGHT REAR INSIDE TIRE FLATCHECK REAR LIGHTS", "456.33", "0", "456.33" ]
+, [ "row-9pgu_3h2f.z25x", "00000000-0000-0000-032E-780FD3ED589B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14700", "1226", "117", "13    SNOW BREAKDOWN", "CHECK ANTIFREEZE  &  BENT SPINNER ASSY", "448.96", "0", "448.96" ]
+, [ "row-ue2x~tgie.eext", "00000000-0000-0000-748A-C82EC370DBFA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14344", "337658", "239", "13    SNOW BREAKDOWN", "WINDOWS DONT WORK", "447.87", "0", "447.87" ]
+, [ "row-cgnt.jjqu.v6s5", "00000000-0000-0000-A24C-71B4BF973614", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14243", "1223", "220", "13    SNOW BREAKDOWN", "CONVOYOR ADJUSTER NOT WORKING", "420.49", "0", "420.49" ]
+, [ "row-r2vj.5va2.gnx4", "00000000-0000-0000-C6AC-F48B899267FF", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-14T00:00:00", "14067", "D12434      ", "450", "08    PM SERVICE              ***", "PM, SERVICE, CHECK ALL FLUID, HYDRA LEAK ON PLOW. PLOW DOES NOT MOVE. FLASHER LIGHT NEEDED ON TOP OF UNIT.", "418.34", "0", "418.34" ]
+, [ "row-2rxx-scp2.73qs", "00000000-0000-0000-7633-41A2DBA0F42F", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-02-19T00:00:00", "14473", "49617", "352", "04    DRIVER'S REPORT", "NO POWER SPOT MIRRORTHROLLE FOR HOPPER STICKING", "412.56", "0", "412.56" ]
+, [ "row-d5pj-ad7v.tqh3", "00000000-0000-0000-033A-3B1EEDADE1C3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14634", "1469", "122", "13    SNOW BREAKDOWN", "BROKEN REAR AXLE", "402.1", "0", "402.1" ]
+, [ "row-dp4d-8t72-4kmc", "00000000-0000-0000-C6D4-6199537449C4", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-07T00:00:00", "14186", "50552", "359", "40    NEGLIGENCE", "BROKEN RIGHT SIDE WINDSHIELDBINKS GLASSINVOICE #$400.00", "400", "0", "400" ]
+, [ "row-rpyw.xn8i-mn6m", "00000000-0000-0000-BFDB-A87E4EDBCCFD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-18T00:00:00", "14600", "68936", "145", "01    BREAKDOWN            ***", "UNIT WAS TOWED TO HINES IH IN BRIDGEPORTEAST COAST TOWINGINVOICE 14511$400.00", "400", "0", "400" ]
+, [ "row-s7zp.vwcx.t79r", "00000000-0000-0000-9ACC-EDDED4CDFA36", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-06T00:00:00", "13941", "-2021", null, "04    DRIVER'S REPORT", "COMPLETE SERVICE,UNIT MOVES VERY SLOWLY", "398.09", "0", "398.09" ]
+, [ "row-978s.k8eh_5qb4", "00000000-0000-0000-AF05-6B6A5C1BDC92", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14220", "337656", "219", "13    SNOW BREAKDOWN", "RIGHT REAR AXLE SEAL LEAKING", "397.87", "0", "397.87" ]
+, [ "row-c9u5_e8h9-giuf", "00000000-0000-0000-132A-F6DEE41A559D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14698", "B34633      ", "278", "13    SNOW BREAKDOWN", "CHECK L/REAR OUTER TIRE, FLATHOSE FOR TOWN YARD WASH BAY/JIM TORECK", "395.8", "0", "395.8" ]
+, [ "row-fu8g~9vvi-4ycn", "00000000-0000-0000-F049-A678D4530F2A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14000", "766153", "248", "08    PM SERVICE              ***", "NEED SERVICE, CHECK BRAKES", "387.17", "0", "387.17" ]
+, [ "row-mjru_cdtb~fw8u", "00000000-0000-0000-745A-6C175FBF9E52", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14808", "B34630      ", "168", "04    DRIVER'S REPORT", "FUEL GAUGE DO NOT WORK", "384.89", "0", "384.89" ]
+, [ "row-n5g7~ibgm_hp82", "00000000-0000-0000-40E6-F6A5476A0CCE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14337", "1224", "222", "13    SNOW BREAKDOWN", "HYD LEAKSPOT MORROR RIGHT SIDE", "370.52", "0", "370.52" ]
+, [ "row-f9rf_esah.74sg", "00000000-0000-0000-3F08-2362F0446442", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14536", "B31276      ", "177", "13    SNOW BREAKDOWN", "L/R FLAT TIRE", "369.35", "0", "369.35" ]
+, [ "row-kpe7-dgyb-rnev", "00000000-0000-0000-FDFB-DA8E8CFBA7E1", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14495", "D14803      ", "611", "04    DRIVER'S REPORT", "RIGHT REAR TIRE FLAT", "366.96", "0", "366.96" ]
+, [ "row-969b.w4g6-3hwx", "00000000-0000-0000-2E0E-D0B21CDCB8CD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-17T00:00:00", "14564", "B34631      ", "277", "04    DRIVER'S REPORT", "FLAT TIRE L/R OUTTER", "366.96", "0", "366.96" ]
+, [ "row-enp6~txct.xfn3", "00000000-0000-0000-8C86-AA6FC8E80D3C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14139", "L00343      ", "281", "10    ROADCALL", "HYD LEAK", "358.58", "0", "358.58" ]
+, [ "row-8m4f_nifi~4tgj", "00000000-0000-0000-C852-0174708D2687", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14452", "621908", "125", "13    SNOW BREAKDOWN", "HYD LEAK UNDER CAB", "353.28", "0", "353.28" ]
+, [ "row-cr7x-56qn_w2wu", "00000000-0000-0000-BD9A-1C5EDCD7B922", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-11T00:00:00", "14465", "110294", "608", "40    NEGLIGENCE", "CHECK BROOMCHECK STROBE LIGHTSREPLACE FRONT TIRE", "350", "0", "350" ]
+, [ "row-drdh-pnsx_k639", "00000000-0000-0000-C887-DADD7C142A93", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14906", "110301", "607", "10    ROADCALL", "LEFT FRONT FLAT TIRE", "350", "0", "350" ]
+, [ "row-gqqj.fcgy~dga7", "00000000-0000-0000-8D77-7B23A159AE60", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-30T00:00:00", "14794", "166478", "68", "04    DRIVER'S REPORT", "CHECK ALL GAUGES  (FUEL GAUGE DO NOT WORK)", "348.26", "0", "348.26" ]
+, [ "row-3xf6~hfpf-sngy", "00000000-0000-0000-3CE5-86BFFAD63B5B", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14047", "B20089      ", "31", "04    DRIVER'S REPORT", "BLOWER MOTOR NOT WORKING", "340.78", "0", "340.78" ]
+, [ "row-9y8f~brjg_8vws", "00000000-0000-0000-0152-2C73FEDEE668", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14482", "621921", "214", "10    ROADCALL", "ROAD CALL TRUCK WILL NOT MOVE", "340.72", "0", "340.72" ]
+, [ "row-28s2.r53s.ziib", "00000000-0000-0000-1881-B8A105BD9B0E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14416", "K01711      ", "180", "10    ROADCALL", "DONT START", "324.8", "0", "324.8" ]
+, [ "row-c7jm_ty86_myxg", "00000000-0000-0000-4E03-F2E66095E778", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-07T00:00:00", "14195", "718765", "337", "04    DRIVER'S REPORT", "PARTS FOR ARM", "319.48", "0", "319.48" ]
+, [ "row-6h3h~mhwg~jdit", "00000000-0000-0000-4B68-2FAE88604720", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-02T00:00:00", "14560", "B00195      ", "646", "04    DRIVER'S REPORT", "R/R FLAT", "312.39", "0", "312.39" ]
+, [ "row-hga7-f6x5.dgk2", "00000000-0000-0000-DA81-A7B19E2E81A5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14842", "P2115D      ", "152", "04    DRIVER'S REPORT", "NEEDS HYDRANT HOSE/RONNY CAPP/PETE", "312.11", "0", "312.11" ]
+, [ "row-jjpy~wh6g-6j7s", "00000000-0000-0000-6F7F-018DCE247F9A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-21T00:00:00", "14103", "B31276      ", "177", "04    DRIVER'S REPORT", "PLOW FRAME CRACKED, SPINNER NEED TO BE INSTALLEDARMSTRONG WELDINGINVOICE 21212$300.", "310", "0", "310" ]
+, [ "row-cmby.rzc2~f9u5", "00000000-0000-0000-BEA2-A1BECD95E2C2", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-04T00:00:00", "14403", "735093", null, "04    DRIVER'S REPORT", "PM SERVICE", "305.31", "0", "305.31" ]
+, [ "row-6bsd.w45h.s3hq", "00000000-0000-0000-9F38-A533489690AF", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-16T00:00:00", "14617", "5694", "368", "04    DRIVER'S REPORT", "CHECK BRAKESCHECK FLUIDS", "303.58999999999997", "0", "303.58999999999997" ]
+, [ "row-vb2h~bixy_7wyg", "00000000-0000-0000-7DD2-6E78EE9E12DB", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-02T00:00:00", "14144", "697901", "371", "10    ROADCALL", "STARTS BUT NO THROTTLE AT COLLECTIONS.SENT TO HINES IHBILLS SERVICE OF STAMFORDINVOICE 161131$300.00", "300", "0", "300" ]
+, [ "row-dski~ip35-7k5y", "00000000-0000-0000-3E53-24CD2C0A206E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-21T00:00:00", "14289", "393532", "204", "04    DRIVER'S REPORT", "WELD AND REPAIR TWO PLATES THAT WERE BROKEN ON REAR OF HOOK LIFTARMSTRONG WELDINGINVOICE 21212$300", "300", "0", "300" ]
+, [ "row-fqk3.qhsj.aj4u", "00000000-0000-0000-AC39-EA05374B8531", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-21T00:00:00", "14288", "68934", "146", "12    CONTRACT HIRE REPAIR", "WELD REPAIR PIN ON TAILGATE SECTION WHICH WAS ROTTED OUT", "300", "0", "300" ]
+, [ "row-3qyz~y47e~fhak", "00000000-0000-0000-1B76-F4C33EDE235C", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-23T00:00:00", "14346", "C36322      ", "415", "13    SNOW BREAKDOWN", "PLOW DONT WORKROAD CALLCHECK BATTERY", "299.92", "0", "299.92" ]
+, [ "row-qy6e.2au9_tcrn", "00000000-0000-0000-797B-F93A75E833EA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14386", "1469", "122", "13    SNOW BREAKDOWN", "SPINNER TO FASTCHECK BATTERYSCHECK LIGHTS", "299.33", "0", "299.33" ]
+, [ "row-wj3t.mfu4.5uj7", "00000000-0000-0000-C22E-797523B47A3D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14824", "O01469      ", "201", "04    DRIVER'S REPORT", "NEEDS BATTERY FOR GREASE GUN/JIM FHADRWAREDRUM OF DEF", "296", "0", "296" ]
+, [ "row-5vug_ecds.ea62", "00000000-0000-0000-9AA8-0197359E285F", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-15T00:00:00", "14244", "48878", "346", "04    DRIVER'S REPORT", "HYD LEAK LEFT SIDE", "293.58999999999997", "0", "293.58999999999997" ]
+, [ "row-isum_ec98~n59q", "00000000-0000-0000-A9C5-7611004A61F9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14411", "110301", "607", "13    SNOW BREAKDOWN", "REAR FLAT TIRE", "290.19", "0", "290.19" ]
+, [ "row-36tw.3u5e~d8xx", "00000000-0000-0000-46C2-C42C7616F0A3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14660", "110294", "608", "04    DRIVER'S REPORT", "R/R TIRE", "290.19", "0", "290.19" ]
+, [ "row-463w_s8qc~kbe4", "00000000-0000-0000-25B5-250D84A71B84", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14610", "B71798      ", "270", "29    ACCIDENT", "REPLACE BROKEN WINDSHIELDBINKS AUTO GLASSINVOICE 134$285.00", "285", "0", "285" ]
+, [ "row-ib8x_fg2k_9aku", "00000000-0000-0000-AA0B-6970FB723AE6", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-02T00:00:00", "14030", "902010", null, "08    PM SERVICE              ***", "FULL SERVICE", "277.05", "0", "277.05" ]
+, [ "row-rsv5.p3ui_pt4w", "00000000-0000-0000-2107-E1DCE4449FD5", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-16T00:00:00", "14658", "555359", "596", "13    SNOW BREAKDOWN", "REMOVE HYD LINES FOR SANDERHYD LEAK", "276.01", "0", "276.01" ]
+, [ "row-crvq_cpdc.n86m", "00000000-0000-0000-05EE-36B2B02E7F31", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14395", "1400", "227", "13    SNOW BREAKDOWN", "RIGHT REAR FLAT TIRE", "273.14999999999998", "0", "273.14999999999998" ]
+, [ "row-p48p_x6yq_yjk9", "00000000-0000-0000-8CF0-7751F322C815", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14224", "621922", "212", "13    SNOW BREAKDOWN", "HYD LEAK IN CAB", "262.19", "0", "262.19" ]
+, [ "row-eidm_c2gd.sbcv", "00000000-0000-0000-DAFC-9663DA3C1042", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14624", "621921", "214", "13    SNOW BREAKDOWN", "HTD LEAK SIDE DUMP", "256.12", "0", "256.12" ]
+, [ "row-qrw3-iwir_v33x", "00000000-0000-0000-2A2E-3F87F40AF8F8", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-30T00:00:00", "14381", "555359", "596", "13    SNOW BREAKDOWN", "HYD LEAK", "253.93", "0", "253.93" ]
+, [ "row-udd5_ea8y.piu8", "00000000-0000-0000-EE79-004DA11C4478", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14588", "525998", "217", "13    SNOW BREAKDOWN", "HYD LEAK AT PLOWSPINNER LIGHT", "253.72", "0", "253.72" ]
+, [ "row-pjqc~pych.afyf", "00000000-0000-0000-3DD4-751DFAF78E0A", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-16T00:00:00", "14670", "C36322      ", "415", "04    DRIVER'S REPORT", "STALLS AT IDLENO STRBESSIGNAL LENSE", "253.33", "0", "253.33" ]
+, [ "row-nf85.2ghf_xbzb", "00000000-0000-0000-7EB2-0BF289B273D6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-20T00:00:00", "14891", "B39110      ", "620", "13    SNOW BREAKDOWN", "REAR-END NOISE (DIFF NOISE)UNIT TOWD TO GABRIELLI FORD INTERSTATEBILLS TOWINGINVOICE 165098$250.00", "250", "0", "250" ]
+, [ "row-srnw.w3hn_rdv9", "00000000-0000-0000-569F-F622E4430C7F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14366", "110301", "607", "13    SNOW BREAKDOWN", "FLAT TIRE REAR", "250", "0", "250" ]
+, [ "row-dz72~g5ev_y4cf", "00000000-0000-0000-8A1F-90EA2DD42012", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-09T00:00:00", "14505", "L00343      ", "281", "04    DRIVER'S REPORT", "TOP LEFT CLAM PISTON PIN BROKEN.", "248.93", "0", "248.93" ]
+, [ "row-xvmi_sq6k_wtys", "00000000-0000-0000-8D28-F5EC6F380C09", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-30T00:00:00", "14835", "620915", "423", "10    ROADCALL", "WILL NOT START AT PARKS GARAGE.", "245.72", "0", "245.72" ]
+, [ "row-2nci-z7zt-4r3y", "00000000-0000-0000-75B1-ADED902D1DD6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14189", "273064", "166", "08    PM SERVICE              ***", "SERVICE,CHECK ENGINE LIGHT ONLIGHTSHORN DONT WORK", "241.33", "0", "241.33" ]
+, [ "row-wsmu-ihfz_abrz", "00000000-0000-0000-8533-C7ED1DCA078A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-17T00:00:00", "14433", "1400", "227", "10    ROADCALL", "LOST REAR TIRES ON ROCKRIMMING RD", "239.05", "0", "239.05" ]
+, [ "row-xhya~x9qb.nizx", "00000000-0000-0000-EBD3-43A74CFED87F", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-30T00:00:00", "14237", "Y14225      ", "482", "04    DRIVER'S REPORT", "needs blinker light,rear lens;mirror,fuse,connector", "233.59", "0", "233.59" ]
+, [ "row-gafz-f7a4~jyr2", "00000000-0000-0000-D8B6-B1B8F2C2E25C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14194", "621924", "210", "04    DRIVER'S REPORT", "HYD LEAK SIDE DUMP", "233.42", "0", "233.42" ]
+, [ "row-jq8a-defy~giy4", "00000000-0000-0000-A7BD-51A76DFEA5DC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14523", "1400", "227", "13    SNOW BREAKDOWN", "NO START", "231.86", "0", "231.86" ]
+, [ "row-mv6n-wgky-9d2n", "00000000-0000-0000-6CD3-CB603B724536", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14732", "337655", "234", "13    SNOW BREAKDOWN", "CHECK LIGHTS (NOTE LIGHTS FLICKERS)TOW FROM WEST BANK RDBILLS TOWING INVOICE 163453$200.00", "225.36", "0", "225.36" ]
+, [ "row-p6ik.m4r3-safp", "00000000-0000-0000-1CCA-3E82EEC9201A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14331", "1758", "123", "04    DRIVER'S REPORT", "CHECK REAR TIRESCHECK BACK LIGHTS", "223.81", "0", "223.81" ]
+, [ "row-hsz5~k6sr.4hb9", "00000000-0000-0000-27D6-7C407E6356BC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14583", "766153", "248", "13    SNOW BREAKDOWN", "HYD LEAKROAD CALL", "221.73", "0", "221.73" ]
+, [ "row-hqj2~p8s9-2893", "00000000-0000-0000-3C8B-B5A4F48A824C", 0, 1436899088, null, 1436899088, null, "{ }", "3101", "2015-03-16T00:00:00", "14787", "C30944      ", "3", "08    PM SERVICE              ***", "PM , SERVICE", "219.94", "0", "219.94" ]
+, [ "row-zc39.rx3u-kbxs", "00000000-0000-0000-7E01-A806DF6D85B9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14456", "B71796      ", "271", "04    DRIVER'S REPORT", "CHECK BELtTHYD END FOR PLOW", "219.47", "0", "219.47" ]
+, [ "row-ajx4.yuzk-8ass", "00000000-0000-0000-8F7A-C4B48AD837A4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14846", "B31275      ", "110", "04    DRIVER'S REPORT", "CHECK TRANSMISSION, & REAR-END", "219.27", "0", "219.27" ]
+, [ "row-29em~qzex~pnt7", "00000000-0000-0000-68FB-60C3A72AAB8D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14682", "68937", "144", "13    SNOW BREAKDOWN", "UNIT WILL NOT BUILD UP AIR PRESSURE", "209", "0", "209" ]
+, [ "row-uixj~nxs2~ffst", "00000000-0000-0000-24CE-765023A4C6C8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-28T00:00:00", "14391", "1227", "241", "04    DRIVER'S REPORT", "WHEEL WELL MLGD CRACKED", "206.53", "0", "206.53" ]
+, [ "row-jg9r_n8ax.scci", "00000000-0000-0000-C892-FED94D39681D", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14475", "27143", "369", "04    DRIVER'S REPORT", "NEEDS 2 WORK LIGHT", "206.3", "0", "206.3" ]
+, [ "row-pexs_r8pd_u8n3", "00000000-0000-0000-E20B-960807B66BF9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-20T00:00:00", "14614", "Y11538      ", "185", "01    BREAKDOWN            ***", "TOW TO BOBCAT IN STRATFORD UNIT WOULD NOT MOVE..TRANS PROBLEMNEWFIELD SERVICE TOWINGINVOIC E 43497$202.25", "202.25", "0", "202.25" ]
+, [ "row-fi6x-6xds-52ck", "00000000-0000-0000-51EC-D2C0C04AD88C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-16T00:00:00", "14274", "A19527      ", "613", "01    BREAKDOWN            ***", "TO UNIT TO GABRIELLI BILLS TOWINGUINVOICE 162222$200.00", "200", "0", "200" ]
+, [ "row-tte5_qqwe_2eyr", "00000000-0000-0000-9EEA-E09EFC2BDB90", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14408", "68935", "149", "13    SNOW BREAKDOWN", "NOT CHARGEINGADJUST CONVOYOR", "199.24", "0", "199.24" ]
+, [ "row-hexf_vdsb~9fme", "00000000-0000-0000-B4A0-9EA06592CD02", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14307", "X01917      ", "282", "10    ROADCALL", "HYD LEAK AT SCOFIELD YARD", "197.3", "0", "197.3" ]
+, [ "row-kxh2.4dmd-iek6", "00000000-0000-0000-BE33-3C33A8661330", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-30T00:00:00", "14554", "K02024      ", "381", "04    DRIVER'S REPORT", "CHECK LIGHTS", "195.35", "0", "195.35" ]
+, [ "row-sduw-fjp4_6kqq", "00000000-0000-0000-90E1-BAB29251184E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14365", "621910", "209", "13    SNOW BREAKDOWN", "DRIVER PUT TO MUCH OIL IN MOTOR", "190.88", "0", "190.88" ]
+, [ "row-2k8x-bbgz_vixi", "00000000-0000-0000-051B-B2ED1ED70168", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14257", "393534", "206", "04    DRIVER'S REPORT", "HYD LEAK ON BOOM", "187.17", "0", "187.17" ]
+, [ "row-25yg_re3i~ppi9", "00000000-0000-0000-B22B-2ECE77A13768", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14223", "1403", "226", "13    SNOW BREAKDOWN", "STROB LIGHTS NOT WORKINGHYD LEAK", "183.84", "0", "183.84" ]
+, [ "row-7vpv~e6h4_a5pq", "00000000-0000-0000-2B5A-69CDC2D4BED7", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14373", "555360", "115", "13    SNOW BREAKDOWN", "NOT CHARGING", "183.48", "0", "183.48" ]
+, [ "row-245u.cce3_ejev", "00000000-0000-0000-54AF-47FF53954A48", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-27T00:00:00", "14694", "B90933      ", "34", "13    SNOW BREAKDOWN", "CHECK NOISE IN L/FRONT WHEEL OR U-JOINTS", "182.42", "0", "182.42" ]
+, [ "row-ju4n~2naq~nvkp", "00000000-0000-0000-C9E4-ECF82DA0973B", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-03-16T00:00:00", "14785", "89717", "691", "08    PM SERVICE              ***", "WILL NOT START PM SERVICE", "181.75", "0", "181.75" ]
+, [ "row-9f4y.ex2e_7c9g", "00000000-0000-0000-A1FD-218CD5E89A86", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-06T00:00:00", "14133", "Y14264      ", "531", "08    PM SERVICE              ***", "CHECK HYDRA LEAK , & PM SERVICE", "180.53", "0", "180.53" ]
+, [ "row-edmt~pkhp-qakv", "00000000-0000-0000-CA33-60625D9022CA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14491", "A64221      ", "614", "04    DRIVER'S REPORT", "SERP BELT BROKE.", "175.55", "0", "175.55" ]
+, [ "row-wcj4~55bp~vfi2", "00000000-0000-0000-EB26-2A76B0986FB5", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-06T00:00:00", "14436", "D12433      ", "444", "13    SNOW BREAKDOWN", "R/R TIRE FLAT", "175", "0", "175" ]
+, [ "row-xf98~vmig.ejva", "00000000-0000-0000-62B1-A3D9B189A519", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14233", "1466", "124", "13    SNOW BREAKDOWN", "TOWED TRUCK FROM TURNER TO FLEET MAINTENANCEBILLS SERVICEINVOICE 131132$175.00", "175", "0", "175" ]
+, [ "row-588n_w2ww-uij7", "00000000-0000-0000-6526-D191DDF4BDE6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14122", "B34631      ", "277", "04    DRIVER'S REPORT", "NO SPINNER DISC", "175", "0", "175" ]
+, [ "row-7h9g~jark-4fyg", "00000000-0000-0000-E7A2-A263A9D777BF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14208", "B34632      ", "276", "04    DRIVER'S REPORT", "TRUCK WILL NOT START", "172.95", "0", "172.95" ]
+, [ "row-upf3_5wr7_r749", "00000000-0000-0000-CC2B-E897DC653B88", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14540", "O01469      ", "201", "04    DRIVER'S REPORT", "jim needs a 55 gal drum of def", "172", "0", "172" ]
+, [ "row-22my~5kmp_emzr", "00000000-0000-0000-5F14-7677CE65839A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14284", "O01469      ", "201", "04    DRIVER'S REPORT", "NEEDS DEF/JIMF", "172", "0", "172" ]
+, [ "row-3xa3.ivjk_3hxd", "00000000-0000-0000-FFA4-767783D20E6C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14718", "O01469      ", "201", "04    DRIVER'S REPORT", "NEEDS A DRUM OF DEF/JIMF", "172", "0", "172" ]
+, [ "row-83i6-i2jb_jq7k", "00000000-0000-0000-22B0-1F2A2AFAF359", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14743", "B71798      ", "270", "10    ROADCALL", "ROADCALL UNIT OVER HEAT (SCOFIELD YARD)", "170.84", "0", "170.84" ]
+, [ "row-nq39_rzxz.7tu9", "00000000-0000-0000-7C26-AE2ED4270210", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-27T00:00:00", "14903", "X01320      ", "380", "04    DRIVER'S REPORT", "JIM PICKED UP 2 BATTERIES ...#1050", "169.68", "0", "169.68" ]
+, [ "row-uyqu~nu83-bt7k", "00000000-0000-0000-E14E-2C41A8952810", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-06T00:00:00", "14488", "45476", "348", "04    DRIVER'S REPORT", "NEEDS BATTERIES/JIMF", "169.68", "0", "169.68" ]
+, [ "row-rbcn~9c36-mymv", "00000000-0000-0000-5FA8-DCB0C7BFDD5E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14409", "B34631      ", "277", "40    NEGLIGENCE", "SPINNER DISK MISSING", "168.51", "0", "168.51" ]
+, [ "row-qgya.x5b7_pbcn", "00000000-0000-0000-A205-C6A63EFB99D2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14148", "621910", "209", "40    NEGLIGENCE", "REPLACE QUARTER FENDERS , FIX FUEL TANK STEP , REPLACE STACK HEAT SHIELD.", "163.47", "0", "163.47" ]
+, [ "row-n6vt_rncj.7bgc", "00000000-0000-0000-DD06-2248079D30EF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-22T00:00:00", "14299", "P1276D      ", "151", "04    DRIVER'S REPORT", "GREASE FOR SWEEPER /PETE MARTEY", "155.99", "0", "155.99" ]
+, [ "row-cmxg_f5d6~s3at", "00000000-0000-0000-46F1-F1E0149839FE", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-01-14T00:00:00", "14192", "40857", "404", "10    ROADCALL", "DONT START AT GOVERMENT CENTERCHECK BATTERYSERVICE ?", "154.71", "0", "154.71" ]
+, [ "row-am77~qd7v-euyg", "00000000-0000-0000-AB67-057AA9310348", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-24T00:00:00", "14548", "C95216      ", "435", "10    ROADCALL", "ROAD CALL TO PARKS DEPTWILL NOT START", "153.46", "0", "153.46" ]
+, [ "row-8utw~s4zp~6akj", "00000000-0000-0000-D94F-B8E37DCF24D5", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-13T00:00:00", "14501", "27143", "369", "04    DRIVER'S REPORT", "CHECK PTO BUTTON  POPS OUT NO AIR TANK DRAIN CORDS", "152.22999999999999", "0", "152.22999999999999" ]
+, [ "row-5gzi~jy8e.n38v", "00000000-0000-0000-628D-87FE306A54CD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-17T00:00:00", "14562", "B34632      ", "276", "04    DRIVER'S REPORT", "ROAD  CALL TO HIGHWAYS NO STARTBROKEN SERP BELT", "151.87", "0", "151.87" ]
+, [ "row-v6yu~dtrj.vdeu", "00000000-0000-0000-6286-4F9D2BC086BB", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-05T00:00:00", "14467", "1364", "243", "13    SNOW BREAKDOWN", "CHECK  CAB AIR RIDECHECK RIGHT POWER MIRRORDAMAGE TO RIGHT SIDE MISSING TOOL BOX", "151.32", "0", "151.32" ]
+, [ "row-c5r3~tk2x_gz4k", "00000000-0000-0000-E866-E7B200F30560", 0, 1436899088, null, 1436899088, null, "{ }", "2200", "2015-02-10T00:00:00", "14484", "212572", "39", "10    ROADCALL", "ROAD CALL TO GOVERMENT CENTER NO START", "151.22999999999999", "0", "151.22999999999999" ]
+, [ "row-rxd8-rxsf-bvg6", "00000000-0000-0000-044D-4D334D13B66B", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-02T00:00:00", "14150", "658295", null, "08    PM SERVICE              ***", "PM, SERVICE / NEED STROBE LIGHTS", "150.08000000000001", "0", "150.08000000000001" ]
+, [ "row-4p52~e2nd-555u", "00000000-0000-0000-7F7E-DC4B5FB16AA5", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-14T00:00:00", "14211", "C95216      ", "435", "08    PM SERVICE              ***", "SERVICEWIPER BLADES", "148.71", "0", "148.71" ]
+, [ "row-nstr-u8n6_wsyj", "00000000-0000-0000-23C9-5AFE37FB4015", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-01-20T00:00:00", "14272", "D59888      ", "693", "08    PM SERVICE              ***", "SERVICEBATTERY", "143.69", "0", "143.69" ]
+, [ "row-tndy_ukq4-msx9", "00000000-0000-0000-4870-09CD660CE21F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14222", "D-1920      ", "164", "13    SNOW BREAKDOWN", "CHECK ALL LIGHTSCHECK HORNWASHERS", "142.55000000000001", "0", "142.55000000000001" ]
+, [ "row-2rtq~gk8q.wmde", "00000000-0000-0000-D3F6-2FD3FDDADFAE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14131", "B34629      ", "167", "04    DRIVER'S REPORT", "INSTALL SPINNER ASSY", "140", "0", "140" ]
+, [ "row-bbmi~fx8s~v5ue", "00000000-0000-0000-8DC6-16ADD3109F14", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-05T00:00:00", "14159", "145595", "60", "08    PM SERVICE              ***", "CHECK BATTERYPM SERVICE", "137.43", "0", "137.43" ]
+, [ "row-4sei.ixq6_hvjx", "00000000-0000-0000-5361-832B4F83EA43", 0, 1436899088, null, 1436899088, null, "{ }", "2116", "2015-01-02T00:00:00", "13680", "82039", "261", "04    DRIVER'S REPORT", "HYD OIL LEAK AT VAC MOTOR.", "134.84", "0", "134.84" ]
+, [ "row-brsh-r8x7_znym", "00000000-0000-0000-7BFD-0BDFE15F7CA6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14361", "555360", "115", "13    SNOW BREAKDOWN", "PUT SPINNER ON", "129.66", "0", "129.66" ]
+, [ "row-7kz6.rhsm_25ne", "00000000-0000-0000-5DF5-A38963322F4E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14328", "1227", "241", "04    DRIVER'S REPORT", "SPINNER LIGHTADJ CONVOYOR", "128.15", "0", "128.15" ]
+, [ "row-ptmp-4b49-yihu", "00000000-0000-0000-12BC-9047544535A4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-03T00:00:00", "14446", "621922", "212", "04    DRIVER'S REPORT", "SPINNER LIGHT", "128.15", "0", "128.15" ]
+, [ "row-qij4~evx3-sp39", "00000000-0000-0000-AC0B-69C9F1B51B5C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14338", "1628", "236", "13    SNOW BREAKDOWN", "CHECK BACK LIGHTS", "125.68", "0", "125.68" ]
+, [ "row-desy-ijuc~7xt2", "00000000-0000-0000-D78F-284449078F6C", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-30T00:00:00", "14549", "27143", "369", "04    DRIVER'S REPORT", "PTO BUTTON STILL POPS OUT COLDSMELLS EXHAUST IN CAB", "124.82", "0", "124.82" ]
+, [ "row-awv9-u2wb~8yrt", "00000000-0000-0000-FC94-DFE049E7410C", 0, 1436899088, null, 1436899088, null, "{ }", "2137", "2015-02-24T00:00:00", "14527", "579107", "16", "04    DRIVER'S REPORT", "PM SERVICE", "123.52", "0", "123.52" ]
+, [ "row-jmkh~wwv7.i46k", "00000000-0000-0000-77F3-68EA74D74A22", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-14T00:00:00", "14204", "172326", "521", "40    NEGLIGENCE", "sunvisor broke/taken by rob o", "119.6", "0", "119.6" ]
+, [ "row-stih-3m7m.7bzd", "00000000-0000-0000-FA5D-A6C608F5A646", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-14T00:00:00", "14210", "D00249      ", "506", "04    DRIVER'S REPORT", "ENGINE LIGHT ON ENGINE MISSFIRE", "119.44", "0", "119.44" ]
+, [ "row-wnsb~hpcb~9zsh", "00000000-0000-0000-2768-E11195523FF4", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-16T00:00:00", "14782", "Y14264      ", "531", "04    DRIVER'S REPORT", "NEEDS WORKLITE BULB/AND PLUG/ROB", "116.73", "0", "116.73" ]
+, [ "row-2kve-nq6d~sz9j", "00000000-0000-0000-0C24-A0B1E4FA87E9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14360", "1629", "235", "13    SNOW BREAKDOWN", "CONVOYOR STAYS ON", "115.03", "0", "115.03" ]
+, [ "row-6uyw.7772~4k7i", "00000000-0000-0000-314A-6867CAA520AC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14633", "766153", "248", "13    SNOW BREAKDOWN", "PLOW CABLE BROKEN", "110", "0", "110" ]
+, [ "row-3av9-rb99.ys3q", "00000000-0000-0000-DC04-C98870236522", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14216", "1402", "228", "04    DRIVER'S REPORT", "COOLANT LEAK SPINNER LIGHT OUTWIPER BLADES,WASHER HOSE BROKENCHECK BRAKE PEDDLE", "109.4", "0", "109.4" ]
+, [ "row-zg5z.q9x4.ig4n", "00000000-0000-0000-8FC1-B479EA5BFE41", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-30T00:00:00", "14303", "512810", "50", "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)", "INSERVICE", "108.59", "0", "108.59" ]
+, [ "row-stjf~w5ea~ij86", "00000000-0000-0000-60E9-A16018407808", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-24T00:00:00", "14913", "50551", "361", "04    DRIVER'S REPORT", "DEF CAP FROM SANITARY", "105", "0", "105" ]
+, [ "row-pwxw-hseg.9uz7", "00000000-0000-0000-E593-A6078C695174", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-06T00:00:00", "14162", "50552", "359", "04    DRIVER'S REPORT", "RT SIDE BLINKER OUT HARD STARTINGRT WINDSHIELD BROKEN", "104.7", "0", "104.7" ]
+, [ "row-cnkz.qqia~d5xe", "00000000-0000-0000-B89B-80846E4613BB", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-26T00:00:00", "14871", "B00195      ", "646", "04    DRIVER'S REPORT", "PM,SERVICE,CHECK NOISE IN SUSPENSION, & TIRE PRESSURE LIGHT", "103.84", "0", "103.84" ]
+, [ "row-57i2.dv7x.m7mw", "00000000-0000-0000-A4C5-5071C0604121", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14534", "525670", "232", "13    SNOW BREAKDOWN", "SPINNER LIGHT", "103.15", "0", "103.15" ]
+, [ "row-k59m-k9yi.j7q9", "00000000-0000-0000-7A0B-FEFC2C6B287A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14539", "621909", "213", "04    DRIVER'S REPORT", "needs sander spot light /shaky", "103.15", "0", "103.15" ]
+, [ "row-4h4n~a9uq.ev2d", "00000000-0000-0000-68CC-414DD7A726A4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-21T00:00:00", "14292", "B34630      ", "168", "01    BREAKDOWN            ***", "BREAKDOWN ON NEWFIELD AVE.O'NEILLS TOWED UNIT BACK TO VEHICLE MAINTENANCE", "100", "0", "100" ]
+, [ "row-7nd3-7viv_p86z", "00000000-0000-0000-38F3-91FC9913A241", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-18T00:00:00", "14603", "4830", "354", "29    ACCIDENT", "UNIT WAS TOWED FROM COURTLAND AVE TO VEHICLE MAINTENANCEUNIT WAS INVOLVED IN AN ACCIDENTEAST COAST TOWINGINVOICE #14519$100.00", "100", "0", "100" ]
+, [ "row-tyu9~4awh_5me8", "00000000-0000-0000-7A26-901B74F18B61", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14321", "68934", "146", "13    SNOW BREAKDOWN", "HYDRA LEAK", "99.5", "0", "99.5" ]
+, [ "row-ygy4_b3zx-swb8", "00000000-0000-0000-69CC-473D775DA802", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14219", "B39110      ", "620", "13    SNOW BREAKDOWN", "SIDE DUMP HYD HOSE BLOWN", "98.08", "0", "98.08" ]
+, [ "row-dzaj~8eff.8teh", "00000000-0000-0000-D120-3EC184D32553", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-27T00:00:00", "14378", "B39110      ", "620", "13    SNOW BREAKDOWN", "RIGHT PLOW LIGHT BROKEN", "97.69", "0", "97.69" ]
+, [ "row-39sy.4c3i-gce9", "00000000-0000-0000-4713-2BDD9189ED3D", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-20T00:00:00", "14259", "16172", "499", "04    DRIVER'S REPORT", "FLAT TIRE RIGHT SIDE", "95", "0", "95" ]
+, [ "row-whnm.hi9z~wqd6", "00000000-0000-0000-1CFF-26BB3502A6C9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-28T00:00:00", "14311", "D-1920      ", "164", "10    ROADCALL", "DONT STARTCHECK LEAK ON BROOM MOTOR", "93.86", "0", "93.86" ]
+, [ "row-jr5z~7ct4_r6hn", "00000000-0000-0000-0671-B67FDAF94F22", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14712", "B39109      ", "178", "13    SNOW BREAKDOWN", "CHECK BROKEN PLOW LIGHT, L/FRONT FLAT TIRE, ALSO NEED WASHER FLUID  INSTALL PLOW LITE", "90.61", "0", "90.61" ]
+, [ "row-8vjf.jfpn.k3xd", "00000000-0000-0000-4F81-AC0BE1C0834A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14623", "1222", "118", "13    SNOW BREAKDOWN", "LOW COOLANT", "89.18", "0", "89.18" ]
+, [ "row-ck9p-z268~jkzh", "00000000-0000-0000-3DE7-5D813838DAC2", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14278", "5694", "368", "04    DRIVER'S REPORT", "HYD LEAK [FORKS]", "88.68", "0", "88.68" ]
+, [ "row-h3pw_5maa.m8js", "00000000-0000-0000-5A60-5200057A5C72", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-07T00:00:00", "14178", "228151", "378", "08    PM SERVICE              ***", "SERVICE", "88.18", "0", "88.18" ]
+, [ "row-28zf~8eck.rmmn", "00000000-0000-0000-0691-0326A1682D97", 0, 1436899088, null, 1436899088, null, "{ }", "2137", "2015-03-02T00:00:00", "14604", "579119", "24", "08    PM SERVICE              ***", "PM SERVICECHECK BRAKESREPLACE WIPERS", "86.91", "0", "86.91" ]
+, [ "row-xy79~aqb2.i9eq", "00000000-0000-0000-EA63-82E669AC4A0B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14340", "1403", "226", "13    SNOW BREAKDOWN", "TRUCK IS NOT RUNNING RIGHT.", "82.09", "0", "82.09" ]
+, [ "row-zxmb-3hyk-3k8s", "00000000-0000-0000-418E-3D9073718098", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14280", "48877", "373", "10    ROADCALL", "ROAD CALL TO TRANSFER STATIONHYD LEAK", "81.91", "0", "81.91" ]
+, [ "row-jv2s-n4qs_z3uh", "00000000-0000-0000-6984-49E1106DA0D8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14370", "68932", "147", "13    SNOW BREAKDOWN", "PLOW GUIDES", "81.48", "0", "81.48" ]
+, [ "row-qxbn_w2re-7gy6", "00000000-0000-0000-8AF4-8EC7D6C0C04F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14464", "1364", "243", "04    DRIVER'S REPORT", "CAB AIR RIDE INOPRIGHT SIDE POWER MIRROR INOP", "81.319999999999993", "0", "81.319999999999993" ]
+, [ "row-4phq~27e2.9fnz", "00000000-0000-0000-3392-A78A05ACCF00", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-30T00:00:00", "14330", "103885", "647", "04    DRIVER'S REPORT", "PUT ON TIRE CHANIS", "80.849999999999994", "0", "80.849999999999994" ]
+, [ "row-68ns~qafi_ptna", "00000000-0000-0000-65CF-638C5D9591AF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14350", "1402", "228", "13    SNOW BREAKDOWN", "ANTI FREEZE SMELLGAS TANK STRAP", "80", "0", "80" ]
+, [ "row-x78e.gn4i.n7ia", "00000000-0000-0000-9484-72F11906E3A3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14616", "393534", "206", "10    ROADCALL", "ROAD CALL TO HIGHWAYNO START", "79.930000000000007", "0", "79.930000000000007" ]
+, [ "row-yy5i~bga2.dnrn", "00000000-0000-0000-A8D7-15FB949ABDB2", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-03-16T00:00:00", "14584", "176729", "408", "13    SNOW BREAKDOWN", "HYD LEAK", "76.06", "0", "76.06" ]
+, [ "row-y25f-5adc_qq53", "00000000-0000-0000-D6C2-6B575BFB1679", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-01-02T00:00:00", "14016", "195676", "674", "04    DRIVER'S REPORT", "CHECK CHARGING SYSTEM", "74.709999999999994", "0", "74.709999999999994" ]
+, [ "row-mffc.un3x-5xsb", "00000000-0000-0000-EB35-F41383A5F1AF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14566", "525999", "114", "13    SNOW BREAKDOWN", "HYD LEAK", "73.66", "0", "73.66" ]
+, [ "row-f2ik.c9zu-ksam", "00000000-0000-0000-735B-412EFD02A71F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14358", "1628", "236", "13    SNOW BREAKDOWN", "WIPER BLADESREV LIGHTSSPRING FOR COVOYOR ADJUSTER", "71.319999999999993", "0", "71.319999999999993" ]
+, [ "row-rrjz-g4c9_p4kc", "00000000-0000-0000-E10F-F3FFF374CDA3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-17T00:00:00", "14587", "337655", "234", "40    NEGLIGENCE", "RIGHT SIDE FRONT HUB CAPRIGHT SIDE MIRROR BRACKET", "71", "0", "71" ]
+, [ "row-86h7~ijfk~vxwb", "00000000-0000-0000-43CD-B227BEA915FF", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-13T00:00:00", "14036", "50903", "353", "04    DRIVER'S REPORT", "UPPER LEFT HYDRA HOSE ON BLADE LEAKING", "69.75", "0", "69.75" ]
+, [ "row-6dr5_7bqt-vpkv", "00000000-0000-0000-31E4-2A75AF3E5A40", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14275", "50903", "353", "04    DRIVER'S REPORT", "HYD LEAK IN HOPPER", "69.2", "0", "69.2" ]
+, [ "row-kxxs~cczm-ds7h", "00000000-0000-0000-96BE-DB0BD4D7E00E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-09T00:00:00", "14218", "5694", "368", "04    DRIVER'S REPORT", "4 QTS MOTOR OIL1 GAL COOLANTGREASESHOP SUPPLYS", "67.040000000000006", "0", "67.040000000000006" ]
+, [ "row-wmhw_c3jv~ukxq", "00000000-0000-0000-CBA7-E31589D100B9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14591", "265908", "274", "10    ROADCALL", "ROAD CALL TO HIGHWAY DEPTNO STARTCHECK ENG LIGHT ON", "67.02", "0", "67.02" ]
+, [ "row-ezqz.7ew9.u9i9", "00000000-0000-0000-35AB-20773DBEE446", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14533", "313183", "10", "04    DRIVER'S REPORT", "PM SERVICESCHECK TIRES FOR LEAKSCHECK PLOWBATTERY", "66.83", "0", "66.83" ]
+, [ "row-cvfk-qdem.puqu", "00000000-0000-0000-C54C-6E58781FE332", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14364", "1758", "123", "13    SNOW BREAKDOWN", "WIPER BLADESCONVOYOR DOOR REPAIR", "65.94", "0", "65.94" ]
+, [ "row-64pu_dkw9-c92e", "00000000-0000-0000-66C5-5E5542A5E772", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-02T00:00:00", "14651", "27143", "369", "04    DRIVER'S REPORT", "CHECK BRAKES", "65.64", "0", "65.64" ]
+, [ "row-6w3v_qb52~qjkp", "00000000-0000-0000-7DFD-8CDCA6C55DCC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-23T00:00:00", "14648", "525672", "231", "04    DRIVER'S REPORT", "NEEDS FLOORMATTS/DAVE P", "65.069999999999993", "0", "65.069999999999993" ]
+, [ "row-njcs~cjc4_ffsp", "00000000-0000-0000-4E76-12BDD6446274", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-07T00:00:00", "14190", "337656", "219", "04    DRIVER'S REPORT", "NEEDS FLOOR MATTS", "65.069999999999993", "0", "65.069999999999993" ]
+, [ "row-48h2_fx47.x6xy", "00000000-0000-0000-3049-40319B0F4431", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-14T00:00:00", "14179", "166478", "68", "04    DRIVER'S REPORT", "WILL NOT START", "64.75", "0", "64.75" ]
+, [ "row-75fa_4xcz_fm5a", "00000000-0000-0000-1790-ABC4C4724DB1", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14442", "555360", "115", "13    SNOW BREAKDOWN", "TRANS NOT SHIFTING", "64.25", "0", "64.25" ]
+, [ "row-3vd2-dd7w-5hev", "00000000-0000-0000-348E-46F3A8A9E70F", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-16T00:00:00", "14803", "323009", "384", "04    DRIVER'S REPORT", "NEEDS WIPER BLADE NEEDS AIR HOSE/JIM F", "61.33", "0", "61.33" ]
+, [ "row-i43v~tzms_nhfr", "00000000-0000-0000-F51D-E37CF7D17FA1", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14471", "1758", "123", "13    SNOW BREAKDOWN", "NO REV LIGHT OR BEEPERNO POWERADJUST CONVEYORCHECK LIGHTS ON DASH", "61", "0", "61" ]
+, [ "row-k4jm~wa64_k59q", "00000000-0000-0000-DAE9-60C7E62EC62A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-24T00:00:00", "14608", "27571", "366", "04    DRIVER'S REPORT", "DRIVERS WINDOW WILL NOT ROLL UP", "59.3", "0", "59.3" ]
+, [ "row-9vst~djvj.7dz4", "00000000-0000-0000-3047-86FF4C3B4B2E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-23T00:00:00", "14895", "621907", "208", "40    NEGLIGENCE", "CHECK PASSENGER SIDE MIRROR BRACKET", "58.53", "0", "58.53" ]
+, [ "row-ebsp~zg92.83az", "00000000-0000-0000-E922-ACE18F5D8CDE", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-02-25T00:00:00", "14429", "311542", "11", "13    SNOW BREAKDOWN", "PLOW DONT GO DOWN", "57.1", "0", "57.1" ]
+, [ "row-bkbv-7azi-sq5x", "00000000-0000-0000-8CD9-407B730145DD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-23T00:00:00", "14309", "555361", "249", "04    DRIVER'S REPORT", "NEEDS HYD HOSE", "56.83", "0", "56.83" ]
+, [ "row-vmcv.bid8-pyta", "00000000-0000-0000-DB14-AAAD8B2CB7C6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14615", "1243", "116", "04    DRIVER'S REPORT", "COOLANT LEAK", "56.3", "0", "56.3" ]
+, [ "row-qhun.ie4v~zqgg", "00000000-0000-0000-D040-784FBF3D960A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-14T00:00:00", "14202", "50760", "362", "04    DRIVER'S REPORT", "needs fuel filters /picked up by rob lotts", "54.69", "0", "54.69" ]
+, [ "row-n8jv_ghj5_6stg", "00000000-0000-0000-897C-C959828AD648", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-15T00:00:00", "14256", "621907", "208", "04    DRIVER'S REPORT", "CHECK FOR OIL OR TRANS LEAKSPINNER LIGHTADJ CONVOYOR CHAINPLOW LIGHTS NOT WORKING", "52.32", "0", "52.32" ]
+, [ "row-aedw.yi2f~bmby", "00000000-0000-0000-788E-58D42FDC8AA1", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-29T00:00:00", "14398", "50551", "361", "04    DRIVER'S REPORT", "NEEDS HEADLAMP SWITCH", "52.24", "0", "52.24" ]
+, [ "row-hsi8~588v~6t49", "00000000-0000-0000-A6FA-36CB3D813677", 0, 1436899088, null, 1436899088, null, "{ }", "2600", "2015-01-06T00:00:00", "14170", "B00189      ", "1", "08    PM SERVICE              ***", "COMPLETE PM SERVICE, LOOK FOR CODES", "50.13", "0", "50.13" ]
+, [ "row-mphd~my9k.iwem", "00000000-0000-0000-A6EE-9AA4ED7CD992", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14157", "621909", "213", "40    NEGLIGENCE", "TARP VALVE STICKINGRIGHT SIDE MIRROR BRACKET BROKEN", "50.02", "0", "50.02" ]
+, [ "row-i87w.3mdi~2277", "00000000-0000-0000-F5B0-8D3205FD557D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-10T00:00:00", "14490", "1467", "121", "13    SNOW BREAKDOWN", "PLOW CABLE BROKEN", "50", "0", "50" ]
+, [ "row-3pui-8awp~2cs5", "00000000-0000-0000-5EB8-BB225B32DA59", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "13999", "B39109      ", "178", "01    BREAKDOWN            ***", "CHECK PTO PUMP", "49.33", "0", "49.33" ]
+, [ "row-6inw.nxnm.ym9t", "00000000-0000-0000-F946-81C0C338A800", 0, 1436899088, null, 1436899088, null, "{ }", "2137", "2015-01-21T00:00:00", "14290", "579137", "25", "08    PM SERVICE              ***", "PM SERVICE", "48.2", "0", "48.2" ]
+, [ "row-8yhd.j79b~f2jd", "00000000-0000-0000-9A78-350D9D8AD308", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14816", "259441", "275", "04    DRIVER'S REPORT", "MISSING KEYS/JOSE", "47.72", "0", "47.72" ]
+, [ "row-75za~faik_mai7", "00000000-0000-0000-2345-F52AD069B8E9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14294", "68932", "147", "04    DRIVER'S REPORT", "NO STARTNO PTO", "47.12", "0", "47.12" ]
+, [ "row-58vj~e4f8_yc5f", "00000000-0000-0000-AED2-06679F4F9641", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14255", "D14803      ", "611", "04    DRIVER'S REPORT", "CHECK OILHOOD DONT CLOSE", "46.02", "0", "46.02" ]
+, [ "row-ab76~jbzb~gzsr", "00000000-0000-0000-6A04-61E418E9249E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14356", "B34632      ", "276", "13    SNOW BREAKDOWN", "PLOW LIGHTS", "45.76", "0", "45.76" ]
+, [ "row-hm8a_5q98~yyh2", "00000000-0000-0000-8414-188AEAD02407", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14504", "621924", "210", "40    NEGLIGENCE", "RIGHT FRONT HUB MISSINGRIGHT LOWER MIRROR BRACKET BROKEN", "45.53", "0", "45.53" ]
+, [ "row-297w-74nk_z9hp", "00000000-0000-0000-9D81-B21EBE21CC6F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-02T00:00:00", "14006", "1243", "116", "04    DRIVER'S REPORT", "NEED 4 PLOW PINS", "45", "0", "45" ]
+, [ "row-bk8g~79sf.kzjp", "00000000-0000-0000-7C61-C2D1D04ADB77", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-13T00:00:00", "14544", "K02024      ", "381", "04    DRIVER'S REPORT", "OIL AND GREASE", "44.78", "0", "44.78" ]
+, [ "row-nga9~66m5_349b", "00000000-0000-0000-55AB-1DC94EDE8034", 0, 1436899088, null, 1436899088, null, "{ }", "2137", "2015-01-28T00:00:00", "14306", "579118", "17", "08    PM SERVICE              ***", "SERVICE WIPER BLADES", "43.83", "0", "43.83" ]
+, [ "row-yspv.d8zc.ry4r", "00000000-0000-0000-5DCA-248C154374B6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-11T00:00:00", "14519", "68933", "148", "13    SNOW BREAKDOWN", "PLOW GUIDESTAIL GATE WONT SHUTNO PTO PUMP", "43.23", "0", "43.23" ]
+, [ "row-qruq~ud8s~9nn9", "00000000-0000-0000-4118-B0F21A38D20C", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-06T00:00:00", "14714", "512810", "50", "04    DRIVER'S REPORT", "NEEDS PLOW GUIDESHUB CAP MISSING", "42.63", "0", "42.63" ]
+, [ "row-f8qx.n9r6~ct67", "00000000-0000-0000-4380-AC61D05217B8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14352", "1759", "131", "13    SNOW BREAKDOWN", "CONVOYOR CHAIN LOOSEPLOW LIGHTS", "41.79", "0", "41.79" ]
+, [ "row-kv8f~zw98_ya4h", "00000000-0000-0000-B16B-F9640A2A4967", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-21T00:00:00", "14262", "45477", "347", "04    DRIVER'S REPORT", "CHECK OIL AND ANTI FREZZELEFT MIRROR BROKEN", "40.64", "0", "40.64" ]
+, [ "row-kik8-brxc~6r68", "00000000-0000-0000-DC65-06BEC7FC8783", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-15T00:00:00", "14229", "1226", "117", "04    DRIVER'S REPORT", "NO TAIL LIGHTS", "40", "0", "40" ]
+, [ "row-fupb.vehr.kxin", "00000000-0000-0000-C456-D993E9472E87", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14710", "525671", "233", "13    SNOW BREAKDOWN", "RIGHT SIDE MIRROR BRACKET BASE BROKEN (NEGLIGENCE)", "39.99", "0", "39.99" ]
+, [ "row-4sgh.y65t~sfkf", "00000000-0000-0000-BB34-A32E8CC9EDBB", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14239", "621924", "210", "40    NEGLIGENCE", "MIRROR BRACKET LEFT SIDE", "39.56", "0", "39.56" ]
+, [ "row-ev7i~4nkk-gg5x", "00000000-0000-0000-7E9B-9FAED0C9A2C2", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-02T00:00:00", "14669", "166479", "67", "04    DRIVER'S REPORT", "NO BLOWER FAN ON LOW NOISE IN FRONT END", "39.090000000000003", "0", "39.090000000000003" ]
+, [ "row-kaaf.fs7d.8fdd", "00000000-0000-0000-4259-9609C84C66E7", 0, 1436899088, null, 1436899088, null, "{ }", "1020", "2015-01-14T00:00:00", "14232", "230973", "13", "08    PM SERVICE              ***", "SERVICEROB,EXT,5604", "38.869999999999997", "0", "38.869999999999997" ]
+, [ "row-jutz_u6kj.djdb", "00000000-0000-0000-E3D5-140819814D87", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14354", "621924", "210", "40    NEGLIGENCE", "MIRROR BRAKET", "38.53", "0", "38.53" ]
+, [ "row-59jh-955t.x6rq", "00000000-0000-0000-D002-A2BB0537A6EE", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-03-16T00:00:00", "14675", "205443", "670", "08    PM SERVICE              ***", "ROAD CALL TO GOVERMENT CENTER NO STARTPM SERVICE", "36.53", "0", "36.53" ]
+, [ "row-jdpd.pki8.d4ih", "00000000-0000-0000-E95B-4B99F1536BD3", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-02T00:00:00", "14304", "512606", "51", "07    IN SERVICE (PREP NEW VEHICLE OR EQUIP)", "INSERVICE", "36.18", "0", "36.18" ]
+, [ "row-vzhz~vdi6-zg22", "00000000-0000-0000-378F-B071B48E92E5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14650", "1467", "121", "13    SNOW BREAKDOWN", "HYD LEAK AT PLOW", "35.5", "0", "35.5" ]
+, [ "row-3rev~4g46~gtgh", "00000000-0000-0000-FBE2-3B57431D6CD8", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-15T00:00:00", "14265", "718765", "337", "04    DRIVER'S REPORT", "GREASE/MIKE", "35", "0", "35" ]
+, [ "row-kyp4~hh69.8dyz", "00000000-0000-0000-9CB0-0EE4D3ACDAE0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14687", "1366", "242", "13    SNOW BREAKDOWN", "ADJUST CONVEYOR CHAIN", "35", "0", "35" ]
+, [ "row-rk5n.i6cb~c533", "00000000-0000-0000-C97D-89E496879803", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14761", "172539", "105", "13    SNOW BREAKDOWN", "CHECK PLOW BLADE BOLTS NEEDED/ NO POWER", "34.82", "0", "34.82" ]
+, [ "row-u6rr~3gpx_fems", "00000000-0000-0000-3FA5-505916FB45B2", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-27T00:00:00", "14934", "30519", "388", "04    DRIVER'S REPORT", "NEEDS D/S SEAT CUSHION/JIM", "31.85", "0", "31.85" ]
+, [ "row-fx5a_qqy4_i6t9", "00000000-0000-0000-7B6C-1F70DE863A8A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-27T00:00:00", "14559", "49328", "358", "04    DRIVER'S REPORT", "HEAD LIGHT", "30.96", "0", "30.96" ]
+, [ "row-m7rd.7jww~6bzy", "00000000-0000-0000-C118-1C69F15A9F5E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14430", "1222", "118", "13    SNOW BREAKDOWN", "SPINNER LIGHT OUTCONTROLS LOOSE", "30.77", "0", "30.77" ]
+, [ "row-f9ek~t6ut-eh9a", "00000000-0000-0000-E618-A550655A7217", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14629", "Y11540      ", "186", "13    SNOW BREAKDOWN", "ROAD CALL TO 6TH AND SUMMER WILL NOT MOVE", "30", "0", "30" ]
+, [ "row-ksie.242m_in4j", "00000000-0000-0000-64E6-D1C561211BDA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-23T00:00:00", "14897", "621924", "210", "04    DRIVER'S REPORT", "CHECK PASSENGER SIDE MIRROR BRACKET", "29.99", "0", "29.99" ]
+, [ "row-2zy4_pk8d-a96m", "00000000-0000-0000-D58A-0E54B9235A68", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-03-27T00:00:00", "14872", "40857", "404", "04    DRIVER'S REPORT", "WILL NOT START ,PM SERVICE", "29.59", "0", "29.59" ]
+, [ "row-tw89~x8wi_d4cz", "00000000-0000-0000-66EA-B6641894E3A0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-07T00:00:00", "14199", "52565", "626", "04    DRIVER'S REPORT", "WASHER FLUIDDEF", "28.88", "0", "28.88" ]
+, [ "row-2syf_7d98~aixg", "00000000-0000-0000-FBBE-566F4AAE250C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14158", "337655", "234", "04    DRIVER'S REPORT", "PLOW LIGHTS DONT WORKRIGHT HEAD LIGHT OUT", "28.76", "0", "28.76" ]
+, [ "row-tmky-wb8i_js24", "00000000-0000-0000-6363-D1961B49AABF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14451", "1222", "118", "13    SNOW BREAKDOWN", "CONTROL LEVER", "28.72", "0", "28.72" ]
+, [ "row-9f67~ip6c_irwr", "00000000-0000-0000-6AFF-F38D8F31A06B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14297", "B34630      ", "168", "01    BREAKDOWN            ***", "TOWED IN STALLS WHILE DRIVING", "28.33", "0", "28.33" ]
+, [ "row-r9xd_f4kv-jy9j", "00000000-0000-0000-BC7E-2EC487679A4F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14410", "1758", "123", "13    SNOW BREAKDOWN", "MARKER LIGHTS MISSINGWIPER BLADESAIR HORN BRAKET MUD FLAP", "27.83", "0", "27.83" ]
+, [ "row-d7vk~tncw_jbbv", "00000000-0000-0000-1D31-7B578929B516", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14380", "1365", "244", "13    SNOW BREAKDOWN", "ROAD CALL TO HUNTING RIDGE RD, LIGHT ON IN DASH", "27", "0", "27" ]
+, [ "row-h2fd_3cga_68kr", "00000000-0000-0000-9577-B61FB903342A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-25T00:00:00", "14664", "50551", "361", "40    NEGLIGENCE", "NEEDS DEF CAP/JIM F", "26.49", "0", "26.49" ]
+, [ "row-fbx2-fy4z_3zq3", "00000000-0000-0000-1457-0BC1264404C2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14755", "1226", "117", "13    SNOW BREAKDOWN", "CHECK ANTIFREEZE & LEFT PLOW LIGHT HIGH BEAM", "26.21", "0", "26.21" ]
+, [ "row-w9pu.dw8r-sv69", "00000000-0000-0000-B43D-940F12B46A3A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14279", "49616", "351", "10    ROADCALL", "ROAD CALL TO LONG RIDGE RD", "25.68", "0", "25.68" ]
+, [ "row-pcbg-wtue.3mp8", "00000000-0000-0000-C498-2418B664558C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14693", "525999", "114", "13    SNOW BREAKDOWN", "HYDRA LEAK", "25.36", "0", "25.36" ]
+, [ "row-cr2i.ayc9.ja8k", "00000000-0000-0000-8318-F9E410347A16", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14766", "B34632      ", "276", "04    DRIVER'S REPORT", "NEW PLOW GUIDE POLLS", "25.34", "0", "25.34" ]
+, [ "row-jx2r-krzm-wv97", "00000000-0000-0000-4D1B-1C892FEACE94", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14269", "B71797      ", "272", "04    DRIVER'S REPORT", "STROBE LIGHTS INOP CHECK REV LIGHTS", "25.16", "0", "25.16" ]
+, [ "row-xfr2_im6h~txvs", "00000000-0000-0000-2F26-EF843E063AA9", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-30T00:00:00", "14382", "45477", "347", "13    SNOW BREAKDOWN", "PLOW BLADE BOLTS", "25", "0", "25" ]
+, [ "row-5ih9.ns5m_2xf6", "00000000-0000-0000-6792-BE3A8173A41E", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-10T00:00:00", "14462", "D12433      ", "444", "13    SNOW BREAKDOWN", "PLOW BOLTS MISSING", "25", "0", "25" ]
+, [ "row-qrpz-eq6v.d6j5", "00000000-0000-0000-FDC8-F28D9DB350A9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14347", "B20087      ", "619", "13    SNOW BREAKDOWN", "PLOW BLADE BOLTS MISSING", "25", "0", "25" ]
+, [ "row-75p8.34rh-irfh", "00000000-0000-0000-E28B-22B9EFDB3E6D", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-24T00:00:00", "14636", "B90933      ", "34", "13    SNOW BREAKDOWN", "REBOLT PLOW BLADE", "25", "0", "25" ]
+, [ "row-ikaz.zbww-jung", "00000000-0000-0000-DA49-3E73853DA7BD", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-27T00:00:00", "14348", "B90933      ", "34", "13    SNOW BREAKDOWN", "PLOW BLADE BOLTS", "25", "0", "25" ]
+, [ "row-mvjw.t6af.89zy", "00000000-0000-0000-F96D-EA589C32E872", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-25T00:00:00", "14912", "B90933      ", "34", "04    DRIVER'S REPORT", "CHECK DUMP BODY", "25", "0", "25" ]
+, [ "row-9yq8~yiep-bx7a", "00000000-0000-0000-7199-468F5080C679", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-27T00:00:00", "14550", "Y14264      ", "531", "04    DRIVER'S REPORT", "BELT NOISE.CHECK REAR STROBES.HYD. LINES ON BUCKET.DEFLECTOR ON SPREADER IS BENT.", "25", "0", "25" ]
+, [ "row-wyw2.afsc~rgug", "00000000-0000-0000-E092-06F677E79050", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-06T00:00:00", "14744", "512810", "50", "40    NEGLIGENCE", "MISSING PLOW BOLTS", "25", "0", "25" ]
+, [ "row-wgvv~q5jt_fp5k", "00000000-0000-0000-8A69-CEC5F6C913DE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14359", "68934", "146", "13    SNOW BREAKDOWN", "PLOW LIGHT RIGHT SIDE DIM", "25", "0", "25" ]
+, [ "row-5hym~cnbc~dqpm", "00000000-0000-0000-7E75-9A60C01E2CB4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14881", "621922", "212", "13    SNOW BREAKDOWN", "CHECK AUTO TARP ASSY ON R/SIDE", "24.2", "0", "24.2" ]
+, [ "row-5i2x~exsg.95dt", "00000000-0000-0000-6427-6A3D21441359", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-01-30T00:00:00", "14388", "938747", "188", "13    SNOW BREAKDOWN", "CENTER PIN ON PLOW", "23.77", "0", "23.77" ]
+, [ "row-wnac.9pwn.4g7b", "00000000-0000-0000-FB4A-65F8EE720807", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14641", "574950", "215", "40    NEGLIGENCE", "FRONT WHEEL HUB MISSINGFRONT FRENDER BROKEN", "23.49", "0", "23.49" ]
+, [ "row-ey55.8q5k-2w9v", "00000000-0000-0000-E17E-4FD94B80EF89", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-03-05T00:00:00", "14740", "A97772      ", "94", "11    OTHER", "NEEDS PLOW FLUID FOR STOCKSTARING FLUID", "23.18", "0", "23.18" ]
+, [ "row-5axg-vprx.ng3r", "00000000-0000-0000-F5CA-A6A35CEB01BD", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-24T00:00:00", "14503", "B00195      ", "646", "04    DRIVER'S REPORT", "CHECK SIGNALSREPLACE WIPERS", "23.06", "0", "23.06" ]
+, [ "row-wqyi-8csp-aw3a", "00000000-0000-0000-E93C-952CD1CC26F6", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-04T00:00:00", "14428", "512810", "50", "13    SNOW BREAKDOWN", "PLOW GUIDE BROKEN", "22.81", "0", "22.81" ]
+, [ "row-rtny_j596.azid", "00000000-0000-0000-C567-0A9BFD6B6AA2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14704", "68935", "149", "40    NEGLIGENCE", "L/FRONT HUB CAP BROKEN", "22.65", "0", "22.65" ]
+, [ "row-hq2d~d2pt-waak", "00000000-0000-0000-0F9F-11DE8DF72583", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-02-04T00:00:00", "14379", "176729", "408", "13    SNOW BREAKDOWN", "CHECK PLOW OILWIPER BLADES", "22.48", "0", "22.48" ]
+, [ "row-ciiq.96r5_2bgb", "00000000-0000-0000-11EE-AFAA01E8780E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14574", "1467", "121", "13    SNOW BREAKDOWN", "NO STROBES NO REX ROTH SYSTEM", "21.87", "0", "21.87" ]
+, [ "row-3dd2_5g2z~mcep", "00000000-0000-0000-5243-5067DB82AA04", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-21T00:00:00", "14291", "50903", "353", "09    REWORK", "WORK LIGHTS NOT WORKING..THIS IS RE-DO WORK FROM A PREVIOUS REPAIR.", "21.62", "0", "21.62" ]
+, [ "row-iwdd_mpyg.ddmz", "00000000-0000-0000-F144-0CBE07007BB0", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-01-30T00:00:00", "14372", "311542", "11", "13    SNOW BREAKDOWN", "WIPER BLADES", "21.6", "0", "21.6" ]
+, [ "row-87by~4ye2~vaza", "00000000-0000-0000-9D81-A84761893F25", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-30T00:00:00", "14376", "B00196      ", "652", "13    SNOW BREAKDOWN", "WIPER BLADESTAKE OFF TIRE CHAINS", "21.6", "0", "21.6" ]
+, [ "row-7c8v_8aqt-sdgd", "00000000-0000-0000-E584-BFD46B275335", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-03-16T00:00:00", "14776", "184891", "9", "13    SNOW BREAKDOWN", "CHECK WIPER BLADES", "21.6", "0", "21.6" ]
+, [ "row-uhxu.wrfp~x8t8", "00000000-0000-0000-2475-5B196BA8C5BE", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-30T00:00:00", "14124", "45476", "348", "04    DRIVER'S REPORT", "HEATER , BLOWER NOT WORKING", "20.5", "0", "20.5" ]
+, [ "row-7mbq.r68a_9ggp", "00000000-0000-0000-0638-BD17AE067554", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-02T00:00:00", "14596", "271148", "336", "04    DRIVER'S REPORT", "NEEDS BRAKE FLUID/LOTTS/DONNIE", "20.43", "0", "20.43" ]
+, [ "row-tzxf.96uu.xtke", "00000000-0000-0000-9D53-E936C34E8E10", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-25T00:00:00", "14699", "170716", "54", "13    SNOW BREAKDOWN", "CHECK PLOW BOLTS", "20", "0", "20" ]
+, [ "row-cgss.4gnt_mk3h", "00000000-0000-0000-C1C1-9DA035A2BAFA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14427", "555360", "115", "13    SNOW BREAKDOWN", "PLOW LIGHT DIMCONVOYOR STUCK", "20", "0", "20" ]
+, [ "row-pxfg.5si4~prma", "00000000-0000-0000-0C98-46F951189AB4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14571", "1224", "222", "13    SNOW BREAKDOWN", "PLOW CABLEROAD CALL TO SCOFIELD YARD", "20", "0", "20" ]
+, [ "row-9xgk~ypjh_cdvg", "00000000-0000-0000-C578-85BC1167CE0B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-05T00:00:00", "14169", "A00413      ", "283", "04    DRIVER'S REPORT", "DOG BONE PIN BROKEN", "20", "0", "20" ]
+, [ "row-cfmk_fcjs.utdu", "00000000-0000-0000-B01F-1D3973B07C3E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-14T00:00:00", "14054", "229004", "379", "04    DRIVER'S REPORT", "INSTALL TARP ON UNIT (SEE JIM FASOLI IN THIS REGARD)", "20", "0", "20" ]
+, [ "row-gaza~bnk6_mim4", "00000000-0000-0000-9E3C-868BC4074C25", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14833", "52565", "626", "04    DRIVER'S REPORT", "LIFT DOES NOT WORK", "20", "0", "20" ]
+, [ "row-mdxc_jmhh~w3dj", "00000000-0000-0000-DD52-BEC2166DC3B3", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-27T00:00:00", "14295", "Y14264      ", "531", "04    DRIVER'S REPORT", "CHECK FOR HYD LEAK", "19.899999999999999", "0", "19.899999999999999" ]
+, [ "row-2caq.q3w7-bh5p", "00000000-0000-0000-9CBD-09A1F5F6C8F1", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-09T00:00:00", "14526", "512810", "50", "13    SNOW BREAKDOWN", "PLOW BOLTSWINDOW WASH FLUID", "19.78", "0", "19.78" ]
+, [ "row-hjcd_5gck-p29z", "00000000-0000-0000-DA94-D9B697CDE1DC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14786", "525998", "217", "04    DRIVER'S REPORT", "NEEDS BRACKET FOR MUDFLAP", "19.440000000000001", "0", "19.440000000000001" ]
+, [ "row-ptni.2sax_kykm", "00000000-0000-0000-2187-B1EA7C98504E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14625", "621908", "125", "13    SNOW BREAKDOWN", "REPLACE WIPERS", "18.95", "0", "18.95" ]
+, [ "row-uums_cdf2_mb6b", "00000000-0000-0000-7881-35F578F5D272", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14438", "68937", "144", "13    SNOW BREAKDOWN", "PLOW CABLE SHACKLE", "18.95", "0", "18.95" ]
+, [ "row-ccd8.nkak-gwxx", "00000000-0000-0000-3377-63ACC515B256", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14407", "68934", "146", "40    NEGLIGENCE", "RIGHT FRONT HUB CAP BROKEN", "18.78", "0", "18.78" ]
+, [ "row-7zuq.4stq.jvfy", "00000000-0000-0000-CC79-B8FCFFCB1FBC", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-06T00:00:00", "14115", "48877", "373", "04    DRIVER'S REPORT", "HYDRA LEAK ON DRIVER'S SIDE TOTER CART HANDLE", "18.5", "0", "18.5" ]
+, [ "row-99ah.a9dy.fi4w", "00000000-0000-0000-B7B8-C2D4BE4B26D8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14850", "B34632      ", "276", "04    DRIVER'S REPORT", "CHECK PLOW LIGHTS & GREASE FITTING ON SPINNER SHAFT", "18.46", "0", "18.46" ]
+, [ "row-b5zz.dumd_ujvb", "00000000-0000-0000-9D62-7D0874DCE876", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14333", "621922", "212", "13    SNOW BREAKDOWN", "REPLACE WIPER BLADES , CHECK FLUIDS.", "18.350000000000001", "0", "18.350000000000001" ]
+, [ "row-b423_6794.dyr5", "00000000-0000-0000-F0E6-616306670744", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14180", "766153", "248", "04    DRIVER'S REPORT", "NEED WIPER BLADES", "18.350000000000001", "0", "18.350000000000001" ]
+, [ "row-2dqd.r2sp.g8cj", "00000000-0000-0000-A509-8AC237A167CC", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-06T00:00:00", "14720", "D22892      ", "451", "04    DRIVER'S REPORT", "CHECK PLOW BLADE, & PLOW PUMP OIL", "18.079999999999998", "0", "18.079999999999998" ]
+, [ "row-gpwe.8r6x.tjb8", "00000000-0000-0000-1329-5C7EA05B052D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14483", "1365", "244", "13    SNOW BREAKDOWN", "NO TAIL LIGHTS LEFT SIDECHANGE FUEL FILTERS", "18.010000000000002", "0", "18.010000000000002" ]
+, [ "row-qgtp.9nfy.bnpr", "00000000-0000-0000-647D-721DBFB94A3C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14474", "1225", "119", "13    SNOW BREAKDOWN", "LOW COOLANTCHECK CONVEYOR", "18", "0", "18" ]
+, [ "row-3msx.qyy9~fku4", "00000000-0000-0000-C801-F043AA2F4CAD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14728", "1628", "236", "13    SNOW BREAKDOWN", "CHECK FLUIDS", "18", "0", "18" ]
+, [ "row-ta64~xnvb.64gy", "00000000-0000-0000-BBD8-04F15B46AD6C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14318", "1628", "236", "13    SNOW BREAKDOWN", "LIGHT ON IN DASH", "18", "0", "18" ]
+, [ "row-3czi_3twc.hjqj", "00000000-0000-0000-6D37-33899E60D35E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14685", "1628", "236", "13    SNOW BREAKDOWN", "ANTIFREEZE LEAK", "18", "0", "18" ]
+, [ "row-g4vf_5emr~k7wt", "00000000-0000-0000-151C-1DA661692061", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14424", "1628", "236", "13    SNOW BREAKDOWN", "LIGHT ON IN DASH", "18", "0", "18" ]
+, [ "row-8296_wt2w~ugxh", "00000000-0000-0000-752D-2ABFEDAFDD9E", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-20T00:00:00", "14281", "242480", "428", "04    DRIVER'S REPORT", "CHECK GAS PEDDLE", "18", "0", "18" ]
+, [ "row-h4cy~b7dz.7fp6", "00000000-0000-0000-B61B-1431DFE96CF0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14537", "621923", "211", "13    SNOW BREAKDOWN", "ADJUST CONVEYOR", "17.39", "0", "17.39" ]
+, [ "row-3mj9_pmb6-7vi9", "00000000-0000-0000-393B-12D86B79388B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-26T00:00:00", "14568", "574950", "215", "13    SNOW BREAKDOWN", "NO PLOW LIGHTS", "17.39", "0", "17.39" ]
+, [ "row-ch6b-75ax-dfr7", "00000000-0000-0000-6344-C1790D473DB3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14730", "621921", "214", "13    SNOW BREAKDOWN", "CHECK SHACKLE ON R/SIDE OF PLOW", "17.37", "0", "17.37" ]
+, [ "row-icgh~j2jv-e64p", "00000000-0000-0000-A360-0DF0E2E0FF02", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-30T00:00:00", "14371", "B90933      ", "34", "13    SNOW BREAKDOWN", "WIPER BLADES", "16.559999999999999", "0", "16.559999999999999" ]
+, [ "row-ynim~w2n6-nykp", "00000000-0000-0000-7983-BBA2D257F7AC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14369", "68933", "148", "13    SNOW BREAKDOWN", "WIPER BLADES", "16.190000000000001", "0", "16.190000000000001" ]
+, [ "row-juup~5pt6~92uu", "00000000-0000-0000-786D-61EAE7E7FF3B", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-01-07T00:00:00", "14200", "A97772      ", "94", "04    DRIVER'S REPORT", "NEEDS STARTING FLUID FOR SERVICE TRUCK", "15.96", "0", "15.96" ]
+, [ "row-tsse-j3vz~q6vp", "00000000-0000-0000-407C-E080BDAB3DB7", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-17T00:00:00", "14590", "50761", "363", "04    DRIVER'S REPORT", "NEEDS A FLASHER/2 BULBS/JIM F", "15.7", "0", "15.7" ]
+, [ "row-wdf8.sdme-mczu", "00000000-0000-0000-72C9-5A038D3C7C49", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14335", "1224", "222", "40    NEGLIGENCE", "NEEDS MIRROR", "15.63", "0", "15.63" ]
+, [ "row-k4r7_ju5a_anfd", "00000000-0000-0000-BB1A-5530E31E4FB4", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-26T00:00:00", "14312", "48878", "346", "04    DRIVER'S REPORT", "NO HIGH BEAMS PACKER STOPPED WORKING", "15.24", "0", "15.24" ]
+, [ "row-tbp9.2bn9~dca7", "00000000-0000-0000-D4BC-F66CA56159BD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14432", "B20087      ", "619", "13    SNOW BREAKDOWN", "PLOW BLADE BOLTS", "15", "0", "15" ]
+, [ "row-s9ax_ff9e-9js6", "00000000-0000-0000-9D5A-E365D2DA2AA5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14518", "621922", "212", "04    DRIVER'S REPORT", "NEEDS PLOW HOOK", "15", "0", "15" ]
+, [ "row-zkmh~i568_8was", "00000000-0000-0000-A1F6-50EDA73C7CDE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14322", "68932", "147", "04    DRIVER'S REPORT", "CHECK FLUIDS", "14.77", "0", "14.77" ]
+, [ "row-9cxg_y3in~4dhe", "00000000-0000-0000-A610-A9583E296200", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14441", "68934", "146", "13    SNOW BREAKDOWN", "PLOW GUIDE CHECK HEATED MIRRORS", "14.53", "0", "14.53" ]
+, [ "row-hu8m~4ihk_qj6h", "00000000-0000-0000-DD12-5370E426EAA5", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-23T00:00:00", "14612", "170716", "54", "04    DRIVER'S REPORT", "needs floor matts/mike k", "14.49", "0", "14.49" ]
+, [ "row-m57n_ra9e_ram4", "00000000-0000-0000-0473-FBFDF6744B02", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-12T00:00:00", "14231", "271149", "429", "04    DRIVER'S REPORT", "NEEDS WIPER BLADES", "14.4", "0", "14.4" ]
+, [ "row-u3ps-tf88-hze5", "00000000-0000-0000-D208-773736957695", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14686", "1227", "241", "13    SNOW BREAKDOWN", "CHECK WIPER BLADES", "14.4", "0", "14.4" ]
+, [ "row-i8za~4pf9_2rc7", "00000000-0000-0000-3F31-CBB4E3027A95", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14753", "1222", "118", "13    SNOW BREAKDOWN", "CHECK WIPERS", "14.4", "0", "14.4" ]
+, [ "row-dpz2~sei6~2azc", "00000000-0000-0000-5B2F-EB22789F926F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14627", "1468", "120", "13    SNOW BREAKDOWN", "REPLACE WIPER BLADES", "14.4", "0", "14.4" ]
+, [ "row-ps8j_bcya.h7qs", "00000000-0000-0000-AC98-0C70E9D5D026", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14535", "A72170      ", "632", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID ,1QT OIL", "14.4", "0", "14.4" ]
+, [ "row-rs8d.txbj~9ndx", "00000000-0000-0000-B1B2-C71C3D8053F6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-22T00:00:00", "14293", "1224", "222", "04    DRIVER'S REPORT", "NEEDS Wiper blades", "14.4", "0", "14.4" ]
+, [ "row-qwn6-cg6q~amhi", "00000000-0000-0000-1B10-F312EF178479", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14440", "B31275      ", "110", "13    SNOW BREAKDOWN", "WIPER BLADES", "14.4", "0", "14.4" ]
+, [ "row-bvq2-uprj~qh3r", "00000000-0000-0000-673E-2EA6391000F8", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-12T00:00:00", "14230", "D12433      ", "444", "04    DRIVER'S REPORT", "NEEDS WIPER BLADES/KEVIN", "14.4", "0", "14.4" ]
+, [ "row-nxir.esbp-uzdc", "00000000-0000-0000-B51B-97150A60551E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-02T00:00:00", "14445", "1243", "116", "13    SNOW BREAKDOWN", "WIPER BLADES", "14.4", "0", "14.4" ]
+, [ "row-d4sr~z8ek-yw63", "00000000-0000-0000-106C-C45075867FC0", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-26T00:00:00", "14308", "535231", "374", "04    DRIVER'S REPORT", "CHECK LIGHTS", "14.36", "0", "14.36" ]
+, [ "row-ijk6_6rm5-rpja", "00000000-0000-0000-C536-7CE707C05C05", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-07T00:00:00", "14196", "1222", "118", "04    DRIVER'S REPORT", "HARDWARE FOR REAR SPRINGS", "14.32", "0", "14.32" ]
+, [ "row-yiwi_sx34.4hsv", "00000000-0000-0000-A9C8-4A6813C1AC23", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-30T00:00:00", "14323", "D12433      ", "444", "04    DRIVER'S REPORT", "NO PLOW LIGHTS", "13.86", "0", "13.86" ]
+, [ "row-td72~74mx~6y3c", "00000000-0000-0000-C58F-58C244A1C339", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-06T00:00:00", "14762", "512810", "50", "13    SNOW BREAKDOWN", "PLOW LIGHT OUTGUIDES", "13.86", "0", "13.86" ]
+, [ "row-8zfb-9acr~gkrs", "00000000-0000-0000-AF12-DBC4A1DEA32E", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-06T00:00:00", "14486", "Y14264      ", "531", "04    DRIVER'S REPORT", "NEEDS  LIGHTS BULBS/", "13.66", "0", "13.66" ]
+, [ "row-458t.gzh6.zgpt", "00000000-0000-0000-3126-DA2571197518", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14155", "525670", "232", "04    DRIVER'S REPORT", "HYD CAP CHECK ENGINE LIGHT ON", "12.95", "0", "12.95" ]
+, [ "row-vxj5-hqab-vpdw", "00000000-0000-0000-615C-292790987ACD", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-25T00:00:00", "14609", "B71793      ", "59", "04    DRIVER'S REPORT", "NEEDS PLOW LIGHT", "12.39", "0", "12.39" ]
+, [ "row-x2q7~9gcp_jfjg", "00000000-0000-0000-ECFE-4FD71AD831B7", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14205", "D14803      ", "611", "40    NEGLIGENCE", "lost gas cap/taken by carl", "11.91", "0", "11.91" ]
+, [ "row-d9pi~svbz~29v3", "00000000-0000-0000-DF66-738E473F0D21", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14315", "B31276      ", "177", "04    DRIVER'S REPORT", "PLOW COUPLER", "11.84", "0", "11.84" ]
+, [ "row-7kne~j4i9-jhzn", "00000000-0000-0000-01D8-8503DE6A406A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-26T00:00:00", "14324", "B31275      ", "110", "04    DRIVER'S REPORT", "PLOW COUPLER", "11.84", "0", "11.84" ]
+, [ "row-q3a7~me9b.br5a", "00000000-0000-0000-A7D1-BB3E8167CF9E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-13T00:00:00", "14240", "229004", "379", "04    DRIVER'S REPORT", "RIGHT HEAD LIGHT OUT", "11.81", "0", "11.81" ]
+, [ "row-geg2_cs7q~6kq6", "00000000-0000-0000-3A60-0C46750E5601", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14313", "525999", "114", "04    DRIVER'S REPORT", "NO PLOW LIGHTS", "11.79", "0", "11.79" ]
+, [ "row-ctme_fjyv.emns", "00000000-0000-0000-45EB-DFB2F8A07857", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14455", "228151", "378", "04    DRIVER'S REPORT", "LEFT HEAD LIGHT OUT", "11.7", "0", "11.7" ]
+, [ "row-479m~ijin_mqqc", "00000000-0000-0000-EC1D-0124FCF9CD22", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-02T00:00:00", "14334", "B90933      ", "34", "04    DRIVER'S REPORT", "PLOW PINS", "11.61", "0", "11.61" ]
+, [ "row-4auf_mz86_wahy", "00000000-0000-0000-6F5A-667DD5F74DEA", 0, 1436899088, null, 1436899088, null, "{ }", "2142", "2015-01-22T00:00:00", "14302", "48878", "346", "04    DRIVER'S REPORT", "NEEDS A FLASHER", "11.04", "0", "11.04" ]
+, [ "row-shhh~6fni.snd7", "00000000-0000-0000-222B-FE4CB66DB79A", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14477", "49328", "358", "04    DRIVER'S REPORT", "NEEDS FLASHER", "11.04", "0", "11.04" ]
+, [ "row-fvff_v5vg.pqdq", "00000000-0000-0000-0F70-9A5CB147DFEE", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-15T00:00:00", "14261", "50549", "360", "04    DRIVER'S REPORT", "NEEDS A RELAY/JIM F", "11.04", "0", "11.04" ]
+, [ "row-fbak.iw33~xswy", "00000000-0000-0000-7E7A-204A1B3C7997", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-03-26T00:00:00", "14929", "348543", "61", "04    DRIVER'S REPORT", "WASHCLASSIC 3-D CAR CAREINVOICE AD-0215$11.00", "11", "0", "11" ]
+, [ "row-b2j7_neyu_e6g3", "00000000-0000-0000-0055-DFDF21C37285", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-01-20T00:00:00", "14283", "323009", "384", "40    NEGLIGENCE", "NEEDS MIRROR/JIM F", "10.94", "0", "10.94" ]
+, [ "row-4jtg.xkpk_e8m8", "00000000-0000-0000-BF71-507063FC374E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-09T00:00:00", "14212", "337655", "234", "04    DRIVER'S REPORT", "NOISE AT IDLE", "10.79", "0", "10.79" ]
+, [ "row-atdq-52ui.axf6", "00000000-0000-0000-19CD-26E98B6CE82C", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-15T00:00:00", "14268", "131049", "643", "04    DRIVER'S REPORT", "TOOK A CASE OF WASHER FLUID", "10.74", "0", "10.74" ]
+, [ "row-h8a9-irry_f537", "00000000-0000-0000-D903-1B4F5948C1DC", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-02-06T00:00:00", "14496", "311542", "11", "13    SNOW BREAKDOWN", "CHECK PLOW LOW ON FLUID", "10.72", "0", "10.72" ]
+, [ "row-z2nj.wwnp_yfiy", "00000000-0000-0000-6964-E836D2303DD2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14393", "337657", "218", "13    SNOW BREAKDOWN", "SPINNER LIGHTCONVOYOR CHAIN HITTING WHEN SIDE DUMP UP", "10.61", "0", "10.61" ]
+, [ "row-2s6j_k4i7_rf7t", "00000000-0000-0000-F6E3-8F17D55DEE84", 0, 1436899088, null, 1436899088, null, "{ }", "2200", "2015-03-02T00:00:00", "14508", "41285", "47", "04    DRIVER'S REPORT", "NEW WIPER BLADES.FILL W/ WASH.", "10.56", "0", "10.56" ]
+, [ "row-5j2e~bk3v-vfaa", "00000000-0000-0000-C995-098A7DAE0F62", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-02-24T00:00:00", "14605", "A97772      ", "94", "04    DRIVER'S REPORT", "STARTER FLUID", "10.47", "0", "10.47" ]
+, [ "row-bhm3_6pi6.92jj", "00000000-0000-0000-36E6-73329B71389C", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-03-02T00:00:00", "14597", "A22003      ", "623", "04    DRIVER'S REPORT", "NEEDS OIL", "10.08", "0", "10.08" ]
+, [ "row-6zqr.4v2q_34d4", "00000000-0000-0000-0BD8-4BF984A43FF8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-27T00:00:00", "14481", "1400", "227", "13    SNOW BREAKDOWN", "CHECK TAILGATE LOCKS", "10", "0", "10" ]
+, [ "row-x9mw-2wru.6i3y", "00000000-0000-0000-CF09-D11E98B93871", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-04T00:00:00", "14449", "512810", "50", "13    SNOW BREAKDOWN", "PLOW BOLTS", "10", "0", "10" ]
+, [ "row-qkix~bnqm-prkq", "00000000-0000-0000-5450-3746C5F24E84", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-06T00:00:00", "14468", "170716", "54", "13    SNOW BREAKDOWN", "MISSING PLOW BOLTS", "10", "0", "10" ]
+, [ "row-49kb~3hda.jy94", "00000000-0000-0000-E156-4AEF32E53C38", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-09T00:00:00", "14513", "170716", "54", "04    DRIVER'S REPORT", "car washclassic 3-dinvoice op-0115$10.00", "10", "0", "10" ]
+, [ "row-vr98-bzye.e7yn", "00000000-0000-0000-F374-956544EA80C6", 0, 1436899088, null, 1436899088, null, "{ }", "2600", "2015-02-09T00:00:00", "14512", "B19043      ", "2", "04    DRIVER'S REPORT", "CAR WASHCLASASIC 3-DINVOICE OP-0115$10.00", "10", "0", "10" ]
+, [ "row-5696~nwrj.d53k", "00000000-0000-0000-CE61-26ACAD0B0677", 0, 1436899088, null, 1436899088, null, "{ }", "2600", "2015-01-16T00:00:00", "14511", "B00189      ", "1", "04    DRIVER'S REPORT", "CAR WASHCLASSIC 3-D CAR CAREINVOIC EOP-0115$10.00", "10", "0", "10" ]
+, [ "row-xt8d~squz_yv5h", "00000000-0000-0000-79E4-497F569FC5BE", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-06T00:00:00", "14721", "323009", "384", "04    DRIVER'S REPORT", "NEEDS BRASS AIR LINE FITTINGS", "10", "0", "10" ]
+, [ "row-khj9-ryyk-nxyy", "00000000-0000-0000-DA68-69CE1038C7FF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14068", "195238", "172", "04    DRIVER'S REPORT", "SEAT BELT BUZZER KEEP GOING ON WHEN DRIVING, WILL NOT STOP", "10", "0", "10" ]
+, [ "row-zu3b-953y_s2ts", "00000000-0000-0000-C6B3-7D77FCFA0BE1", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-09T00:00:00", "14213", "525998", "217", "13    SNOW BREAKDOWN", "NEED BOLTS FOR SPINNER SHILD", "10", "0", "10" ]
+, [ "row-f4gx~zjuk.sr49", "00000000-0000-0000-E119-BF9CE0AD4600", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14431", "525670", "232", "13    SNOW BREAKDOWN", "PLOW BLADE BOLTS", "10", "0", "10" ]
+, [ "row-3dfa.juks_p8bk", "00000000-0000-0000-5CD0-FC30C7E5A395", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-13T00:00:00", "14245", "49618", "356", "04    DRIVER'S REPORT", "3 QTS 15-40 OILSHOP SUPPLYS $20.00", "9.7799999999999994", "0", "9.7799999999999994" ]
+, [ "row-fv8b-ea62-a3yk", "00000000-0000-0000-F06C-F1FF5FD55194", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14768", "68937", "144", "13    SNOW BREAKDOWN", "NEED WIPER BLADES", "9.5500000000000007", "0", "9.5500000000000007" ]
+, [ "row-vhyx~ktge~2p2f", "00000000-0000-0000-2D2B-43F27CAED41C", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-26T00:00:00", "14836", "390513", "649", "04    DRIVER'S REPORT", "CHECK HEAD LIGHTS", "9.1300000000000008", "0", "9.1300000000000008" ]
+, [ "row-mp6r.mxaf_94aj", "00000000-0000-0000-1B4C-A587A425CEFE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14611", "B34629      ", "167", "40    NEGLIGENCE", "LOST KEYS", "9", "0", "9" ]
+, [ "row-4uk8-c6tj_pd8v", "00000000-0000-0000-43FD-438FAC5B27F8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14777", "1226", "117", "13    SNOW BREAKDOWN", "CHECK ANTIFREEZE LEVEL", "9", "0", "9" ]
+, [ "row-3nc2.epgz_t8re", "00000000-0000-0000-D140-969C42D460BF", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-13T00:00:00", "14460", "B20086      ", "30", "13    SNOW BREAKDOWN", "NEEDS WASHER FLUID/OIL", "8.89", "0", "8.89" ]
+, [ "row-s2vk-s7mm~3kus", "00000000-0000-0000-1512-51A9ECB626CD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14375", "B34631      ", "277", "13    SNOW BREAKDOWN", "CHECK LIGHTS", "8.8800000000000008", "0", "8.8800000000000008" ]
+, [ "row-8hd7.bwmu_jupx", "00000000-0000-0000-8569-1728AB09B0DD", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-28T00:00:00", "14384", "337658", "239", "04    DRIVER'S REPORT", "PLOW LIGHT BULB", "8.8800000000000008", "0", "8.8800000000000008" ]
+, [ "row-axyc-5fhk.rdjp", "00000000-0000-0000-7CFA-E08FF6F5C8F6", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-25T00:00:00", "14593", "A81556      ", "391", "04    DRIVER'S REPORT", "needs headlamp/jim f", "8.8800000000000008", "0", "8.8800000000000008" ]
+, [ "row-kimg-zcu3.i7cm", "00000000-0000-0000-15E8-270933B3DEE8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-09T00:00:00", "14214", "1468", "120", "13    SNOW BREAKDOWN", "SPINNER LIGHT OUT", "8.82", "0", "8.82" ]
+, [ "row-bnx5_8uhq~7drg", "00000000-0000-0000-98FB-6FB871DF8DB2", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14570", "1225", "119", "13    SNOW BREAKDOWN", "NO SPINNER LIGHT", "8.82", "0", "8.82" ]
+, [ "row-dg36-g4a3.ge4s", "00000000-0000-0000-9910-EFA486A46B2F", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-06T00:00:00", "14425", "512606", "51", "13    SNOW BREAKDOWN", "PLOW LIGHT OUT", "8.77", "0", "8.77" ]
+, [ "row-p35n.5y5f~nmtn", "00000000-0000-0000-6B43-F12847E04294", 0, 1436899088, null, 1436899088, null, "{ }", "2200", "2015-01-06T00:00:00", "14145", "212521", "46", "04    DRIVER'S REPORT", "CHECK WIPERS & ADD WINDSHIELD WASHER FLUID", "8.74", "0", "8.74" ]
+, [ "row-3ix8~btjf~b5gr", "00000000-0000-0000-1857-9F4A8CCDD415", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14576", "621923", "211", "13    SNOW BREAKDOWN", "SPINNER LIGHT", "8.5", "0", "8.5" ]
+, [ "row-nap7.cnmc~nbrh", "00000000-0000-0000-D704-88F95974417D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14745", "621923", "211", "13    SNOW BREAKDOWN", "CHECK WIPER BLADES", "8.2799999999999994", "0", "8.2799999999999994" ]
+, [ "row-bd24~89kg~3mnz", "00000000-0000-0000-99AF-C39C2009DCCC", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-02-06T00:00:00", "14435", "176729", "408", "13    SNOW BREAKDOWN", "PLOW FLUID LOW", "8.1", "0", "8.1" ]
+, [ "row-cqsh.96gf.bu4z", "00000000-0000-0000-04FD-A124C04F2ACB", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-03-26T00:00:00", "14747", "176729", "408", "13    SNOW BREAKDOWN", "CHECK PLOW ASSY , WILL NOT MOVE", "8.1", "0", "8.1" ]
+, [ "row-zwww~2gsf_pt77", "00000000-0000-0000-874F-9E2AF3AB4CBC", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-02-04T00:00:00", "14447", "311542", "11", "13    SNOW BREAKDOWN", "CHECK PLOW FLUIDALIGN PLOW LIGHTS", "8.1", "0", "8.1" ]
+, [ "row-5296_huh7~2xzm", "00000000-0000-0000-6926-83E34854D598", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-03T00:00:00", "14458", "D22892      ", "451", "04    DRIVER'S REPORT", "NEEDS HYD FLUID FOR PLOW/BOB GREEN", "8.1", "0", "8.1" ]
+, [ "row-653j_43w9_z3n6", "00000000-0000-0000-D337-CA3B81572D1F", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-06T00:00:00", "14645", "D12433      ", "444", "13    SNOW BREAKDOWN", "PLOW LOW ON FLUID", "8.08", "0", "8.08" ]
+, [ "row-zb6e-aysa_pwvj", "00000000-0000-0000-CB1B-4328A201E21A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-23T00:00:00", "14314", "172539", "105", "04    DRIVER'S REPORT", "CHECK OIL IN PLOW", "8.08", "0", "8.08" ]
+, [ "row-645v_v6pi-5khn", "00000000-0000-0000-AB3C-17D0E4F2F289", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-25T00:00:00", "14621", "D12433      ", "444", "04    DRIVER'S REPORT", "needs plow fluid/allan", "8.08", "0", "8.08" ]
+, [ "row-pk32~uweb-4ffn", "00000000-0000-0000-538D-8ED8235967A0", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-16T00:00:00", "14696", "D12433      ", "444", "13    SNOW BREAKDOWN", "CHECK PLOW, WILL NOT GO UP/DOWN OR SIDE TO SIDE", "8.08", "0", "8.08" ]
+, [ "row-psqk-g4yu~3kuh", "00000000-0000-0000-F95A-40CD4876E75B", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-24T00:00:00", "14529", "D22892      ", "451", "04    DRIVER'S REPORT", "needs plow oil", "8.08", "0", "8.08" ]
+, [ "row-jsxk-zsqu_q52m", "00000000-0000-0000-EF39-0EFF655ABEF8", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-27T00:00:00", "14707", "D12433      ", "444", "13    SNOW BREAKDOWN", "CHECK PLOW PUMP FLUID", "8.08", "0", "8.08" ]
+, [ "row-cr7z_dpvz.kxnj", "00000000-0000-0000-7203-EEB38B77607E", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-30T00:00:00", "14316", "D22892      ", "451", "04    DRIVER'S REPORT", "LEAK ON PLOW PUMP", "8.08", "0", "8.08" ]
+, [ "row-jdz7-cuye-aaye", "00000000-0000-0000-6385-7D9D6F02628A", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-02-06T00:00:00", "14485", "176729", "408", "04    DRIVER'S REPORT", "OIL FOR PLOW", "8.08", "0", "8.08" ]
+, [ "row-a9ka~evyk.bwne", "00000000-0000-0000-4623-9482BFAD131D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14689", "1365", "244", "13    SNOW BREAKDOWN", "CHECK/ REPLACE FLAP ON CONVEYOR DOOR", "7.83", "0", "7.83" ]
+, [ "row-ynpd.7jcu-6aqr", "00000000-0000-0000-E060-FC7B5591ED9B", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-25T00:00:00", "14663", "50760", "362", "04    DRIVER'S REPORT", "NEEDS HEADLAMP/JIM FMILAGE PER JIM F", "7.65", "0", "7.65" ]
+, [ "row-bjtk.uea9~inc8", "00000000-0000-0000-FC54-6FF2079C8347", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-02-24T00:00:00", "14581", "B20088      ", "609", "04    DRIVER'S REPORT", "NEEDS 1 QT OIL,WASHER FLUID,PLOW OIL/FRYZE", "7.43", "0", "7.43" ]
+, [ "row-gncv_kpxk.gcqh", "00000000-0000-0000-AB05-BD23096435E8", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14476", "34486", "355", "04    DRIVER'S REPORT", "NEEDS HEADLIGHT", "7.42", "0", "7.42" ]
+, [ "row-takv_rps8-ubq3", "00000000-0000-0000-312F-2414BA3675F3", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-27T00:00:00", "14930", "172326", "521", "04    DRIVER'S REPORT", "NEEDS WIPER BLADES", "7.16", "0", "7.16" ]
+, [ "row-twfi-xh89_m3pa", "00000000-0000-0000-FC5B-94EA4AF9932B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14405", "B39109      ", "178", "04    DRIVER'S REPORT", "N EEDS WIPER BLADES/PETE MARTY", "7.16", "0", "7.16" ]
+, [ "row-fvxh_sx3i_6k6c", "00000000-0000-0000-8B69-94766F6078E7", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14567", "621922", "212", "13    SNOW BREAKDOWN", "CONTROL PANEL LOOSE", "6.99", "0", "6.99" ]
+, [ "row-prv7_zx4x_k56u", "00000000-0000-0000-73DD-C5F09C4C9BFF", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-14T00:00:00", "14236", "310070", "425", "04    DRIVER'S REPORT", "NEEDS WIPER BLADES", "6.46", "0", "6.46" ]
+, [ "row-c8rz_ysqf.2t87", "00000000-0000-0000-F7F5-044F6410EED2", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-12T00:00:00", "14235", "242480", "428", "04    DRIVER'S REPORT", "NEEDS WIPER BLADES", "6.46", "0", "6.46" ]
+, [ "row-6ig5.9yhr.36md", "00000000-0000-0000-C1E2-986755D0C4CD", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-05T00:00:00", "14160", "157526", "511", "40    NEGLIGENCE", "OIL CAP", "5.29", "0", "5.29" ]
+, [ "row-7iyb~txvt~gdak", "00000000-0000-0000-07B0-0C1BA4C455D0", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-01-15T00:00:00", "14266", "21167", "683", "04    DRIVER'S REPORT", "NEEDS REMOTE BATTERY", "5.29", "0", "5.29" ]
+, [ "row-fp4v_fz2n.42e6", "00000000-0000-0000-F6C3-78003E248CF1", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-03-26T00:00:00", "14667", "19676", "685", "04    DRIVER'S REPORT", "BATTERY FOR REMOTE", "5.29", "0", "5.29" ]
+, [ "row-jfhq-r5vz.24mv", "00000000-0000-0000-4360-55453329ADC3", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-04T00:00:00", "14461", "965476", "389", "04    DRIVER'S REPORT", "NO AIR PRESSURE BRKES LOCKED UP", "5.1100000000000003", "0", "5.1100000000000003" ]
+, [ "row-h5h8~viuu.ihbr", "00000000-0000-0000-FF2F-B5DA866E4EE0", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-06T00:00:00", "13962", "735093", null, "04    DRIVER'S REPORT", "SPARK PLUG SMOKING", "5", "0", "5" ]
+, [ "row-t5ur-j9v2~52kp", "00000000-0000-0000-7900-EFE775313515", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-12T00:00:00", "14228", "50550", "357", "04    DRIVER'S REPORT", "WORK LIGHTS IN REAR NOT WORKING", "5", "0", "5" ]
+, [ "row-xmcu-im45_aycp", "00000000-0000-0000-8A19-5AF77761956D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14249", "555361", "249", "04    DRIVER'S REPORT", "NEEDS WASHERS/PICKED UP BY RICHIE V", "5", "0", "5" ]
+, [ "row-qyir_cy68_37hg", "00000000-0000-0000-384C-916AFEB0C6CF", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-27T00:00:00", "14935", "50761", "363", "04    DRIVER'S REPORT", "NEEDS ROCKER SWITCH/JIM", "5", "0", "5" ]
+, [ "row-9j2z-5uu5_946c", "00000000-0000-0000-F5A9-A8D4AC71E67F", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-06T00:00:00", "14494", "229004", "379", "04    DRIVER'S REPORT", "NEEDS A QT OF OIL /JIM F", "4.8499999999999996", "0", "4.8499999999999996" ]
+, [ "row-mbvg.2mpb.xvd3", "00000000-0000-0000-0E90-6906589F66F4", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-25T00:00:00", "14662", "169312", "424", "04    DRIVER'S REPORT", "needs a qt of 5w30/jim f", "4.8499999999999996", "0", "4.8499999999999996" ]
+, [ "row-4kft~7zm9-ih7h", "00000000-0000-0000-7D59-7E01E2BEFFC4", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-13T00:00:00", "14545", "172326", "521", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID", "4.78", "0", "4.78" ]
+, [ "row-r686~g9vw-nvvv", "00000000-0000-0000-4AD5-3024D57A9642", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-19T00:00:00", "14499", "138675", "412", "04    DRIVER'S REPORT", "L/R TIRE SLOW LEAK", "4.5", "0", "4.5" ]
+, [ "row-i6ji~ksv4-z4ei", "00000000-0000-0000-686C-5881764DE527", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-28T00:00:00", "14301", "228151", "378", "04    DRIVER'S REPORT", "SLOW LEAK RIGHT REAR TIRE", "4.5", "0", "4.5" ]
+, [ "row-gksn.chtr-pg5p", "00000000-0000-0000-CD1C-AC8BB4D8DF86", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-03-06T00:00:00", "14412", "B20086      ", "30", "04    DRIVER'S REPORT", "NAIL IN FRONT TIRE", "4.5", "0", "4.5" ]
+, [ "row-vi76-nmdv~9ers", "00000000-0000-0000-3E96-A83C05200CAB", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-13T00:00:00", "14248", "901894", "377", "40    NEGLIGENCE", "REPAIR LEFT REAR FENDER", "4.49", "0", "4.49" ]
+, [ "row-7zp2.dgww-2ppw", "00000000-0000-0000-ED39-E3A72DB628D9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-23T00:00:00", "14553", "555360", "115", "04    DRIVER'S REPORT", "REMOVE SPREADER", "4.49", "0", "4.49" ]
+, [ "row-sz5z.enbj.azjx", "00000000-0000-0000-43B0-5642BF54F909", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14426", "1400", "227", "13    SNOW BREAKDOWN", "NEEDS WASHER FLUID", "3.58", "0", "3.58" ]
+, [ "row-748x-cwuj-qpbr", "00000000-0000-0000-84CC-011A955A9975", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-03-02T00:00:00", "14706", "C95215      ", "92", "04    DRIVER'S REPORT", "NEEDS STARTING FLUID", "3.49", "0", "3.49" ]
+, [ "row-jdzr~6vac~6ivd", "00000000-0000-0000-2B35-D680A495E51F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-29T00:00:00", "14400", "621922", "212", "04    DRIVER'S REPORT", "NEEDS MARKER LITE", "3.06", "0", "3.06" ]
+, [ "row-exwt_pya3_c8ee", "00000000-0000-0000-6294-367040422DD5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14478", "1365", "244", "04    DRIVER'S REPORT", "NEEDS FUEL LINE AND FUEL FILTER/MIKE KEYACK", "3.04", "0", "3.04" ]
+, [ "row-vsd5.gtps~becn", "00000000-0000-0000-BB2B-7FEA0A62D127", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-09T00:00:00", "14209", "52565", "626", "04    DRIVER'S REPORT", "NEEDS SIGNAL BULBS /PICKED UP BY MIKE DEMASI", "2.92", "0", "2.92" ]
+, [ "row-2fuh.mbq3_hq8a", "00000000-0000-0000-2048-A784FF0ADAFC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14599", "68933", "148", "01    BREAKDOWN            ***", "PTO NOT WORKING AGAIN.", "2.74", "0", "2.74" ]
+, [ "row-agjb-tg32_chjh", "00000000-0000-0000-68B7-340A5AFDCF91", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-02T00:00:00", "14326", "Y14225      ", "482", "04    DRIVER'S REPORT", "BELTS MAKING NOISE", "2.39", "0", "2.39" ]
+, [ "row-7wvh_3d93.vmzd", "00000000-0000-0000-D354-E96C9047E299", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14711", "B39109      ", "178", "04    DRIVER'S REPORT", "WASHER FLUID", "2.39", "0", "2.39" ]
+, [ "row-xumt~hsdf_7vhu", "00000000-0000-0000-EC9B-AF3640A17505", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-25T00:00:00", "14577", "B34631      ", "277", "13    SNOW BREAKDOWN", "NO PLOW LIGHTSWINDOW WASHER FLUID", "2.39", "0", "2.39" ]
+, [ "row-4m6a~hc2m~gbxz", "00000000-0000-0000-E62C-01FDCB29EACF", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-30T00:00:00", "14750", "169312", "424", "13    SNOW BREAKDOWN", "CHECK ALL FLUIDS", "2.39", "0", "2.39" ]
+, [ "row-n2p6-hnfb.mdyk", "00000000-0000-0000-760D-0B13B0D4503B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14546", "B71794      ", "106", "04    DRIVER'S REPORT", "needs washer fluid", "2.39", "0", "2.39" ]
+, [ "row-qnwb~dvvr_pwmi", "00000000-0000-0000-C617-72B734A36A60", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-09T00:00:00", "14502", "621910", "209", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-agv6~4fmb.vkh9", "00000000-0000-0000-935A-D708B1065102", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-07T00:00:00", "14198", "B90933      ", "34", "04    DRIVER'S REPORT", "WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-n5sb.ddvm~xf8f", "00000000-0000-0000-E68A-31E2F4440E96", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-17T00:00:00", "14437", "621921", "214", "13    SNOW BREAKDOWN", "LOW WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-36u3_ekzz.ca2c", "00000000-0000-0000-27EA-BEC02A882F6C", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-27T00:00:00", "14341", "512810", "50", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-usun.n8zc_zy23", "00000000-0000-0000-8F70-78403955070A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14497", "621908", "125", "04    DRIVER'S REPORT", "needs washer fluid", "1.79", "0", "1.79" ]
+, [ "row-tszj.decu.j87v", "00000000-0000-0000-39EB-F1DB4F2144A8", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-05T00:00:00", "14154", "229004", "379", "04    DRIVER'S REPORT", "WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-k6hc.nf8p-ubeb", "00000000-0000-0000-47C0-C3788DB2D5F6", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14226", "1364", "243", "04    DRIVER'S REPORT", "NEEW WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-ckwb-a6tm.mi6z", "00000000-0000-0000-C71F-616FC9386A0C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14217", "621923", "211", "04    DRIVER'S REPORT", "HERMAN NEEDS WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-j2w3~e4ws_s5z5", "00000000-0000-0000-FDBD-D5F8A3841404", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-28T00:00:00", "14336", "574950", "215", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID", "1.79", "0", "1.79" ]
+, [ "row-uaje~5h83~p5q5", "00000000-0000-0000-D033-C607FE815801", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14413", "A01350      ", "183", "04    DRIVER'S REPORT", "NEEDS WASHER FLUID/DOM", "1.79", "0", "1.79" ]
+, [ "row-3k45.8j9d.qv4h", "00000000-0000-0000-A2B2-F3E73B0C99C1", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-27T00:00:00", "14791", "242480", "428", "04    DRIVER'S REPORT", "WILL NOT START &  CHECK ALL LIGHTS AS NEEDED (ROAD CALL)", "1.46", "0", "1.46" ]
+, [ "row-vqji.f2t8-f39p", "00000000-0000-0000-6775-B5ECFB527D4E", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-01-06T00:00:00", "14152", "B20086      ", "30", "04    DRIVER'S REPORT", "CHECK R/REAR INDICATOR", "1.46", "0", "1.46" ]
+, [ "row-aw77-79g4-kjmr", "00000000-0000-0000-8B72-4162424E26DF", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-16T00:00:00", "14783", "D00249      ", "506", "04    DRIVER'S REPORT", "NEEDS TAIL LITE BULB", "1.46", "0", "1.46" ]
+, [ "row-vfmv-yx3w-87gk", "00000000-0000-0000-2D66-4503B585AF32", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-04T00:00:00", "14377", "45477", "347", "13    SNOW BREAKDOWN", "HYD LEAK BY PLOWBLINKER OUT", "1.17", "0", "1.17" ]
+, [ "row-xvs7-sij3~gf9w", "00000000-0000-0000-D010-F178679F3A60", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-03-27T00:00:00", "14800", "334569", "675", "04    DRIVER'S REPORT", "WILL NOT START", "0", "0", "0" ]
+, [ "row-a72y_a42e~h9f5", "00000000-0000-0000-2B1F-CA4DECC399DF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-02T00:00:00", "14140", "B39109      ", "178", "04    DRIVER'S REPORT", "INSTALL SPINNER ASSY", "0", "0", "0" ]
+, [ "row-5wnn-i6a9-2jap", "00000000-0000-0000-8241-91E66132C11F", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-03T00:00:00", "14163", "574950", "215", "13    SNOW BREAKDOWN", "DONT START", "0", "0", "0" ]
+, [ "row-xfa5~vh47-h8fg", "00000000-0000-0000-C37B-9E1529007640", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14164", "1226", "117", "13    SNOW BREAKDOWN", "HANDLES IN CAB LOOSE", "0", "0", "0" ]
+, [ "row-7zs9~kqn8.jvxz", "00000000-0000-0000-1451-48B2467A0D73", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14165", "525999", "114", "04    DRIVER'S REPORT", "NO PLOW LIGHTS", "0", "0", "0" ]
+, [ "row-a2mt_5rkr-ddk7", "00000000-0000-0000-F6D7-F965C5B2F51C", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14172", "B34632      ", "276", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-3eck.5ymr_hnp6", "00000000-0000-0000-DA78-63DE3A080EEF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14174", "1469", "122", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-m2td.mnm2-jmug", "00000000-0000-0000-A1A5-650C785C8651", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14175", "68932", "147", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-memg.77i2~qhu4", "00000000-0000-0000-0C85-C1E770BD6AD5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14176", "68933", "148", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-k9eq-68us-wpfz", "00000000-0000-0000-4C54-370BAA862F13", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14177", "621907", "208", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-zz4t_hcnw.cdgc", "00000000-0000-0000-2644-0B8886B96657", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14181", "337657", "218", "04    DRIVER'S REPORT", "CONVEORY NOT WORKING", "0", "0", "0" ]
+, [ "row-x4s7_nzg9_eud4", "00000000-0000-0000-13A0-0F88280BFD57", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14182", "D-1920      ", "164", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-mfha.4pgj~2ajq", "00000000-0000-0000-7E81-5A5400518249", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14183", "525998", "217", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-x2q3~u8g6-wpnn", "00000000-0000-0000-A147-801BC881573A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14184", "526000", "225", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-zhm6_fv8m~tiv2", "00000000-0000-0000-7AFB-38026A2B994D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-06T00:00:00", "14185", "621921", "214", "04    DRIVER'S REPORT", "CONVORY NOT WORKING", "0", "0", "0" ]
+, [ "row-w4mv-eefz.jr2w", "00000000-0000-0000-6D9E-E03A0F537671", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-07T00:00:00", "14188", "O01469      ", "201", "04    DRIVER'S REPORT", "needs def/jim f", "0", "0", "0" ]
+, [ "row-hbt4~7d7b_zbv7", "00000000-0000-0000-B996-8A38CBC1E0B4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-07T00:00:00", "14191", "B34632      ", "276", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-gkck_ymja~m75n", "00000000-0000-0000-6A47-477BE5C85F2A", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-13T00:00:00", "14203", "B34631      ", "277", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-gm6h.5u5s.22fj", "00000000-0000-0000-B6C5-51A512073DE9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14221", "1629", "235", "13    SNOW BREAKDOWN", "CONVOYOR DOOR DONT WORK", "0", "0", "0" ]
+, [ "row-umxw.3yq3.mgzf", "00000000-0000-0000-0EA4-1E9FC33665CB", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-14T00:00:00", "14250", "B34631      ", "277", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-4m8n-s6fu~s39i", "00000000-0000-0000-357F-69F88BB80E48", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-15T00:00:00", "14264", "68932", "147", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-853k~x7q3-jnug", "00000000-0000-0000-770D-CEF4B599BBD0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-15T00:00:00", "14267", "195238", "172", "04    DRIVER'S REPORT", "2 WAY RADIO INOP", "0", "0", "0" ]
+, [ "row-n4pg.yrvk~x2pn", "00000000-0000-0000-1806-12A41D7957D5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-20T00:00:00", "14193", "621909", "213", "04    DRIVER'S REPORT", "SIDE DUMP VALVE STICKING", "0", "0", "0" ]
+, [ "row-7u3m_a9dd-mwqt", "00000000-0000-0000-E22D-9FE9674507D4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-21T00:00:00", "14286", "273777", "221", "04    DRIVER'S REPORT", "SPRAY SYS NOT WORKING", "0", "0", "0" ]
+, [ "row-wgu4-upab.bmxn", "00000000-0000-0000-B071-509651A6E0A9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-24T00:00:00", "14319", "1469", "122", "13    SNOW BREAKDOWN", "DONT START", "0", "0", "0" ]
+, [ "row-e6kv_stup-99gz", "00000000-0000-0000-4376-06BB4C8156B5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14320", "68934", "146", "13    SNOW BREAKDOWN", "DONT START", "0", "0", "0" ]
+, [ "row-tfnb.vcmy_ahmb", "00000000-0000-0000-AF9F-47085CDE8E5E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14343", "1222", "118", "13    SNOW BREAKDOWN", "PLOW HANDLE LOOSE", "0", "0", "0" ]
+, [ "row-8rc5_3c44~rnap", "00000000-0000-0000-E6E4-0E858A366C46", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14345", "621923", "211", "13    SNOW BREAKDOWN", "SPINNER DONT WORK", "0", "0", "0" ]
+, [ "row-zdpi~xsdh~9ejp", "00000000-0000-0000-8E17-9BB0F9746D63", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14351", "68936", "145", "13    SNOW BREAKDOWN", "GAS IN FUEL TANKHYD LINES UNDER CABSTROB LIGHTS", "0", "0", "0" ]
+, [ "row-63i7~2cuj~u6es", "00000000-0000-0000-CB78-59366825E46E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14353", "1403", "226", "13    SNOW BREAKDOWN", "CHECK CAB LIGHTS", "0", "0", "0" ]
+, [ "row-v75p~9wi6_fp7r", "00000000-0000-0000-B186-9558E80CBC38", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-01-30T00:00:00", "14374", "526000", "225", "04    DRIVER'S REPORT", "CHECK PLOW LIGHTSAIR LEAKI IN CAB.", "0", "0", "0" ]
+, [ "row-tywr~iqs6-rcpy", "00000000-0000-0000-717C-C5F88982F108", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-01T00:00:00", "14420", "1402", "228", "13    SNOW BREAKDOWN", "NO WIPERS", "0", "0", "0" ]
+, [ "row-nugh~5xa7-c9f5", "00000000-0000-0000-2CCA-CCA029683267", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14355", "68935", "149", "13    SNOW BREAKDOWN", "DICKY JOHN SYS NO GOOD", "0", "0", "0" ]
+, [ "row-cmnu_va9n-7qiy", "00000000-0000-0000-C729-BAA34DE67BCF", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14367", "337658", "239", "13    SNOW BREAKDOWN", "TRUCK DONT START", "0", "0", "0" ]
+, [ "row-fkk2~2zyz_93m5", "00000000-0000-0000-0A27-80A1B5164521", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14368", "B34629      ", "167", "13    SNOW BREAKDOWN", "PLOW WONT GO UP", "0", "0", "0" ]
+, [ "row-s38a.m7pc_78vi", "00000000-0000-0000-FF57-2151DDDFAE12", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14421", "68934", "146", "13    SNOW BREAKDOWN", "DONT START", "0", "0", "0" ]
+, [ "row-ujzi.b9dx.rfuz", "00000000-0000-0000-B0E2-C8AC5256D6C8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-04T00:00:00", "14423", "68933", "140", "13    SNOW BREAKDOWN", "TAIL GATE WONT CLOSE", "0", "0", "0" ]
+, [ "row-zmb5_tejz.4qvx", "00000000-0000-0000-2796-5F4B9632D9EC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-06T00:00:00", "14489", "621923", "211", "40    NEGLIGENCE", "SPINNER BENT", "0", "0", "0" ]
+, [ "row-3xra-4bmn_n5ra", "00000000-0000-0000-6C87-5888DE540539", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-09T00:00:00", "14509", "313183", "10", "10    ROADCALL", "ROAD CALL DEAD BATTERY", "0", "0", "0" ]
+, [ "row-zvxn_mwbz~cq5i", "00000000-0000-0000-6439-9044EA139958", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-10T00:00:00", "14342", "1400", "277", "13    SNOW BREAKDOWN", "HYD NOT WORKING", "0", "0", "0" ]
+, [ "row-cbap-nvak_iyzn", "00000000-0000-0000-2D60-1DDACF9EB038", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-11T00:00:00", "14543", "621924", "210", "04    DRIVER'S REPORT", "L/S PLOW LIGHT INOP", "0", "0", "0" ]
+, [ "row-f3mx~dh2b_cvzd", "00000000-0000-0000-81DC-BD13DFC87717", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14524", "1467", "121", "13    SNOW BREAKDOWN", "PLOW CABLE", "0", "0", "0" ]
+, [ "row-5tb8.evnn~8tgn", "00000000-0000-0000-AFB2-ED5FC56C3EF4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14542", "Y11540      ", "186", "13    SNOW BREAKDOWN", "ROAD CALL TO BEDFORD ST CHECK BUCKET CONTROLS", "0", "0", "0" ]
+, [ "row-gna9~8b6u~i4s3", "00000000-0000-0000-E05E-FFBED1AE68FB", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14555", "555361", "249", "10    ROADCALL", "WILL NOT START AT HIGHWAYS", "0", "0", "0" ]
+, [ "row-tcf3.cydc~9rbe", "00000000-0000-0000-F3AE-F4E1A6130E66", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-13T00:00:00", "14558", "555360", "115", "04    DRIVER'S REPORT", "REMOVE SANDER", "0", "0", "0" ]
+, [ "row-m6b7-54u8.pvm6", "00000000-0000-0000-1CF6-F6EA7D90C03D", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-19T00:00:00", "14470", "B34632      ", "276", "04    DRIVER'S REPORT", "NO START", "0", "0", "0" ]
+, [ "row-ii9b_9uux_j3zk", "00000000-0000-0000-B49A-7A8CC2CB261B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-23T00:00:00", "14146", "526000", "225", "04    DRIVER'S REPORT", "WILL NOT TURN OVER ( CHECK STARTING SYSTEM)", "0", "0", "0" ]
+, [ "row-ggxp_zua8~nqvt", "00000000-0000-0000-5B64-BAF198DA33D3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14396", "B34631      ", "277", "04    DRIVER'S REPORT", "2 WAY RADIO LOOSE", "0", "0", "0" ]
+, [ "row-26wr.f49v_eezw", "00000000-0000-0000-4BC1-97B7515A9A57", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14422", "337655", "234", "13    SNOW BREAKDOWN", "NO PLOW LIGHTS", "0", "0", "0" ]
+, [ "row-7vzp~ggc9.jtfe", "00000000-0000-0000-6508-B132BCA39FD5", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14556", "555360", "115", "10    ROADCALL", "WILL NOT START.", "0", "0", "0" ]
+, [ "row-4srx-6ypf.mkub", "00000000-0000-0000-CAC8-6FE9A34D5CFA", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-24T00:00:00", "14578", "1628", "236", "13    SNOW BREAKDOWN", "NO PTO", "0", "0", "0" ]
+, [ "row-gaxj~8bxq-5qwm", "00000000-0000-0000-2065-C77CE7EB9428", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-25T00:00:00", "14565", "B31275      ", "110", "01    BREAKDOWN            ***", "BROKEN PLOW FRAMEPARTS ON EARLYER BILL", "0", "0", "0" ]
+, [ "row-444i~k8he-pvmb", "00000000-0000-0000-D9C8-1CC144D52B65", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-25T00:00:00", "14592", "525670", "232", "13    SNOW BREAKDOWN", "RIGHT PLOW LIGHT OUTADJUST CONVEYOR CHAININSTALL  AIMS UNIT", "0", "0", "0" ]
+, [ "row-dwqe_wgzz-dsi9", "00000000-0000-0000-A831-0B8F287362C7", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-02-25T00:00:00", "14656", "A00413      ", "283", "13    SNOW BREAKDOWN", "ROAD CALL TO SCOFIELD YARDNO START", "0", "0", "0" ]
+, [ "row-w8wv-us4n-fc66", "00000000-0000-0000-97EA-3A8AD44A105B", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14349", "1466", "124", "13    SNOW BREAKDOWN", "PLOW CONTROL HANDLES LOOSE", "0", "0", "0" ]
+, [ "row-jppb.c655_xmks", "00000000-0000-0000-451F-56FE398A4B73", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14572", "110301", "607", "13    SNOW BREAKDOWN", "SANDER WILL NOT SPIN", "0", "0", "0" ]
+, [ "row-6wdn.y8jg-zuph", "00000000-0000-0000-876B-DBDB6FAC871E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14619", "B39109      ", "178", "13    SNOW BREAKDOWN", "TAILGATE LOCKS", "0", "0", "0" ]
+, [ "row-vuzp~va54~s732", "00000000-0000-0000-D025-00A5F37CA746", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14637", "1365", "244", "13    SNOW BREAKDOWN", "ROAD CALL TO SCOFIELD YARDBROKEN PLOW CABLE", "0", "0", "0" ]
+, [ "row-7ee5_722j~pqja", "00000000-0000-0000-5722-9AF93A8394DC", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-02T00:00:00", "14681", "1469", "122", "13    SNOW BREAKDOWN", "ADJUST CONVEYOR CHAIN", "0", "0", "0" ]
+, [ "row-76c2.9fej~3umq", "00000000-0000-0000-4705-19E353E00671", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14525", "1226", "117", "13    SNOW BREAKDOWN", "ADJUST CONVEYOR CHAIN", "0", "0", "0" ]
+, [ "row-jrax_wwsf~4cyz", "00000000-0000-0000-D953-FC5651A73AE4", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14569", "68934", "146", "13    SNOW BREAKDOWN", "NO START", "0", "0", "0" ]
+, [ "row-3ewz_m77x~v7fk", "00000000-0000-0000-D33F-938EE86CBFC3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14607", "B34631      ", "277", "13    SNOW BREAKDOWN", "ROADCALL TO HIGHWAYSNO START", "0", "0", "0" ]
+, [ "row-69dr_9b4i.utnw", "00000000-0000-0000-9795-DFD6566136D8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14631", "B00362      ", "107", "13    SNOW BREAKDOWN", "REPAIR PLOW LIGHTS PLOW FELL OFF", "0", "0", "0" ]
+, [ "row-7k4d_7a9s~hmp6", "00000000-0000-0000-C36D-C2ABE1B64CE3", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-06T00:00:00", "14688", "B34631      ", "277", "13    SNOW BREAKDOWN", "WILL NOT START", "0", "0", "0" ]
+, [ "row-2krx~d9us.6z8x", "00000000-0000-0000-6316-6D1EB15B6A88", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-09T00:00:00", "14752", "1629", "235", "13    SNOW BREAKDOWN", "CHECK CONEYOR & CONTROLS FOR ADJUSTMENT", "0", "0", "0" ]
+, [ "row-fmgy_p9fh.hdg7", "00000000-0000-0000-CF71-EFEE8F4FEFCE", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-09T00:00:00", "14759", "68934", "146", "13    SNOW BREAKDOWN", "KEY BROKEN IN IGNITION, WILL NOT START", "0", "0", "0" ]
+, [ "row-k754-63ex.6cr5", "00000000-0000-0000-9BE6-83DAC4D85E43", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14654", "149771", "612", "04    DRIVER'S REPORT", "BATTERY KEEPS GOING DEAD", "0", "0", "0" ]
+, [ "row-89jy.ejbm~ba32", "00000000-0000-0000-6938-1A58644D6886", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14690", "68934", "146", "13    SNOW BREAKDOWN", "WILL NOT START", "0", "0", "0" ]
+, [ "row-ip9s_gar4.y8f8", "00000000-0000-0000-2B15-FCE4497CD7B8", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14697", "1629", "235", "13    SNOW BREAKDOWN", "CONVEYOR DOES NOT WORK", "0", "0", "0" ]
+, [ "row-zye6_jvub.fcwh", "00000000-0000-0000-7709-097484CA6D31", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14746", "1403", "226", "13    SNOW BREAKDOWN", "CHECK SINNER & AUGER ASSY", "0", "0", "0" ]
+, [ "row-isfc-m8zm.cj36", "00000000-0000-0000-D814-E4697C2D964E", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-16T00:00:00", "14767", "621923", "211", "13    SNOW BREAKDOWN", "CHECK WARNING LIGHT ON DASH", "0", "0", "0" ]
+, [ "row-fwvs_e8mr~2qjx", "00000000-0000-0000-EE81-421B687072F9", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14684", "1366", "242", "13    SNOW BREAKDOWN", "ADJUST CONVEYOR CHAIN", "0", "0", "0" ]
+, [ "row-q9u9-ed8b.iky3", "00000000-0000-0000-2755-CDE6BE00E1F0", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-26T00:00:00", "14854", "B34629      ", "167", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-74t9~97et~wq3a", "00000000-0000-0000-116B-058D59E18214", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-27T00:00:00", "14738", "621922", "212", "13    SNOW BREAKDOWN", "CHECK PLOW CABLES", "0", "0", "0" ]
+, [ "row-ajn6.j7pk.9s95", "00000000-0000-0000-4737-4E4D51640973", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14834", "P2135D      ", "153", "04    DRIVER'S REPORT", "SWEEPER WATER LINE PLUGGED.", "0", "0", "0" ]
+, [ "row-748g.45cf-35p9", "00000000-0000-0000-0EC2-A60A421A5658", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14896", "574950", "215", "04    DRIVER'S REPORT", "CHECK ENGINE LIGHT ON.", "0", "0", "0" ]
+, [ "row-hgae-cw47~kd3c", "00000000-0000-0000-1E94-D0DEC629D013", 0, 1436899088, null, 1436899088, null, "{ }", "2111", "2015-03-30T00:00:00", "14932", "W02240      ", "179", "04    DRIVER'S REPORT", "WILL NOT START", "0", "0", "0" ]
+, [ "row-g547~5tst_dq5e", "00000000-0000-0000-3FB1-7B591E2C6AD6", 0, 1436899088, null, 1436899088, null, "{ }", "2116", "2015-02-24T00:00:00", "14620", "146198", "27", "04    DRIVER'S REPORT", "CHECK ENGINE LIGHT ON", "0", "0", "0" ]
+, [ "row-96yv_z5hs_dchn", "00000000-0000-0000-717E-72DEA47968C0", 0, 1436899088, null, 1436899088, null, "{ }", "2116", "2015-03-27T00:00:00", "14905", "645957", "263", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-vi35-r6d4.wckv", "00000000-0000-0000-529F-37960FD98C02", 0, 1436899088, null, 1436899088, null, "{ }", "2121", "2015-01-15T00:00:00", "14258", "348543", "61", "29    ACCIDENT", "ACCIDENTTWIN RIDGE AUTO BODYINVOIC E13064$4,895.23", "0", "0", "0" ]
+, [ "row-7y3p~xi3j.tgtf", "00000000-0000-0000-7E99-F093CB982FFA", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-05T00:00:00", "14153", "242480", "428", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-d6ce-hv3x.5x63", "00000000-0000-0000-B50C-C4D56867F6C4", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-01-06T00:00:00", "14173", "B71793      ", "59", "10    ROADCALL", "WILL NOT START", "0", "0", "0" ]
+, [ "row-f4wi.gwcv~384m", "00000000-0000-0000-CD8B-1C62502C8E3D", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-05T00:00:00", "14493", "170716", "54", "04    DRIVER'S REPORT", "FUEL SYSTEM INOP", "0", "0", "0" ]
+, [ "row-8jhz~cuf8_d4dp", "00000000-0000-0000-00D0-79299C0F7861", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-24T00:00:00", "14582", "C95216      ", "435", "10    ROADCALL", "ROAD CALL TO PARKS DEPTNO START", "0", "0", "0" ]
+, [ "row-7sqt~d8te-22pu", "00000000-0000-0000-FAE3-6FEAD5EA5760", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-02-25T00:00:00", "14575", "C95216      ", "435", "10    ROADCALL", "NO START", "0", "0", "0" ]
+, [ "row-kbby_72ae_hcvq", "00000000-0000-0000-8427-8167CC324D80", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-02T00:00:00", "14626", "512810", "50", "13    SNOW BREAKDOWN", "ALIGN PLOW LIGHTS", "0", "0", "0" ]
+, [ "row-zsm2_b7g8-3suv", "00000000-0000-0000-B3A6-E935C74D0D7F", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-26T00:00:00", "14848", "B71793      ", "59", "10    ROADCALL", "NO START", "0", "0", "0" ]
+, [ "row-7m6b~9ky6.6bms", "00000000-0000-0000-2893-A9CA823D97E5", 0, 1436899088, null, 1436899088, null, "{ }", "2135", "2015-03-27T00:00:00", "14748", "524", "495", "13    SNOW BREAKDOWN", "CHECK FLAT TIRE ON TRAILER (PRIORITY 1 PER SCACCO )", "0", "0", "0" ]
+, [ "row-q342.fdfp_grfa", "00000000-0000-0000-C928-128682864145", 0, 1436899088, null, 1436899088, null, "{ }", "2137", "2015-01-06T00:00:00", "14135", "579138", "21", "04    DRIVER'S REPORT", "WILL NOT START (BELL ST GARAGE)", "0", "0", "0" ]
+, [ "row-nbdr.kpkp_hxh4", "00000000-0000-0000-804C-AC2EED2EB488", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-15T00:00:00", "14260", "181580", "642", "04    DRIVER'S REPORT", "REPLACE DRIVER DOOR PANNEL [WARRANTY]", "0", "0", "0" ]
+, [ "row-9tiz~uwbk~w4zu", "00000000-0000-0000-FA10-9E50BDD821C0", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-26T00:00:00", "14327", "131049", "643", "13    SNOW BREAKDOWN", "PUT REAR CHAINS ON", "0", "0", "0" ]
+, [ "row-xfak.448h~egbi", "00000000-0000-0000-D3F0-F9E33ED9666A", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-26T00:00:00", "14332", "131050", "651", "04    DRIVER'S REPORT", "PUT ON TIRE CHAINS", "0", "0", "0" ]
+, [ "row-w77g-5awm~67yp", "00000000-0000-0000-CD59-C52462CD7AFA", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-01-30T00:00:00", "14383", "131050", "658", "13    SNOW BREAKDOWN", "TAKE OFF CHAINSWIPER BLADES", "0", "0", "0" ]
+, [ "row-2gi2_mami_45ga", "00000000-0000-0000-CB2D-28561BE29B0A", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-03T00:00:00", "14363", "166478", "68", "13    SNOW BREAKDOWN", "PUT ON TIRE CHAINS", "0", "0", "0" ]
+, [ "row-kg2p_vr7b.sj4w", "00000000-0000-0000-86C2-3340B6A805E9", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-04T00:00:00", "14439", "131050", "651", "13    SNOW BREAKDOWN", "PUT TIRE CHAINS ON", "0", "0", "0" ]
+, [ "row-bczf.ir32-f37a", "00000000-0000-0000-E1F7-642F6BC4C361", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-06T00:00:00", "14448", "166478", "68", "13    SNOW BREAKDOWN", "INSTALL TIRE CHAINS", "0", "0", "0" ]
+, [ "row-iczk-v5j7~7g86", "00000000-0000-0000-BFF0-C76F046D1E4A", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-06T00:00:00", "14469", "166478", "68", "13    SNOW BREAKDOWN", "REMOVE TIRE CHAINS", "0", "0", "0" ]
+, [ "row-3w5t.pmu3.3sh2", "00000000-0000-0000-5141-F3E818E6FE4A", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-24T00:00:00", "14325", "B00195      ", "646", "04    DRIVER'S REPORT", "CHECK POWER STEERING", "0", "0", "0" ]
+, [ "row-x74i_bg5e-qvnh", "00000000-0000-0000-007E-85EDCB490B4E", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-02-25T00:00:00", "14595", "B00196      ", "652", "04    DRIVER'S REPORT", "AIMS FUEL SYSTEM NOT WORKING.", "0", "0", "0" ]
+, [ "row-xpfe_h7ex.8rnn", "00000000-0000-0000-C5CD-182EAB3AD59D", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-02T00:00:00", "14635", "166479", "67", "13    SNOW BREAKDOWN", "REMOVE TIRE CHAINS", "0", "0", "0" ]
+, [ "row-ba38-vk94_i7vw", "00000000-0000-0000-8688-CED93B86FCE8", 0, 1436899088, null, 1436899088, null, "{ }", "2139", "2015-03-06T00:00:00", "14692", "166479", "67", "13    SNOW BREAKDOWN", "INSTALL TIRE CHAINS", "0", "0", "0" ]
+, [ "row-if6e.b5x6~xscf", "00000000-0000-0000-DF08-346D0A470594", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-01-20T00:00:00", "14241", "626179", "390", "10    ROADCALL", "DONT START", "0", "0", "0" ]
+, [ "row-d6bw-nrjj-v8wu", "00000000-0000-0000-9605-2412C78AF945", 0, 1436899088, null, 1436899088, null, "{ }", "2141", "2015-02-24T00:00:00", "14510", "965476", "389", "04    DRIVER'S REPORT", "BRAKES NOT HOLDING", "0", "0", "0" ]
+, [ "row-j3y6~nur4.we5f", "00000000-0000-0000-9203-83B92AAB3867", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-07T00:00:00", "14008", "B20091      ", "35", "04    DRIVER'S REPORT", "CHECK RADIO ,DOES NOT WORK..REPLACE 2 WAY", "0", "0", "0" ]
+, [ "row-hi3d.ynqi~uv9s", "00000000-0000-0000-61EA-1B5BB913307D", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-01-20T00:00:00", "14287", "27571", "366", "04    DRIVER'S REPORT", "CHECK PARKING BRAKERIGHT SIDE MIRROR LOSE", "0", "0", "0" ]
+, [ "row-dcd7~wtqp.exrr", "00000000-0000-0000-EB7B-1A6140AB1CA4", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-13T00:00:00", "14563", "50552", "359", "04    DRIVER'S REPORT", "REAR VIEW CAMERA INOP", "0", "0", "0" ]
+, [ "row-u4nd.4w22-utk5", "00000000-0000-0000-FFEE-1A4D0731DE34", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-17T00:00:00", "14472", "50551", "361", "04    DRIVER'S REPORT", "LEFT REAR LIGHT FELL OUT", "0", "0", "0" ]
+, [ "row-per4_h955_ebib", "00000000-0000-0000-C522-BE431764FA1E", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-17T00:00:00", "14561", "901894", "377", "04    DRIVER'S REPORT", "2 WAY RADIO CUTS IN AND OUT", "0", "0", "0" ]
+, [ "row-9fbj_dssg.qgin", "00000000-0000-0000-21AE-8686D835D623", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-02-24T00:00:00", "14487", "48877", "373", "04    DRIVER'S REPORT", "2 WAY RADIO INOPL/S TOTER BRACKETREAR CAMERA", "0", "0", "0" ]
+, [ "row-c72z_2j53.4u4d", "00000000-0000-0000-3DB0-721A941A3F2C", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-09T00:00:00", "14492", "50761", "363", "04    DRIVER'S REPORT", "2 WAY RADIO", "0", "0", "0" ]
+, [ "row-c2tp-3zjz~p7ay", "00000000-0000-0000-9C7D-39CC29D9D482", 0, 1436899088, null, 1436899088, null, "{ }", "2143", "2015-03-27T00:00:00", "14827", "49618", "356", "04    DRIVER'S REPORT", "TAILGATE SENSOR DO NOT WORK (BEEPS)", "0", "0", "0" ]
+, [ "row-aw8e~akzx_p2wa", "00000000-0000-0000-4225-D075B04ECA6A", 0, 1436899088, null, 1436899088, null, "{ }", "2200", "2015-01-14T00:00:00", "14252", "205786", "29", "04    DRIVER'S REPORT", "DRIVER DOOR DONT CLOSE", "0", "0", "0" ]
+, [ "row-sn2a.t55b.7as2", "00000000-0000-0000-BD49-543B3B6BB5CD", 0, 1436899088, null, 1436899088, null, "{ }", "2210", "2015-02-24T00:00:00", "14357", "311542", "11", "13    SNOW BREAKDOWN", "PLOW LIGHTS", "0", "0", "0" ]
+, [ "row-pn6u_f82f~ww4i", "00000000-0000-0000-CEFB-84FC8EEEA41F", 0, 1436899088, null, 1436899088, null, "{ }", "2340", "2015-02-24T00:00:00", "14598", "334872", "44", "10    ROADCALL", "CHECK ENGINE LIGHT ON.", "0", "0", "0" ]
+, [ "row-6rur_nh3q_2845", "00000000-0000-0000-7E57-F698184001E7", 0, 1436899088, null, 1436899088, null, "{ }", "2530", "2015-02-17T00:00:00", "14547", "168849", "78", "10    ROADCALL", "ROAD CALL TO GOVERMENT CENTERWILL NOT START", "0", "0", "0" ]
+, [ "row-p8d5-n62a~rcxn", "00000000-0000-0000-BE30-E60C448F9B2C", 0, 1436899088, null, 1436899088, null, "{ }", "2600", "2015-01-20T00:00:00", "14276", "B00189      ", "1", "04    DRIVER'S REPORT", "FRONT RIGHT TIRE SLOW LEAKFILL WITH GASGET CAR CLEAN", "0", "0", "0" ]
+, [ "row-ueqw.ubmr.n3a8", "00000000-0000-0000-F2CB-61AA9F886D0C", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-01-06T00:00:00", "14168", "142162", "688", "04    DRIVER'S REPORT", "CHECK AIR PRESS IN TIRES", "0", "0", "0" ]
+, [ "row-chr8-n96p~e9f8", "00000000-0000-0000-2738-3B887AE904B0", 0, 1436899088, null, 1436899088, null, "{ }", "3810", "2015-02-04T00:00:00", "14310", "334522", "681", "04    DRIVER'S REPORT", "CHECK AIR PEESS IN TIRES", "0", "0", "0" ]
+ ]
+}
